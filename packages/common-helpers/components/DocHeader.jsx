@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import Codeblock from 'react-uikit-codeblock';
 
 const DocHeader = ({ name, npmName, summary }) => (
-  <div>
+  <div data-markdown-omit="true">
     <section>
       <h1>React Uikit { name }</h1>
       <p className='uk-article-lead'>{ summary }</p>
@@ -13,18 +13,14 @@ const DocHeader = ({ name, npmName, summary }) => (
     <section>
       <h2>Usage</h2>
       <Codeblock lang="bash">
-{`
-npm install ${npmName} --save;
-`}
+        {`npm install ${npmName} --save;`}
       </Codeblock>
       <Codeblock lang="javascript">
-{`
-// ES6
+{`// ES6
 import ${name} from '${npmName}';
 
 // ES5
-var ${name} = require('${npmName}');
-`}
+var ${name} = require('${npmName}');`}
       </Codeblock>
     </section>
   </div>
