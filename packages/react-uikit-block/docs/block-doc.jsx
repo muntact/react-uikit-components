@@ -58,7 +58,7 @@ generateExampleJSX.propTypes = {
 };
 
 const generateCodeSnippet = ({ context, container, contrast, large, title }) =>
-`<Block ${context ? `context='${context} '` : null }${container ? "container " : null }${contrast ? "contrast " : null }${large ? "large " : null }>
+`<Block ${context ? `context='${context}' ` : "" }${container ? "container " : "" }${contrast ? "contrast " : "" }${large ? "large " : "" }>
   <h4>${title}</h4>
   <Grid widths='1-3'>
     <Panel>
@@ -76,11 +76,11 @@ const generateCodeSnippet = ({ context, container, contrast, large, title }) =>
   </Grid>
 </Block>`;
 
-const mutedArgs = { context: "muted" };
+const mutedArgs = { context: "muted", title: 'Basic' };
 const mutedExample = generateExampleJSX(mutedArgs);
 const mutedSnippet = generateCodeSnippet(mutedArgs);
 
-const containerArgs = { context: "muted", container: true, title: 'Muted' };
+const containerArgs = { context: "muted", container: true, title: 'Muted + Container' };
 const containerExample = generateExampleJSX(containerArgs);
 const containerSnippet = generateCodeSnippet(containerArgs);
 
@@ -109,7 +109,7 @@ const contextTable = (
     }]} />
 );
 const contextExample = (
-  <div data-markdown-omit="true">
+  <div data-markdown-omit-wrapper="true">
     {contextExamples.map((example, key) => generateExampleJSX(example, key))}
   </div>
 );
@@ -123,7 +123,7 @@ const largeExample = generateExampleJSX(largeArgs);
 const largeSnippet = generateCodeSnippet(largeArgs);
 
 const BlockDocs = () => (
-  <div data-markdown-omit="true">
+  <div data-markdown-omit-wrapper="true">
     <DocHeader {... { name, npmName, summary }} />
       <DocExample jsx={mutedExample} snippet={mutedSnippet} />
       <DocExample
