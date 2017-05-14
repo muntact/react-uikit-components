@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import Codeblock from 'react-uikit-codeblock';
 
 const DocHeader = ({ name, npmName, summary }) => (
-  <div data-markdown-omit="true">
+  <div data-markdown-omit-wrapper="true">
     <section>
       <h1>React Uikit { name }</h1>
       <p className='uk-article-lead'>{ summary }</p>

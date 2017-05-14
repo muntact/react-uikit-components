@@ -13,9 +13,11 @@ const DocExample = ({ name, description, table, jsx, snippet }) => (
       table
     }
 
-    <h3 className='example'>Example</h3>
-
-    {jsx}
+    {/* Hide the example header and jsx in a tag we plan to filter :p */}
+    <div data-markdown-omit="true">
+      <h3 className='example'>Example</h3>
+      {jsx}
+    </div>
 
     <h3 className='code'>Code</h3>
 
