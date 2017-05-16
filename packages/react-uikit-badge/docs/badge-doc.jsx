@@ -1,150 +1,103 @@
-'use strict';
+import React, { PropTypes } from 'react';
+import Badge from '../lib/badge';
+
+import DocHeader from '../../common-helpers/lib/DocHeader';
+import DocExample from '../../common-helpers/lib/DocExample';
+import DocFooter from '../../common-helpers/lib/DocFooter';
+
+const name = 'Badge';
+const npmName = 'react-uikit-badge';
+const summary = 'Easily create nicely looking badges to label and highlight your content.';
+const propTuples = [
+  {
+    Prop: "context",
+    Type: "oneOf: 'default' | 'muted' | 'primary' | 'secondary'"
+  },
+  {
+    Prop: "block",
+    Type: "bool"
+  },
+  {
+    Prop: "body",
+    Type: "string"
+  },
+  {
+    Prop: "notification",
+    Type: "bool"
+  },
+];
+
+const generateExampleJSX = ({ block, context, notification = false, text }) => (
+  <Badge {...{ block, context, notification }}>
+    {text}
+  </Badge>
+);
+
+generateExampleJSX.propTypes = {
+  block: PropTypes.bool,
+  context: PropTypes.string,
+  notification: PropTypes.bool,
+  text: PropTypes.oneOf([ PropTypes.number, PropTypes.string ]),
+};
 
 
-import React from 'react';
-import Badge from 'react-uikit-badge';
-import Codeblock from 'react-uikit-codeblock';
-import Table from 'react-uikit-table';
+const generateCodeSnippet = ({ context, notification, text }) =>
+  `<Badge${context ? ` context="${context}"`: ""}${notification ? " notification": ""}>${text}</Badge>`;
+
+// An abstraction to save the same snippet being written multiple times
+const exampleAbstraction = (argsArray) =>
+  // There is a space at the end of the wrapping span element to span the badges.
+  <div>{argsArray.map((arg) => <span>{generateExampleJSX(arg)} </span>)}</div>;
+
+const blockArgs = [{ block: false, text: 'I am a span' }, { block: true, text: 'I am a div' }];
+const blockExample = exampleAbstraction(blockArgs);
+const blockSnippet = blockArgs.map((arg) => generateCodeSnippet(arg)).join('\n');
+
+const textArgs = [{ text: 'Info' }, { text: 'New' }, { text: 'Free' }];
+const textExample = exampleAbstraction(textArgs);
+const textSnippet = textArgs.map((arg) => generateCodeSnippet(arg)).join('\n');
+
+
+const notificationArgs = [{ notification: true, text: 3 }, { notification: true, text: 20 }, { notification: true, text: 100 }];
+const notificationExample = exampleAbstraction(notificationArgs);
+const notificationSnippet = notificationArgs.map((arg) => generateCodeSnippet(arg)).join('\n');
+
+const contextArgs = [
+  { context: 'success', text: 'success' }, { context: 'warning', text: 'warning' }, { context: 'danger', text: 'danger' },
+  { context: 'success', notification: true, text: 1 }, { context: 'warning', notification: true, text: 10 }, { context: 'danger', notification: true, text: '100+' },
+];
+const contextExample = exampleAbstraction(contextArgs);
+const contextSnippet = contextArgs.map((arg) => generateCodeSnippet(arg)).join('\n');
 
 
 const BadgeDoc = (props) => (
-  <div>
-    <section>
-      <h1>Badge</h1>
-        <p className='uk-article-lead'>
-          Easily create nicely looking badges to label and highlight your content.
-        </p>
-        <p>
-          <a href='https://github.com/otissv/react-uikit-badge'>react-uikit-badge</a> on github.
-        </p>
-      </section>
-
-
-      <section>
-        <h2>Usage</h2>
-        <Codeblock>
-{`npm install react-uikit-badge --save;
-
-// ES6
-mport Badge from 'react-uikit-badge';
-
-// ES5
-var Badge = require;('react-uikit-badge').default;`}
-      </Codeblock>
-
-      <hr className="uk-article-divider" />
-
-      <p>
-        By default badges are <code>&lt;span&gt;</code> but they can also be <code>&lt;div&gt;</code>.
-      </p>
-      <p>
-        Add the <code>block</code> prop to create a <code>&lt;div&gt;</code> instead
-        of a <code>&lt;span&gt;</code>.
-      </p>
-
-      <p>
-        Text can be added either as children <code>&lt;Badge&gt;Awesome&lt;/Badge&gt;</code> or
-        by setting the <code>body</code> prop <code>&lt;Badge body='Awesome'/&gt;</code>.
-      </p>
-
-      <h3 className='example'>Example</h3>
-      <Badge>Info</Badge> <Badge>New</Badge> <Badge>Free</Badge>
-
-      <h4 className='code'>Code</h4>
-      <Codeblock syntax='xml'>
-{`<Badge>Info</Badge>
-<Badge>New</Badge>
-<Badge>Free</Badge>`}
-      </Codeblock>
-    </section>
-
-
-    <section>
-      <h2>Badge notifications</h2>
-      <p>
-        Use the <code>notification</code> prop to indicate that the badge is a notification.
-        Typically it is used with numbers.
-      </p>
-
-      <h3 className='example'>Example</h3>
-      <Badge notification>3</Badge> <Badge notification>20</Badge> <Badge notification>100</Badge>
-
-      <h4 className='code'>Code</h4>
-      <Codeblock syntax='xml'>
-{`<Badge notification>3</Badge>
-<Badge notification>20</Badge>
-<Badge notification>100</Badge>`}
-      </Codeblock>
-    </section>
-
-
-    <section>
-      <h2>Badge contexts</h2>
-      <p>
-        Add the <code>context='success'</code> or <code>context='warning'</code> or <code>context='danger'</code> prop
-          for additional context.
-      </p>
-
-      <h3 className='example'>Example</h3>
-      <Badge context='success'>success</Badge> <Badge context='warning'>warning</Badge> <Badge context='danger'>danger</Badge><br />
-      <Badge notification context='success'>1</Badge> <Badge notification context='warning'>10</Badge> <Badge notification context='danger'>99+</Badge>
-
-      <h4 className='code'>Code</h4>
-      <Codeblock syntax='xml'>
-        {
-`<Badge context='success'>success</Badge>
-<Badge context='warning'>warning</Badge>
-<Badge context='danger'>danger</Badge><br />
-
-<Badge notification context='success'>1</Badge>
-<Badge notification context='warning'>10</Badge>
-<Badge notification context='danger'>99+</Badge>`}
-      </Codeblock>
-    </section>
-
-
-    <section>
-      <h2>Badge Props</h2>
-
-      <p>
-        See Base for additional utility props.
-      </p>
-
-      <Table>
-        <thead>
-          <tr>
-            <th className='uk-text-left'>Prop</th>
-            <th className='uk-text-left'>Type</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className='uk-text-left'>
-              context
-            </td>
-            <td className='uk-text-left'>oneOf <br />success, warning, danger</td>
-          </tr>
-          <tr>
-            <td className='uk-text-left'>
-              block
-            </td>
-            <td className='uk-text-left'>bool</td>
-          </tr>
-          <tr>
-            <td className='uk-text-left'>
-              body
-            </td>
-            <td className='uk-text-left'>string</td>
-          </tr>
-          <tr>
-            <td className='uk-text-left'>
-              notification
-            </td>
-            <td className='uk-text-left'>bool</td>
-          </tr>
-        </tbody>
-      </Table>
-    </section>
+  <div data-markdown-omit-wrapper="true">
+    <DocHeader {... { name, npmName, summary }} />
+    <DocExample
+      name="Badge Element"
+      description={`By default badges are <code>span<code> but they can be made <div>s by setting the \`block\` prop.`}
+      jsx={blockExample}
+      snippet={blockSnippet}
+    />
+    <DocExample
+      name="Badge Text"
+      description={`Text can be added either as \`children\` <Badge>Awesome</Badge> or by setting the \`body\` prop <Badge body='Awesome'/>.`}
+      jsx={textExample}
+      snippet={textSnippet}
+    />
+    <DocExample
+      name="Badge notifications"
+      description={`Use the \`notification\` prop to indicate that the badge is a notification. Typically it is used with numbers.`}
+      jsx={notificationExample}
+      snippet={notificationSnippet}
+    />
+    <DocExample
+      name="Badge Contexts"
+      description={`Add the \`context\` process with a value of "success", "warning" or "danger" for additional context.`}
+      jsx={contextExample}
+      snippet={contextSnippet}
+    />
+    <DocFooter { ...{ name, propTuples }} />
   </div>
 );
 
