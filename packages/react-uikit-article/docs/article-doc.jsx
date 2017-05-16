@@ -23,7 +23,7 @@ const propTuples = [
   },
   {
     Prop: "title",
-    Type: "oneOf: 'default' | 'muted' | 'primary' | 'secondary'"
+    Type: "string"
     // Description: "Creates an article title"
   },
 ];
