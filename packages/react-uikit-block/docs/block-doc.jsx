@@ -138,6 +138,7 @@ const BlockDocs = () => (
         table={contextTable}
         jsx={contextExample}
         snippet={contextSnippet}
+        scroll="text"
       />
         <Note badge='NOTE'>
           To properly display colors, borders and other elements on colored blocks, you might want to apply the contrast prop to the Block componet.
