@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import Codeblock from 'react-uikit-codeblock';
 
-const DocExample = ({ name, description, table, jsx, snippet }) => (
+const DocExample = ({ name, description, table, jsx, snippet, scroll = null }) => (
   <section>
     { name &&
       <h2>{name}</h2>
@@ -21,7 +21,7 @@ const DocExample = ({ name, description, table, jsx, snippet }) => (
 
     <h3 className='code'>Code</h3>
 
-    <Codeblock scroll='text' lang="javascript">
+    <Codeblock scroll={scroll} lang="javascript">
       {snippet}
     </Codeblock>
 
@@ -33,6 +33,7 @@ DocExample.propTypes = {
   jsx: PropTypes.node.isRequired,
   name: PropTypes.string,
   snippet: PropTypes.string.isRequired,
+  scroll: PropTypes.string,
   table: PropTypes.node,
 };
 
