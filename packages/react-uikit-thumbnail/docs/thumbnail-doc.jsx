@@ -1,68 +1,61 @@
-'use strict';
-
-
 import React from 'react';
 import Codeblock from '../../react-uikit-codeblock/lib/codeblock';
-import Table from '../../react-uikit-table/lib/table';
-import Note from '../../react-uikit-note/lib/note';
+// import Note from '../../react-uikit-note/lib/note';
+
+import DocHeader from '../../../common/components/DocHeader';
+import DocFooter from '../../../common/components/DocFooter';
+
+const name = 'Thumbnail';
+const npmName = 'react-uikit-thumbnail';
+const summary = 'Create different thumbnail images, which come in various styles and sizes.';
+const url = 'http://otissv.github.io/react-uikit-components/';
+
+const propTuples = [
+  {
+    name: "height",
+    type: "string"
+  },
+  {
+    name: "img",
+    type: "object\nSee Img component props"
+  },
+  {
+    name: "medium",
+    type: "object\nSee Img component props"
+  },
+  {
+    name: "large",
+    type: "object\nSee Img component props"
+  },
+  {
+    name: "small",
+    type: "object\nSee Img component props"
+  },
+  {
+    name: "size",
+    type: "oneOf\nlarge, medium, small, mini or expand"
+  },
+  {
+    name: "type",
+    type: "oneOf\nblock, figure or link. (Default is block)"
+  },
+  {
+    name: "width",
+    type: "string"
+  },
+  {
+    name: "xlarge",
+    type: "object\nSee Img component props"
+  },
+];
 
 const ThumbnailDoc = (props) => (
   <div>
-    <section>
-      <h1>React UIkit Thumbnail</h1>
-      <p>
-        Create different thumbnail images, which come in various styles and sizes.
-      </p>
-      <p>
-        <a href='http://otissv.github.io/react-uikit-components/'>http://otissv.github.io/react-uikit-components</a> for docs.
-      </p>
-      </section>
+    <DocHeader {... { name, npmName, summary, url }} />
 
-      <section>
-        <h2>Usage</h2>
-          <Codeblock>
-{`npm install react-uikit-thumbnail --save;
+    {/* ... examples... */}
 
-// ES6
-<code>import Article from 'react-uikit-thumbnail';
-
-// ES5
-var Article = require('react-uikit-thumbnail');`}
-          </Codeblock>
-    </section>
-
-
-    <section>
-      <h2>Tests</h2>
-      <p>
-        <code>npm run test</code> to run tests with minimal output.<br />
-        <code>npm run test:spec</code> to run tests with detailed output.<br />
-        <code>npm run test:watch</code>watches all directories and run tests with minimal output on file changes.<br />
-      </p>
-    </section>
-
-    <section>
-      <h2>Build</h2>
-      <p>
-        <code>npm run build</code> to build files fro distribution.<br />
-        <code>npm run build:watch</code> watches src directory and builds files on changes.<br />
-      </p>
-    </section>
-
-
-    <section>
-      <h2>Lint</h2>
-      <p>
-        <code>npm run lint</code> lints scripts in src directory.<br />
-        <code>npm run lint:watch</code> watches src directory and lints scripts in src directory.<br />
-      </p>
-    </section>
-
-    <section>
-      <h2>License</h2>
-        <p>MIT</p>
-    </section>
-
+    <DocFooter { ...{ name, propTuples }} />
   </div>
 );
 
