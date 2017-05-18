@@ -1,67 +1,130 @@
-'use strict';
-
-
 import React from 'react';
-import Codeblock from '../../react-uikit-codeblock/lib/codeblock';
+import Button from 'react-uikit-button';
+import Comment from '../lib/comment';
+import Table from 'react-uikit-table';
 
+import DocHeader from '../../common-helpers/lib/DocHeader';
+import DocExample from '../../common-helpers/lib/DocExample';
+import DocFooter from '../../common-helpers/lib/DocFooter';
+
+const name = 'Comment';
+const npmName = 'react-uikit-comment';
+const summary = 'Create comments, for example about articles.';
+const meta = (
+  <div>
+    <Button type='link' context='link' size='mini' body='12 days ago'/> |
+    <Button type='link' context='link' size='mini' body='Profile'/> |
+    <Button type='link' context='link' size='mini' body='#'/>
+  </div>
+);
+
+const generateExampleJSX = (primary) => (
+  <Comment primary title='Author' meta={meta}
+    avatar={{src:'docs/images/placeholder_avatar.svg', alt: 'Avatar placeholder'}}>
+
+    <p>
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+      erat, sed diam voluptua.
+    </p>
+  </Comment>
+);
+
+const generateCodeSnippet = (primary) => `
+  const meta = <div>
+    <Button type='link' context='link' size='mini' body='12 days ago'/> |
+    <Button type='link' context='link' size='mini' body='Profile'/> |
+    <Button type='link' context='link' size='mini' body='#'/>
+  </div>;
+
+  ...
+  <Comment ${primary? "primary ": ""}title='Author' meta={meta}
+    avatar={{src:'docs/images/placeholder_avatar.svg', alt: 'Avatar placeholder'}}>
+
+    <p>
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+      erat, sed diam voluptua.
+    </p>
+  </Comment>
+  ...
+`;
+
+const basicExampleTable = (
+  <Table>
+    <thead>
+      <tr>
+        <th>Prop</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>avatar</code></td>
+        <td>Add avatar prop to create an avatar for the comment author</td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>Add tilte prop to createCreates a comment title.</td>
+      </tr>
+      <tr>
+        <td><code>meta</code></td>
+        <td>Add meta prop to add meta data about the comment.</td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>
+          Add body prop to add text comment body. Body is overridden
+          if commet has children.
+        </td>
+      </tr>
+    </tbody>
+  </Table>
+);
+const basicExampleJSX = generateExampleJSX();
+const basicExampleSnippet = generateCodeSnippet();
+
+const primaryJSX = generateExampleJSX(true);
+const primarySnippet = generateCodeSnippet(true);
+
+const propTuples = [{
+    prop: 'avatar',
+    type: 'object \`{src, alt}\`',
+  }, {
+    prop: 'body',
+    type: 'string'
+  }, {
+    prop: 'meta',
+    type: 'any'
+  }, {
+    prop: 'primary',
+    type: 'bool'
+  }, {
+    prop: 'title',
+    type: 'string'
+  }
+];
 
 const CommentDoc = (props) => (
-  <div>
-    <section>
-      <h1>React UIkit Commnet</h1>
-      <p>
-        Create comments, for example about articles.
-      </p>
-      <p>
-        <a href='http://otissv.github.io/react-uikit-components/'>http://otissv.github.io/react-uikit-components</a> for docs.
-      </p>
-      </section>
-
-      <section>
-        <h2>Usage</h2>
-          <Codeblock>
-  {`npm install react-uikit-comment --save;
-
-  //ES6
-  import Commnet from 'react-uikit-comment';
-
-  // ES5
-  var Commnet = require('react-uikit-comment');`}
-          </Codeblock>
-    </section>
-
-
-    <section>
-        <h2>Tests</h2>
-        <p>
-          <code>npm run test</code> to run tests with minimal output.<br />
-          <code>npm run test:spec</code> to run tests with detailed output.<br />
-          <code>npm run test:watch</code>watches all directories and run tests with minimal output on file changes.<br />
-        </p>
-      </section>
-
-      <section>
-        <h2>Build</h2>
-        <p>
-          <code>npm run build</code> to build files fro distribution.<br />
-          <code>npm run build:watch</code> watches src directory and builds files on changes.<br />
-        </p>
-      </section>
-
-
-      <section>
-        <h2>Lint</h2>
-        <p>
-          <code>npm run lint</code> lints scripts in src directory.<br />
-          <code>npm run lint:watch</code> watches src directory and lints scripts in src directory.<br />
-        </p>
-      </section>
-
-      <section>
-        <h2>License</h2>
-          <p>MIT</p>
-      </section>
-
+  <div data-markdown-omit-wrapper="true">
+    <DocHeader {... { name, npmName, summary }} />
+    <p>
+      The Comment component consists of a comment header, including an
+      avatar, a title and meta data, and a comment body.
+    </p>
+    <DocExample
+      description={ `The Comment component consists of a comment header, including an avatar, a title and meta data, and a comment body.`}
+      table={basicExampleTable}
+      jsx={basicExampleJSX}
+      snippet={basicExampleSnippet}
+    />
+    <DocExample
+      name={'Comment Color'}
+      description={'To style a comment differently, for example to highlight it as the admin\'s comment, just add the primary prop.'}
+      jsx={primaryJSX}
+      snippet={primarySnippet}
+    />
+    <DocFooter {...{ name, propTuples }} />
   </div>
 );
 
