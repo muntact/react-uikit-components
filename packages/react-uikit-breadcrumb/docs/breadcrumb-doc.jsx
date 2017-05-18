@@ -1,6 +1,7 @@
 import React from 'react';
 import Breadcrumb from '../lib/Breadcrumb';
 import BreadcrumbItem from '../lib/breadcrumb-item';
+import Table from 'react-uikit-table';
 
 import DocHeader from '../../common-helpers/lib/DocHeader';
 import DocExample from '../../common-helpers/lib/DocExample';
