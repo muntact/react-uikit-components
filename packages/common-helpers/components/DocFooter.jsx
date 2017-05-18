@@ -4,14 +4,14 @@ import Table from 'react-uikit-table';
 const DocFooter = ({ name, hasPropsInBase, propTuples }) => (
   <section>
     <h2>{name} Props</h2>
-
     { hasPropsInBase &&
       <p>
       See Base for additional utility props.
       </p>
     }
-
-    <Table head={['Prop', 'Type']} body={propTuples} />
+    { propTuples &&
+      <Table head={['Prop', 'Type']} body={propTuples} />
+    }
   </section>
 );
 
@@ -19,7 +19,7 @@ DocFooter.propTypes = {
   name: PropTypes.string.isRequired,
   // is this necessary?
   hasPropsInBase: PropTypes.bool,
-  propTuples: PropTypes.array.isRequired,
+  propTuples: PropTypes.array,
 };
 
 DocFooter.defaultProps = {
