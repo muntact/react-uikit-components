@@ -20,7 +20,7 @@ import ButtonDoc from 'react-uikit-button/docs-lib/button-doc.js';
 // import ButtonGroupDoc from 'react-uikit-button-group/docs-lib/button-group-doc.js';
 import CodeblockDoc from 'react-uikit-codeblock/docs-lib/codeblock-doc.js';
 import CommentDoc from 'react-uikit-comment/docs-lib/comment-doc.js';
-// import CommentListDoc from './comment-list-doc.jsx';
+import CommentListDoc from 'react-uikit-comment-list/docs-lib/comment-list-doc.js';
 // import DropdownDoc from './dropdown-doc.jsx';
 // import FormDoc from './form-doc.jsx';
 import FlexDoc from 'react-uikit-flex/docs-lib/flex-doc.js';
@@ -149,7 +149,7 @@ const routes = {
     // { path: '/button-group', component : ButtonGroupDoc },
     { path: '/codeblock', component    : CodeblockDoc },
     { path: '/comment', component      : CommentDoc },
-    // { path: '/comment-list', component : CommentListDoc },
+    { path: '/comment-list', component : CommentListDoc },
     // { path: '/dropdown', component     : DropdownDoc },
     { path: '/flex', component         : FlexDoc },
     // { path: '/form', component         : FormDoc },

@@ -17,6 +17,7 @@
   "main": "./lib/comment-list.js",
   "scripts": {
     "build": "babel -d lib/ src/  && date",
+    "build:docs": "babel -d docs-lib/ docs/  && date",
     "build:watch": "watch 'npm run build' ./src",
     "lint": "eslint --quiet ./src/**  && date  || true  && date",
     "lint:watch": "watch 'npm run lint' ./",
