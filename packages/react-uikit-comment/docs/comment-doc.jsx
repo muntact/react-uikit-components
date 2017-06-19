@@ -18,9 +18,10 @@ const meta = (
   </div>
 );
 
+const avatar = {src:'docs/images/placeholder_avatar.svg', alt: 'Avatar placeholder'};
 const generateExampleJSX = (primary) => (
   <Comment primary title='Author' meta={meta}
-    avatar={{src:'docs/images/placeholder_avatar.svg', alt: 'Avatar placeholder'}}>
+    avatar={avatar}>
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
