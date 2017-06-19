@@ -10,36 +10,36 @@ import uikit from 'react-uikit-base';
 
 
 // Layout Handlers
-import AlertDoc from './alert-doc.jsx';
-import ArticleDoc from './article-doc.jsx';
-import BadgeDoc from './badge-doc.jsx';
-import BaseDoc from './base-doc.jsx';
-import BlockDoc from './block-doc.jsx';
-import BreadcrumbDoc from './breadcrumb-doc.jsx';
-import ButtonDoc from './button-doc.jsx';
-import ButtonGroupDoc from './button-group-doc.jsx';
-import CodeblockDoc from './codeblock-doc.jsx';
-import CommentDoc from './comment-doc.jsx';
-import CommentListDoc from './comment-list-doc.jsx';
-import DropdownDoc from './dropdown-doc.jsx';
-import FormDoc from './form-doc.jsx';
-import FlexDoc from './flex-doc.jsx';
-import GridDoc from './grid-doc.jsx';
-import IconsDoc from './icons-doc.jsx';
-import ImgDoc from './img-doc.jsx';
-import ImgGalleryDoc from './img-gallery-doc.jsx';
-import ListDoc from './list-doc.jsx';
-import ModalDoc from './modal-doc.jsx';
-import NavDoc from './nav-doc.jsx';
-import NoteDoc from './note-doc.jsx';
-import NotifyDoc from './notify-doc.jsx';
-import OverlayDoc from './overlay-doc.jsx';
-import PanelDoc from './panel-doc.jsx';
-import PlaceholderDoc from './placeholder-doc.jsx';
-import ProgressDoc from './progress-doc.jsx';
-import TableDoc from './table-doc.jsx';
-import TextDoc from './text-doc.jsx';
-import ThumbnailDoc from './thumbnail-doc.jsx';
+// import AlertDoc from './alert-doc.jsx';
+import ArticleDoc from 'react-uikit-article/docs-lib/article-doc.js';
+import BadgeDoc from 'react-uikit-badge/docs-lib/badge-doc.js';
+// import BaseDoc from './base-doc.jsx';
+import BlockDoc from 'react-uikit-block/docs-lib/block-doc.js';
+import BreadcrumbDoc from 'react-uikit-breadcrumb/docs-lib/breadcrumb-doc.js';
+import ButtonDoc from 'react-uikit-button/docs-lib/button-doc.js';
+// import ButtonGroupDoc from 'react-uikit-button-group/docs-lib/button-group-doc.js';
+import CodeblockDoc from 'react-uikit-codeblock/docs-lib/codeblock-doc.js';
+import CommentDoc from 'react-uikit-comment/docs-lib/comment-doc.js';
+// import CommentListDoc from './comment-list-doc.jsx';
+// import DropdownDoc from './dropdown-doc.jsx';
+// import FormDoc from './form-doc.jsx';
+import FlexDoc from 'react-uikit-flex/docs-lib/flex-doc.js';
+// import GridDoc from './grid-doc.jsx';
+// import IconsDoc from './icons-doc.jsx';
+// import ImgDoc from './img-doc.jsx';
+// import ImgGalleryDoc from './img-gallery-doc.jsx';
+// import ListDoc from './list-doc.jsx';
+// import ModalDoc from './modal-doc.jsx';
+// import NavDoc from './nav-doc.jsx';
+// import NoteDoc from './note-doc.jsx';
+// import NotifyDoc from './notify-doc.jsx';
+// import OverlayDoc from './overlay-doc.jsx';
+// import PanelDoc from './panel-doc.jsx';
+// import PlaceholderDoc from './placeholder-doc.jsx';
+// import ProgressDoc from './progress-doc.jsx';
+// import TableDoc from './table-doc.jsx';
+// import TextDoc from './text-doc.jsx';
+// import ThumbnailDoc from './thumbnail-doc.jsx';
 
 const ContentView = (props) => (
   <div className={uikit.helpers.cleanClasses(props.classes)}>
@@ -138,37 +138,37 @@ const routes = {
   path: '/',
   component: Layout,
   childRoutes: [
-    { indexRoute: { component: BaseDoc } },
-    { path: '/alert', component        : AlertDoc },
+    // { indexRoute: { component: BaseDoc } },
+    // { path: '/alert', component        : AlertDoc },
     { path: '/article', component      : ArticleDoc },
-    { path: '/base', component         : BaseDoc },
+    // { path: '/base', component         : BaseDoc },
     { path: '/badge', component        : BadgeDoc },
     { path: '/block', component        : BlockDoc },
     { path: '/breadcrumb', component   : BreadcrumbDoc },
     { path: '/button', component       : ButtonDoc },
-    { path: '/button-group', component : ButtonGroupDoc },
+    // { path: '/button-group', component : ButtonGroupDoc },
     { path: '/codeblock', component    : CodeblockDoc },
     { path: '/comment', component      : CommentDoc },
-    { path: '/comment-list', component : CommentListDoc },
-    { path: '/dropdown', component     : DropdownDoc },
+    // { path: '/comment-list', component : CommentListDoc },
+    // { path: '/dropdown', component     : DropdownDoc },
     { path: '/flex', component         : FlexDoc },
-    { path: '/form', component         : FormDoc },
-    { path: '/grid', component         : GridDoc },
-    { path: '/icons', component        : IconsDoc },
-    { path: '/img',  component         : ImgDoc },
-    { path: '/img-gallery', component  : ImgGalleryDoc },
-    { path: '/list', component         : ListDoc },
-    { path: '/modal', component        : ModalDoc },
-    { path: '/nav', component          : NavDoc },
-    { path: '/notify', component       : NotifyDoc },
-    { path: '/note', component         : NoteDoc },
-    { path: '/overlay', component      : OverlayDoc },
-    { path: '/panel', component        : PanelDoc },
-    { path: '/placeholder', component  : PlaceholderDoc },
-    { path: '/progress', component     : ProgressDoc },
-    { path: '/table', component        : TableDoc },
-    { path: '/text', component         : TextDoc },
-    { path: '/thumbnail', component    : ThumbnailDoc }
+    // { path: '/form', component         : FormDoc },
+    // { path: '/grid', component         : GridDoc },
+    // { path: '/icons', component        : IconsDoc },
+    // { path: '/img',  component         : ImgDoc },
+    // { path: '/img-gallery', component  : ImgGalleryDoc },
+    // { path: '/list', component         : ListDoc },
+    // { path: '/modal', component        : ModalDoc },
+    // { path: '/nav', component          : NavDoc },
+    // { path: '/notify', component       : NotifyDoc },
+    // { path: '/note', component         : NoteDoc },
+    // { path: '/overlay', component      : OverlayDoc },
+    // { path: '/panel', component        : PanelDoc },
+    // { path: '/placeholder', component  : PlaceholderDoc },
+    // { path: '/progress', component     : ProgressDoc },
+    // { path: '/table', component        : TableDoc },
+    // { path: '/text', component         : TextDoc },
+    // { path: '/thumbnail', component    : ThumbnailDoc }
   ]
 };
 
