@@ -14,16 +14,21 @@ const DocExample = ({ name, description, table, jsx, snippet, scroll = null }) =
     }
 
     {/* Hide the example header and jsx in a tag we plan to filter :p */}
-    <div data-markdown-omit="true">
-      <h3 className='example'>Example</h3>
-      {jsx}
-    </div>
+    { jsx &&
+      <div data-markdown-omit="true">
+        <h3 className='example'>Example</h3>
+        {jsx}
+      </div>
+    }
+    { snippet &&
+      <div data-markdown-omit-wrapper="true">
+        <h3 className='code'>Code</h3>
 
-    <h3 className='code'>Code</h3>
-
-    <Codeblock scroll={scroll} lang="javascript">
-      {snippet}
-    </Codeblock>
+        <Codeblock scroll={scroll} lang="javascript">
+          {snippet}
+        </Codeblock>
+      </div>
+    }
 
   </section>
 );
