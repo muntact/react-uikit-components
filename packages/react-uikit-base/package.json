@@ -19,6 +19,7 @@
     "build:watch": "watch 'npm run build' ./src",
     "lint": "eslint --quiet ./src/**  || true && date",
     "lint:watch": "watch 'npm run lint' ./",
+    "lint:docs": "eslint --quiet ./docs/**  && date || true && date",
     "peer": "yarn install cuid ufunc react react-dom",
     "prepublish": "babel -d lib/ src/ && date",
     "test": "babel-node ../../common/test-runner.js | tap-min && date || true ",

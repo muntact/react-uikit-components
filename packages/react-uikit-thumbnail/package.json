@@ -22,6 +22,7 @@
     "build:watch": "watch 'npm run build' ./src",
     "lint": "eslint --quiet ./src/**  && date || true && date",
     "lint:watch": "watch 'npm run lint' ./",
+    "lint:docs": "eslint --quiet ./docs/**  && date || true && date",
     "prepublish": "babel -d lib/ src/  && date",
     "test": "babel-node ../../common/test-runner.js | tap-min  && date|| true && date",
     "test:spec": "babel-node ../../common/test-runner.js | tap-difflet || true && date",
@@ -55,8 +56,8 @@
   "dependencies": {
     "react": "~15.3.2",
     "react-dom": "~15.3.2",
-    "react-uikit-img": "0.2.3",
-    "react-uikit-base": "~1.0.0",
+    "react-uikit-img": "*",
+    "react-uikit-base": "*",
     "ufunc": "~2.0.1"
   },
   "babel": {
