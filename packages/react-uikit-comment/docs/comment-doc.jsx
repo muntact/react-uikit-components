@@ -22,7 +22,6 @@ const avatar = {src:'docs/images/placeholder_avatar.svg', alt: 'Avatar placehold
 const generateExampleJSX = (primary) => (
   <Comment primary title='Author' meta={meta}
     avatar={avatar}>
-
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
       nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
@@ -41,7 +40,6 @@ const generateCodeSnippet = (primary) => `
   ...
   <Comment ${primary? "primary ": ""}title='Author' meta={meta}
     avatar={{src:'docs/images/placeholder_avatar.svg', alt: 'Avatar placeholder'}}>
-
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
       nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
