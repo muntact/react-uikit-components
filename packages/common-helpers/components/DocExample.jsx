@@ -21,9 +21,8 @@ const DocExample = ({ name, description, table, jsx, snippet, scroll = null }) =
       </div>
     }
     { snippet &&
-      <div data-markdown-omit-wrapper="true">
+      <div data-markdown-omit-wrapper="true" style={{ marginTop: "10px" }}>
         <h3 className='code'>Code</h3>
-
         <Codeblock scroll={scroll} lang="javascript">
           {snippet}
         </Codeblock>
