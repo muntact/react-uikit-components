@@ -13,7 +13,7 @@ import uikit from 'react-uikit-base';
 // import AlertDoc from './alert-doc.jsx';
 import ArticleDoc from 'react-uikit-article/docs-lib/article-doc.js';
 import BadgeDoc from 'react-uikit-badge/docs-lib/badge-doc.js';
-// import BaseDoc from './base-doc.jsx';
+import BaseDoc from 'react-uikit-base/docs-lib/base-doc.js';
 import BlockDoc from 'react-uikit-block/docs-lib/block-doc.js';
 import BreadcrumbDoc from 'react-uikit-breadcrumb/docs-lib/breadcrumb-doc.js';
 import ButtonDoc from 'react-uikit-button/docs-lib/button-doc.js';
@@ -22,7 +22,7 @@ import CodeblockDoc from 'react-uikit-codeblock/docs-lib/codeblock-doc.js';
 import CommentDoc from 'react-uikit-comment/docs-lib/comment-doc.js';
 import CommentListDoc from 'react-uikit-comment-list/docs-lib/comment-list-doc.js';
 // import DropdownDoc from './dropdown-doc.jsx';
-// import FormDoc from './form-doc.jsx';
+import FormDoc from 'react-uikit-form/docs-lib/form-doc.js';
 import FlexDoc from 'react-uikit-flex/docs-lib/flex-doc.js';
 // import GridDoc from './grid-doc.jsx';
 // import IconsDoc from './icons-doc.jsx';
@@ -34,7 +34,7 @@ import FlexDoc from 'react-uikit-flex/docs-lib/flex-doc.js';
 // import NoteDoc from './note-doc.jsx';
 // import NotifyDoc from './notify-doc.jsx';
 // import OverlayDoc from './overlay-doc.jsx';
-// import PanelDoc from './panel-doc.jsx';
+// import PanelDoc from 'react-uikit-panel/docs-lib/panel-doc.js';
 // import PlaceholderDoc from './placeholder-doc.jsx';
 // import ProgressDoc from './progress-doc.jsx';
 // import TableDoc from './table-doc.jsx';
@@ -141,7 +141,7 @@ const routes = {
     // { indexRoute: { component: BaseDoc } },
     // { path: '/alert', component        : AlertDoc },
     { path: '/article', component      : ArticleDoc },
-    // { path: '/base', component         : BaseDoc },
+    { path: '/base', component         : BaseDoc },
     { path: '/badge', component        : BadgeDoc },
     { path: '/block', component        : BlockDoc },
     { path: '/breadcrumb', component   : BreadcrumbDoc },
@@ -152,7 +152,7 @@ const routes = {
     { path: '/comment-list', component : CommentListDoc },
     // { path: '/dropdown', component     : DropdownDoc },
     { path: '/flex', component         : FlexDoc },
-    // { path: '/form', component         : FormDoc },
+    { path: '/form', component         : FormDoc },
     // { path: '/grid', component         : GridDoc },
     // { path: '/icons', component        : IconsDoc },
     // { path: '/img',  component         : ImgDoc },
