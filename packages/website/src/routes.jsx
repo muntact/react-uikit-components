@@ -24,7 +24,7 @@ import CommentListDoc from 'react-uikit-comment-list/docs-lib/comment-list-doc.j
 // import DropdownDoc from './dropdown-doc.jsx';
 import FormDoc from 'react-uikit-form/docs-lib/form-doc.js';
 import FlexDoc from 'react-uikit-flex/docs-lib/flex-doc.js';
-// import GridDoc from './grid-doc.jsx';
+import GridDoc from 'react-uikit-grid/docs-lib/grid-doc.js';
 // import IconsDoc from './icons-doc.jsx';
 // import ImgDoc from './img-doc.jsx';
 // import ImgGalleryDoc from './img-gallery-doc.jsx';
@@ -153,7 +153,7 @@ const routes = {
     // { path: '/dropdown', component     : DropdownDoc },
     { path: '/flex', component         : FlexDoc },
     { path: '/form', component         : FormDoc },
-    // { path: '/grid', component         : GridDoc },
+    { path: '/grid', component         : GridDoc },
     // { path: '/icons', component        : IconsDoc },
     // { path: '/img',  component         : ImgDoc },
     // { path: '/img-gallery', component  : ImgGalleryDoc },
