@@ -34,7 +34,7 @@ import GridDoc from 'react-uikit-grid/docs-lib/grid-doc.js';
 // import NoteDoc from './note-doc.jsx';
 // import NotifyDoc from './notify-doc.jsx';
 // import OverlayDoc from './overlay-doc.jsx';
-// import PanelDoc from 'react-uikit-panel/docs-lib/panel-doc.js';
+import PanelDoc from 'react-uikit-panel/docs-lib/panel-doc.js';
 // import PlaceholderDoc from './placeholder-doc.jsx';
 // import ProgressDoc from './progress-doc.jsx';
 // import TableDoc from './table-doc.jsx';
@@ -163,7 +163,7 @@ const routes = {
     // { path: '/notify', component       : NotifyDoc },
     // { path: '/note', component         : NoteDoc },
     // { path: '/overlay', component      : OverlayDoc },
-    // { path: '/panel', component        : PanelDoc },
+    { path: '/panel', component        : PanelDoc },
     // { path: '/placeholder', component  : PlaceholderDoc },
     // { path: '/progress', component     : ProgressDoc },
     // { path: '/table', component        : TableDoc },
