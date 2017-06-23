@@ -11,30 +11,30 @@ import uikit from 'react-uikit-base';
 
 // Layout Handlers
 // import AlertDoc from './alert-doc.jsx';
-import ArticleDoc from 'react-uikit-article/docs-lib/article-doc.js';
-import BadgeDoc from 'react-uikit-badge/docs-lib/badge-doc.js';
-import BaseDoc from 'react-uikit-base/docs-lib/base-doc.js';
-import BlockDoc from 'react-uikit-block/docs-lib/block-doc.js';
-import BreadcrumbDoc from 'react-uikit-breadcrumb/docs-lib/breadcrumb-doc.js';
-import ButtonDoc from 'react-uikit-button/docs-lib/button-doc.js';
-// import ButtonGroupDoc from 'react-uikit-button-group/docs-lib/button-group-doc.js';
-import CodeblockDoc from 'react-uikit-codeblock/docs-lib/codeblock-doc.js';
-import CommentDoc from 'react-uikit-comment/docs-lib/comment-doc.js';
-import CommentListDoc from 'react-uikit-comment-list/docs-lib/comment-list-doc.js';
+import ArticleDoc from 'react-uikit-article/docs-lib/article-doc';
+import BadgeDoc from 'react-uikit-badge/docs-lib/badge-doc';
+import BaseDoc from 'react-uikit-base/docs-lib/base-doc';
+import BlockDoc from 'react-uikit-block/docs-lib/block-doc';
+import BreadcrumbDoc from 'react-uikit-breadcrumb/docs-lib/breadcrumb-doc';
+import ButtonDoc from 'react-uikit-button/docs-lib/button-doc';
+// import ButtonGroupDoc from 'react-uikit-button-group/docs-lib/button-group-doc';
+import CodeblockDoc from 'react-uikit-codeblock/docs-lib/codeblock-doc';
+import CommentDoc from 'react-uikit-comment/docs-lib/comment-doc';
+import CommentListDoc from 'react-uikit-comment-list/docs-lib/comment-list-doc';
 // import DropdownDoc from './dropdown-doc.jsx';
-import FormDoc from 'react-uikit-form/docs-lib/form-doc.js';
-import FlexDoc from 'react-uikit-flex/docs-lib/flex-doc.js';
-import GridDoc from 'react-uikit-grid/docs-lib/grid-doc.js';
+import FormDoc from 'react-uikit-form/docs-lib/form-doc';
+import FlexDoc from 'react-uikit-flex/docs-lib/flex-doc';
+import GridDoc from 'react-uikit-grid/docs-lib/grid-doc';
 // import IconsDoc from './icons-doc.jsx';
 // import ImgDoc from './img-doc.jsx';
-// import ImgGalleryDoc from './img-gallery-doc.jsx';
+import ImgGalleryDoc from 'react-uikit-img-gallery/docs-lib/img-gallery-doc';
 // import ListDoc from './list-doc.jsx';
 // import ModalDoc from './modal-doc.jsx';
 // import NavDoc from './nav-doc.jsx';
 // import NoteDoc from './note-doc.jsx';
 // import NotifyDoc from './notify-doc.jsx';
 // import OverlayDoc from './overlay-doc.jsx';
-import PanelDoc from 'react-uikit-panel/docs-lib/panel-doc.js';
+import PanelDoc from 'react-uikit-panel/docs-lib/panel-doc';
 // import PlaceholderDoc from './placeholder-doc.jsx';
 // import ProgressDoc from './progress-doc.jsx';
 // import TableDoc from './table-doc.jsx';
@@ -156,7 +156,7 @@ const routes = {
     { path: '/grid', component         : GridDoc },
     // { path: '/icons', component        : IconsDoc },
     // { path: '/img',  component         : ImgDoc },
-    // { path: '/img-gallery', component  : ImgGalleryDoc },
+    { path: '/img-gallery', component  : ImgGalleryDoc },
     // { path: '/list', component         : ListDoc },
     // { path: '/modal', component        : ModalDoc },
     // { path: '/nav', component          : NavDoc },
