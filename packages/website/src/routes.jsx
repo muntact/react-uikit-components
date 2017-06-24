@@ -30,7 +30,7 @@ import GridDoc from 'react-uikit-grid/docs-lib/grid-doc';
 import ImgGalleryDoc from 'react-uikit-img-gallery/docs-lib/img-gallery-doc';
 // import ListDoc from './list-doc.jsx';
 // import ModalDoc from './modal-doc.jsx';
-// import NavDoc from './nav-doc.jsx';
+import NavDoc from 'react-uikit-nav/docs-lib/nav-doc';
 // import NoteDoc from './note-doc.jsx';
 // import NotifyDoc from './notify-doc.jsx';
 // import OverlayDoc from './overlay-doc.jsx';
@@ -159,7 +159,7 @@ const routes = {
     { path: '/img-gallery', component  : ImgGalleryDoc },
     // { path: '/list', component         : ListDoc },
     // { path: '/modal', component        : ModalDoc },
-    // { path: '/nav', component          : NavDoc },
+    { path: '/nav', component          : NavDoc },
     // { path: '/notify', component       : NotifyDoc },
     // { path: '/note', component         : NoteDoc },
     // { path: '/overlay', component      : OverlayDoc },

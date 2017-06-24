@@ -18,6 +18,7 @@
   "scripts": {
     "build": "babel -d lib/ src/  && date",
     "build:watch": "watch 'npm run build' ./src",
+    "build:docs": "babel -d docs-lib/ docs/  && date",
     "lint": "eslint --quiet ./src/**  && date || true && date",
     "lint:watch": "watch 'npm run lint' ./",
     "lint:docs": "eslint --quiet ./docs/**  && date || true && date",
@@ -47,6 +48,9 @@
     "highlight.js": "~9.6.0",
     "history": "~3.0.0",
     "react-addons-test-utils": "~15.3.0",
+    "react-uikit-dropdown": "*",
+    "react-uikit-grid": "*",
+    "react-uikit-table": "*",
     "tap-difflet": "~0.6.0",
     "tap-min": "~1.1.0",
     "tape": "~4.6.0",
