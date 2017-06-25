@@ -32,7 +32,7 @@ import ImgGalleryDoc from 'react-uikit-img-gallery/docs-lib/img-gallery-doc';
 import ListDoc from 'react-uikit-list/docs-lib/list-doc';
 // import ModalDoc from './modal-doc.jsx';
 import NavDoc from 'react-uikit-nav/docs-lib/nav-doc';
-// import NoteDoc from './note-doc.jsx';
+import NoteDoc from 'react-uikit-note/docs-lib/note-doc';
 // import NotifyDoc from './notify-doc.jsx';
 // import OverlayDoc from './overlay-doc.jsx';
 import PanelDoc from 'react-uikit-panel/docs-lib/panel-doc';
@@ -162,7 +162,7 @@ const routes = {
     // { path: '/modal', component        : ModalDoc },
     { path: '/nav', component          : NavDoc },
     // { path: '/notify', component       : NotifyDoc },
-    // { path: '/note', component         : NoteDoc },
+    { path: '/note', component         : NoteDoc },
     // { path: '/overlay', component      : OverlayDoc },
     { path: '/panel', component        : PanelDoc },
     // { path: '/placeholder', component  : PlaceholderDoc },
