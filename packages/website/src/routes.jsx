@@ -17,6 +17,7 @@ import BaseDoc from 'react-uikit-base/docs-lib/base-doc';
 import BlockDoc from 'react-uikit-block/docs-lib/block-doc';
 import BreadcrumbDoc from 'react-uikit-breadcrumb/docs-lib/breadcrumb-doc';
 import ButtonDoc from 'react-uikit-button/docs-lib/button-doc';
+// TODO: fix the button group.
 // import ButtonGroupDoc from 'react-uikit-button-group/docs-lib/button-group-doc';
 import CodeblockDoc from 'react-uikit-codeblock/docs-lib/codeblock-doc';
 import CommentDoc from 'react-uikit-comment/docs-lib/comment-doc';
@@ -25,7 +26,7 @@ import CommentListDoc from 'react-uikit-comment-list/docs-lib/comment-list-doc';
 import FormDoc from 'react-uikit-form/docs-lib/form-doc';
 import FlexDoc from 'react-uikit-flex/docs-lib/flex-doc';
 import GridDoc from 'react-uikit-grid/docs-lib/grid-doc';
-// import IconsDoc from './icons-doc.jsx';
+import IconsDoc from 'react-uikit-icons/docs-lib/icons-doc';
 // import ImgDoc from './img-doc.jsx';
 import ImgGalleryDoc from 'react-uikit-img-gallery/docs-lib/img-gallery-doc';
 import ListDoc from 'react-uikit-list/docs-lib/list-doc';
@@ -154,7 +155,7 @@ const routes = {
     { path: '/flex', component         : FlexDoc },
     { path: '/form', component         : FormDoc },
     { path: '/grid', component         : GridDoc },
-    // { path: '/icons', component        : IconsDoc },
+    { path: '/icons', component        : IconsDoc },
     // { path: '/img',  component         : ImgDoc },
     { path: '/img-gallery', component  : ImgGalleryDoc },
     { path: '/list', component         : ListDoc },
