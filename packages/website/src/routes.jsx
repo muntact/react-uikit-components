@@ -28,7 +28,7 @@ import GridDoc from 'react-uikit-grid/docs-lib/grid-doc';
 // import IconsDoc from './icons-doc.jsx';
 // import ImgDoc from './img-doc.jsx';
 import ImgGalleryDoc from 'react-uikit-img-gallery/docs-lib/img-gallery-doc';
-// import ListDoc from './list-doc.jsx';
+import ListDoc from 'react-uikit-list/docs-lib/list-doc';
 // import ModalDoc from './modal-doc.jsx';
 import NavDoc from 'react-uikit-nav/docs-lib/nav-doc';
 // import NoteDoc from './note-doc.jsx';
@@ -157,7 +157,7 @@ const routes = {
     // { path: '/icons', component        : IconsDoc },
     // { path: '/img',  component         : ImgDoc },
     { path: '/img-gallery', component  : ImgGalleryDoc },
-    // { path: '/list', component         : ListDoc },
+    { path: '/list', component         : ListDoc },
     // { path: '/modal', component        : ModalDoc },
     { path: '/nav', component          : NavDoc },
     // { path: '/notify', component       : NotifyDoc },
