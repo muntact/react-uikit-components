@@ -39,7 +39,7 @@ import PanelDoc from 'react-uikit-panel/docs-lib/panel-doc';
 // import PlaceholderDoc from './placeholder-doc.jsx';
 // import ProgressDoc from './progress-doc.jsx';
 import TableDoc from 'react-uikit-table/docs-lib/table-doc';
-// import TextDoc from './text-doc.jsx';
+import TextDoc from 'react-uikit-text/docs-lib/text-doc';
 import ThumbnailDoc from 'react-uikit-thumbnail/docs-lib/thumbnail-doc';
 
 const ContentView = (props) => (
@@ -168,7 +168,7 @@ const routes = {
     // { path: '/placeholder', component  : PlaceholderDoc },
     // { path: '/progress', component     : ProgressDoc },
     { path: '/table', component        : TableDoc },
-    // { path: '/text', component         : TextDoc },
+    { path: '/text', component         : TextDoc },
     { path: '/thumbnail', component    : ThumbnailDoc }
   ]
 };
