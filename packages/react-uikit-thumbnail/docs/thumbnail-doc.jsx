@@ -10,48 +10,37 @@ const name = 'Thumbnail';
 const npmName = 'react-uikit-thumbnail';
 const summary = 'Create different thumbnail images, which come in various styles and sizes.';
 
-const propTuples = [
-  {
-    name: "height",
-    type: "string"
-  },
-  {
-    name: "img",
-    type: "object: See Img component props"
-  },
-  {
-    name: "medium",
-    type: "object: See Img component props"
-  },
-  {
-    name: "large",
-    type: "object: See Img component props"
-  },
-  {
-    name: "small",
-    type: "object: See Img component props"
-  },
-  {
-    name: "src",
-    type: "string"
-  },
-  {
-    name: "size",
-    type: "oneOf: 'large' | 'medium' | 'small' | 'mini' | 'expand'"
-  },
-  {
-    name: "type",
-    type: "oneOf: 'block' | 'figure' | 'link'. (Default is block)"
-  },
-  {
-    name: "width",
-    type: "string"
-  },
-  {
-    name: "xlarge",
-    type: "object: See Img component props"
-  },
-];
+const propTuples = [{
+    Prop: "height",
+    Type: "string"
+  }, {
+    Prop: "img",
+    Type: "object: See Img component props"
+  }, {
+    Prop: "medium",
+    Type: "object: See Img component props"
+  }, {
+    Prop: "large",
+    Type: "object: See Img component props"
+  }, {
+    Prop: "small",
+    Type: "object: See Img component props"
+  }, {
+    Prop: "src",
+    Type: "string"
+  }, {
+    Prop: "size",
+    Type: "oneOf: 'large' | 'medium' | 'small' | 'mini' | 'expand'"
+  }, {
+    Prop: "type",
+    Type: "oneOf: 'block' | 'figure' | 'link'. (Default is block)"
+  }, {
+    Prop: "width",
+    Type: "string"
+  }, {
+    Prop: "xlarge",
+    Type: "object: See Img component props"
+}];
 
 const basicExample = (
   <div>
