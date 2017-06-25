@@ -41,24 +41,19 @@ const handleAlertClose = (e, kitid) => {
 const name = 'Alert';
 const npmName = 'react-uikit-alert';
 const summary = 'Defines styles for success, warning and error messages.';
-const propTuples = [
-  {
-    name: "close",
-    type: "func"
-  },
-  {
-    name: "context",
-    type: "oneOf: 'success' | 'warning' | 'danger'"
-  },
-  {
-    name: "large",
-    type: "bool"
-  },
-  {
-    name: "show",
-    type: "bool"
-  },
-];
+const propTuples = [{
+    Prop: "close",
+    Type: "func"
+  }, {
+    Prop: "context",
+    Type: "oneOf: 'success' | 'warning' | 'danger'"
+  }, {
+    Prop: "large",
+    Type: "bool"
+  }, {
+    Prop: "show",
+    Type: "bool"
+}];
 
 const loremIpsumString = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 const alertOpenString = `const handleAlertOpen = (e, kitid) => {
