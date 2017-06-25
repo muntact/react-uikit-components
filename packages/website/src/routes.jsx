@@ -40,7 +40,7 @@ import PanelDoc from 'react-uikit-panel/docs-lib/panel-doc';
 // import ProgressDoc from './progress-doc.jsx';
 import TableDoc from 'react-uikit-table/docs-lib/table-doc';
 // import TextDoc from './text-doc.jsx';
-// import ThumbnailDoc from './thumbnail-doc.jsx';
+import ThumbnailDoc from 'react-uikit-thumbnail/docs-lib/thumbnail-doc';
 
 const ContentView = (props) => (
   <div className={uikit.helpers.cleanClasses(props.classes)}>
@@ -169,7 +169,7 @@ const routes = {
     // { path: '/progress', component     : ProgressDoc },
     { path: '/table', component        : TableDoc },
     // { path: '/text', component         : TextDoc },
-    // { path: '/thumbnail', component    : ThumbnailDoc }
+    { path: '/thumbnail', component    : ThumbnailDoc }
   ]
 };
 
