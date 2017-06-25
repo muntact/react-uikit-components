@@ -8,16 +8,13 @@ import DocFooter from '../../common-helpers/lib/DocFooter';
 const name = 'Note';
 const npmName = 'react-uikit-note';
 const summary = 'Easily add notes to content.';
-const propTuples = [
-  {
-    name: "badge",
-    type: "string or object. See Badge component for props."
-  },
-  {
-    name: "body",
-    type: "string"
-  },
-];
+const propTuples = [{
+    Prop: "badge",
+    Type: "string or object. See Badge component for props."
+  }, {
+    Prop: "body",
+    Type: "string"
+}];
 
 const loremIpsumString = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 
