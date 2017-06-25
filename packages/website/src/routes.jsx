@@ -37,7 +37,7 @@ import NavDoc from 'react-uikit-nav/docs-lib/nav-doc';
 import PanelDoc from 'react-uikit-panel/docs-lib/panel-doc';
 // import PlaceholderDoc from './placeholder-doc.jsx';
 // import ProgressDoc from './progress-doc.jsx';
-// import TableDoc from './table-doc.jsx';
+import TableDoc from 'react-uikit-table/docs-lib/table-doc';
 // import TextDoc from './text-doc.jsx';
 // import ThumbnailDoc from './thumbnail-doc.jsx';
 
@@ -166,7 +166,7 @@ const routes = {
     { path: '/panel', component        : PanelDoc },
     // { path: '/placeholder', component  : PlaceholderDoc },
     // { path: '/progress', component     : ProgressDoc },
-    // { path: '/table', component        : TableDoc },
+    { path: '/table', component        : TableDoc },
     // { path: '/text', component         : TextDoc },
     // { path: '/thumbnail', component    : ThumbnailDoc }
   ]
