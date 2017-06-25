@@ -10,7 +10,7 @@ import uikit from 'react-uikit-base';
 
 
 // Layout Handlers
-// import AlertDoc from './alert-doc.jsx';
+import AlertDoc from 'react-uikit-alert/docs-lib/alert-doc';
 import ArticleDoc from 'react-uikit-article/docs-lib/article-doc';
 import BadgeDoc from 'react-uikit-badge/docs-lib/badge-doc';
 import BaseDoc from 'react-uikit-base/docs-lib/base-doc';
@@ -139,8 +139,8 @@ const routes = {
   path: '/',
   component: Layout,
   childRoutes: [
-    // { indexRoute: { component: BaseDoc } },
-    // { path: '/alert', component        : AlertDoc },
+    { indexRoute: { component: BaseDoc } },
+    { path: '/alert', component        : AlertDoc },
     { path: '/article', component      : ArticleDoc },
     { path: '/base', component         : BaseDoc },
     { path: '/badge', component        : BadgeDoc },
