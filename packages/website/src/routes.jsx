@@ -36,7 +36,7 @@ import NoteDoc from 'react-uikit-note/docs-lib/note-doc';
 // import NotifyDoc from './notify-doc.jsx';
 import OverlayDoc from 'react-uikit-overlay/docs-lib/overlay-doc';
 import PanelDoc from 'react-uikit-panel/docs-lib/panel-doc';
-// import PlaceholderDoc from './placeholder-doc.jsx';
+import PlaceholderDoc from 'react-uikit-placeholder/docs-lib/placeholder-doc';
 // import ProgressDoc from './progress-doc.jsx';
 import TableDoc from 'react-uikit-table/docs-lib/table-doc';
 import TextDoc from 'react-uikit-text/docs-lib/text-doc';
@@ -165,7 +165,7 @@ const routes = {
     { path: '/note', component         : NoteDoc },
     { path: '/overlay', component      : OverlayDoc },
     { path: '/panel', component        : PanelDoc },
-    // { path: '/placeholder', component  : PlaceholderDoc },
+    { path: '/placeholder', component  : PlaceholderDoc },
     // { path: '/progress', component     : ProgressDoc },
     { path: '/table', component        : TableDoc },
     { path: '/text', component         : TextDoc },
