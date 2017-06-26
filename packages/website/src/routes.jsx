@@ -22,7 +22,7 @@ import ButtonDoc from 'react-uikit-button/docs-lib/button-doc';
 import CodeblockDoc from 'react-uikit-codeblock/docs-lib/codeblock-doc';
 import CommentDoc from 'react-uikit-comment/docs-lib/comment-doc';
 import CommentListDoc from 'react-uikit-comment-list/docs-lib/comment-list-doc';
-// import DropdownDoc from './dropdown-doc.jsx';
+import DropdownDoc from 'react-uikit-dropdown/docs-lib/dropdown-doc';
 import FormDoc from 'react-uikit-form/docs-lib/form-doc';
 import FlexDoc from 'react-uikit-flex/docs-lib/flex-doc';
 import GridDoc from 'react-uikit-grid/docs-lib/grid-doc';
@@ -151,7 +151,7 @@ const routes = {
     { path: '/codeblock', component    : CodeblockDoc },
     { path: '/comment', component      : CommentDoc },
     { path: '/comment-list', component : CommentListDoc },
-    // { path: '/dropdown', component     : DropdownDoc },
+    { path: '/dropdown', component     : DropdownDoc },
     { path: '/flex', component         : FlexDoc },
     { path: '/form', component         : FormDoc },
     { path: '/grid', component         : GridDoc },
