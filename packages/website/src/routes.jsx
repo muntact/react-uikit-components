@@ -30,7 +30,7 @@ import IconsDoc from 'react-uikit-icons/docs-lib/icons-doc';
 import ImgDoc from 'react-uikit-img/docs-lib/img-doc';
 import ImgGalleryDoc from 'react-uikit-img-gallery/docs-lib/img-gallery-doc';
 import ListDoc from 'react-uikit-list/docs-lib/list-doc';
-// import ModalDoc from './modal-doc.jsx';
+import ModalDoc from 'react-uikit-modal/docs-lib/modal-doc';
 import NavDoc from 'react-uikit-nav/docs-lib/nav-doc';
 import NoteDoc from 'react-uikit-note/docs-lib/note-doc';
 // import NotifyDoc from './notify-doc.jsx';
@@ -159,7 +159,7 @@ const routes = {
     { path: '/img',  component         : ImgDoc },
     { path: '/img-gallery', component  : ImgGalleryDoc },
     { path: '/list', component         : ListDoc },
-    // { path: '/modal', component        : ModalDoc },
+    { path: '/modal', component        : ModalDoc },
     { path: '/nav', component          : NavDoc },
     // { path: '/notify', component       : NotifyDoc },
     { path: '/note', component         : NoteDoc },
