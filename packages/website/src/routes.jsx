@@ -27,7 +27,7 @@ import FormDoc from 'react-uikit-form/docs-lib/form-doc';
 import FlexDoc from 'react-uikit-flex/docs-lib/flex-doc';
 import GridDoc from 'react-uikit-grid/docs-lib/grid-doc';
 import IconsDoc from 'react-uikit-icons/docs-lib/icons-doc';
-// import ImgDoc from './img-doc.jsx';
+import ImgDoc from 'react-uikit-img/docs-lib/img-doc';
 import ImgGalleryDoc from 'react-uikit-img-gallery/docs-lib/img-gallery-doc';
 import ListDoc from 'react-uikit-list/docs-lib/list-doc';
 // import ModalDoc from './modal-doc.jsx';
@@ -156,7 +156,7 @@ const routes = {
     { path: '/form', component         : FormDoc },
     { path: '/grid', component         : GridDoc },
     { path: '/icons', component        : IconsDoc },
-    // { path: '/img',  component         : ImgDoc },
+    { path: '/img',  component         : ImgDoc },
     { path: '/img-gallery', component  : ImgGalleryDoc },
     { path: '/list', component         : ListDoc },
     // { path: '/modal', component        : ModalDoc },
