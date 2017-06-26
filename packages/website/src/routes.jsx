@@ -33,7 +33,7 @@ import ListDoc from 'react-uikit-list/docs-lib/list-doc';
 import ModalDoc from 'react-uikit-modal/docs-lib/modal-doc';
 import NavDoc from 'react-uikit-nav/docs-lib/nav-doc';
 import NoteDoc from 'react-uikit-note/docs-lib/note-doc';
-// import NotifyDoc from './notify-doc.jsx';
+import NotifyDoc from 'react-uikit-notify/docs-lib/notify-doc';
 import OverlayDoc from 'react-uikit-overlay/docs-lib/overlay-doc';
 import PanelDoc from 'react-uikit-panel/docs-lib/panel-doc';
 import PlaceholderDoc from 'react-uikit-placeholder/docs-lib/placeholder-doc';
@@ -161,7 +161,7 @@ const routes = {
     { path: '/list', component         : ListDoc },
     { path: '/modal', component        : ModalDoc },
     { path: '/nav', component          : NavDoc },
-    // { path: '/notify', component       : NotifyDoc },
+    { path: '/notify', component       : NotifyDoc },
     { path: '/note', component         : NoteDoc },
     { path: '/overlay', component      : OverlayDoc },
     { path: '/panel', component        : PanelDoc },
