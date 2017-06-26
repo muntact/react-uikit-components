@@ -37,7 +37,7 @@ import NotifyDoc from 'react-uikit-notify/docs-lib/notify-doc';
 import OverlayDoc from 'react-uikit-overlay/docs-lib/overlay-doc';
 import PanelDoc from 'react-uikit-panel/docs-lib/panel-doc';
 import PlaceholderDoc from 'react-uikit-placeholder/docs-lib/placeholder-doc';
-// import ProgressDoc from './progress-doc.jsx';
+import ProgressDoc from 'react-uikit-progress/docs-lib/progress-doc';
 import TableDoc from 'react-uikit-table/docs-lib/table-doc';
 import TextDoc from 'react-uikit-text/docs-lib/text-doc';
 import ThumbnailDoc from 'react-uikit-thumbnail/docs-lib/thumbnail-doc';
@@ -166,7 +166,7 @@ const routes = {
     { path: '/overlay', component      : OverlayDoc },
     { path: '/panel', component        : PanelDoc },
     { path: '/placeholder', component  : PlaceholderDoc },
-    // { path: '/progress', component     : ProgressDoc },
+    { path: '/progress', component     : ProgressDoc },
     { path: '/table', component        : TableDoc },
     { path: '/text', component         : TextDoc },
     { path: '/thumbnail', component    : ThumbnailDoc }
