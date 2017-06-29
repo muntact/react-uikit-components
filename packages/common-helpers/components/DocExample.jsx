@@ -7,7 +7,7 @@ const DocExample = ({ name, description, table, jsx, snippet, scroll = null }) =
       <h2>{name}</h2>
     }
     { description &&
-      <p>{description}</p>
+      <div data-markdown-omit-wrapper="true">{description}</div>
     }
     { table &&
       table
@@ -33,10 +33,10 @@ const DocExample = ({ name, description, table, jsx, snippet, scroll = null }) =
 );
 
 DocExample.propTypes = {
-  description: PropTypes.string,
-  jsx: PropTypes.node.isRequired,
+  description: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
+  jsx: PropTypes.node,
   name: PropTypes.string,
-  snippet: PropTypes.string.isRequired,
+  snippet: PropTypes.string,
   scroll: PropTypes.string,
   table: PropTypes.node,
 };
