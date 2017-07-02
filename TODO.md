@@ -1,6 +1,7 @@
 Things to fix:
 
-* [ ] Hoist dependancies that are needed
+* [x] Hoist dependancies that are needed
+* [ ] Delete cheerio from all packages :P
 * [ ] rename the common-helpers dir to the package name
 * [ ] Deal with the note tags at the bottom of examples.
 * [ ] Compare the docs and compile diffs to fix
