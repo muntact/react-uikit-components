@@ -3,7 +3,13 @@ import Alert from '../lib/alert';
 
 import Button from 'react-uikit-button';
 import uikit from 'react-uikit-base';
-import velocity from 'velocity-animate';
+
+let velocity;
+if (!process.env.NODE_ENV === 'mdGenerator') {
+  velocity = require('velocity-animate');
+} else {
+  velocity = () => {};
+}
 
 import DocHeader from '../../common-helpers/lib/DocHeader';
 import DocExample from '../../common-helpers/lib/DocExample';
@@ -12,15 +18,7 @@ import DocFooter from '../../common-helpers/lib/DocFooter';
 const handleAlertOpen = (e, kitid) => {
   e.preventDefault();
   const element = uikit.helpers.getElement(kitid);
-
-  velocity(
-    element,
-    {
-      opacity: [1, 0.5],
-      translateX: [0, -300]
-    },
-    {display: 'block'}
-  );
+  velocity(element, { opacity: [1, 0.5], translateX: [0, -300] }, {display: 'block'});
 };
 
 
@@ -28,14 +26,7 @@ const handleAlertClose = (e, kitid) => {
   e.preventDefault();
   const element = uikit.helpers.getElement(kitid);
 
-  velocity(
-    element,
-    {
-      opacity: [0, 1],
-      translateX: [-300, 0]
-    },
-    {display: 'block'}
-  );
+  velocity(element, { opacity: [0, 1], translateX: [-300, 0] },  {display: 'block'});
 };
 
 const name = 'Alert';
@@ -60,27 +51,13 @@ const alertOpenString = `const handleAlertOpen = (e, kitid) => {
   e.preventDefault();
   const element = uikit.helpers.getElement(kitid);
 
-  velocity(
-    element,
-    {
-      opacity: [1, 0.5],
-      translateX: [0, -300]
-    },
-    {display: 'block'}
-  );
+  velocity(element, { opacity: [1, 0.5], translateX: [0, -300] }, {display: 'block'});
 };`;
 const alertCloseString = `handleAlertClose = (e, kitid) => {
   e.preventDefault();
   const element = uikit.helpers.getElement(kitid);
 
-  velocity(
-    element,
-    {
-      opacity: [0, 1],
-      translateX: [-300, 0]
-    },
-    {display: 'block'}
-  );
+  velocity(element, { opacity: [0, 1], translateX: [-300, 0] },  {display: 'block'});
 };`;
 
 const basicExample = (
@@ -115,7 +92,7 @@ const sizeExample = <Alert show large ><h1>Important notice</h1>{loremIpsumStrin
 const sizeSnippet = `<Alert show large>\n  <h1>Important notice</h1>\n  ${loremIpsumString}\n</Alert>`;
 
 const AlertDoc = (props) => (
-  <div>
+  <div data-markdown-omit-wrapper>
     <DocHeader {... { name, npmName, summary }} />
     <DocExample
       description={<div>

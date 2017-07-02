@@ -328,7 +328,7 @@ const textWrapSnippet = `
   </Grid>`;
 
 const TextDoc = (props) => (
-  <div>
+  <div data-markdown-omit-wrapper="true">
     <DocHeader {... { name, npmName }} />
     <DocExample
       name="Text Types"

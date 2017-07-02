@@ -1,6 +1,5 @@
 import React from 'react';
 import Article from '../lib/article';
-// import Table from 'react-uikit-table';
 import Note from 'react-uikit-note';
 
 import DocHeader from '../../common-helpers/lib/DocHeader';

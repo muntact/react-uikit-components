@@ -3,11 +3,17 @@ import React, { PropTypes } from 'react';
 import Button from 'react-uikit-button';
 import Table from 'react-uikit-table';
 import Modal from '../lib/modal';
-import velocity from 'velocity-animate';
 
 import DocHeader from '../../common-helpers/lib/DocHeader';
 import DocExample from '../../common-helpers/lib/DocExample';
 import DocFooter from '../../common-helpers/lib/DocFooter';
+
+let velocity;
+if (!process.env.NODE_ENV === 'mdGenerator') {
+  velocity = require('velocity-animate');
+} else {
+  velocity = () => {};
+}
 
 const name = 'Modal';
 const npmName = 'react-uikit-modal';

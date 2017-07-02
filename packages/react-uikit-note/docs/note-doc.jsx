@@ -45,7 +45,7 @@ const contextSnippet = `
   </div>`;
 
 const NoteDoc = (props) => (
-  <div>
+  <div data-markdown-omit-wrapper="true">
     <DocHeader {... { name, npmName, summary }} />
     <DocExample
       description={<span>The Note component consists of a paragraph with a prefixed bagde. To create a Note component add a label for the badge prop <code>badge='NOTE'</code> and either add text as a child or to the <code>body</code> prop. If no bagde is provided the default badge is 'Note'</span>}

@@ -9,7 +9,7 @@ const npmName = 'react-uikit-codeblock';
 const summary = 'Displays code inside of a block.';
 
 const snippet = `<Codeblock>
-  {<div>...<div>}
+  {<div>...</div>}
 </Codeblock>`;
 
 const CodeblockDoc = (props) => (

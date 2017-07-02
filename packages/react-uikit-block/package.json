@@ -19,7 +19,7 @@
     "build": "babel -d lib/ src/  && date",
     "build:watch": "watch 'npm run build' ./src",
     "build:docs": "babel -d docs-lib/ docs/  && date",
-    "generateMD": "babel-node ../common-helpers/reactToMd.js ../react-uikit-block/docs/block-doc.jsx > README.md",
+    "generateMD": "NODE_ENV='mdGenerator' babel-node ../common-helpers/reactToMd.js ./docs-lib/block-doc.js > README.md",
     "lint": "eslint --quiet ./src/**  && date  || true  && date",
     "lint:watch": "watch 'npm run lint' ./",
     "lint:docs": "eslint --quiet ./docs/**  && date || true && date",

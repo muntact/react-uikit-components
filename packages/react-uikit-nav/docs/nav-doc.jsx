@@ -1,5 +1,4 @@
 import React, { PropTypes } from 'react';
-import velocity from 'velocity-animate';
 import Droppdown from 'react-uikit-dropdown';
 import { helpers } from 'react-uikit-base';
 import Grid from 'react-uikit-grid';
@@ -11,6 +10,13 @@ import NavItem from '../lib/nav-item';
 import DocHeader from '../../common-helpers/lib/DocHeader';
 import DocExample from '../../common-helpers/lib/DocExample';
 import DocFooter from '../../common-helpers/lib/DocFooter';
+
+let velocity;
+if (!process.env.NODE_ENV === 'mdGenerator') {
+  velocity = require('velocity-animate');
+} else {
+  velocity = () => {};
+}
 
 const name = 'Nav';
 const npmName = 'react-uikit-nav';

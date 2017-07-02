@@ -1,6 +1,5 @@
 import React, { PropTypes } from 'react';
 
-import velocity from 'velocity-animate';
 import Table from 'react-uikit-table';
 import Grid from 'react-uikit-grid';
 import List from 'react-uikit-list';
@@ -9,6 +8,13 @@ import Dropdown from '../lib/dropdown';
 import DocHeader from '../../common-helpers/lib/DocHeader';
 import DocExample from '../../common-helpers/lib/DocExample';
 import DocFooter from '../../common-helpers/lib/DocFooter';
+
+let velocity;
+if (!process.env.NODE_ENV === 'mdGenerator') {
+  velocity = require('velocity-animate');
+} else {
+  velocity = () => {};
+}
 
 const name = 'Dropdown';
 const npmName = 'react-uikit-dropdown';
@@ -115,7 +121,7 @@ const positionsTable = (
   ]}/>
 );
 const positionsExample = (props) => (
-  <div>
+  <div data-markdown-omit-wrapper>
     <Grid small='1-3'>
       <Dropdown noflip kitid='bottomLeftDemo' opened={props.bottomLeftDemo} margin='bottom' pos='bottom-left' trigger={{ body:'Bottom left', animate: props.animate }}>
         Bottom left dropdown

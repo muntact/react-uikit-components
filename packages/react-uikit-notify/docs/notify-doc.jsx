@@ -4,13 +4,20 @@ import Button from 'react-uikit-button';
 import Note from 'react-uikit-note';
 import Table from 'react-uikit-table';
 import uikit from 'react-uikit-base';
-import velocity from 'velocity-animate';
+
 import cuid from 'cuid';
 
 import Notify from '../lib/notify';
 import DocHeader from '../../common-helpers/lib/DocHeader';
 import DocExample from '../../common-helpers/lib/DocExample';
 import DocFooter from '../../common-helpers/lib/DocFooter';
+
+let velocity;
+if (!process.env.NODE_ENV === 'mdGenerator') {
+  velocity = require('velocity-animate');
+} else {
+  velocity = () => {};
+}
 
 const name = 'Notify';
 const npmName = 'react-uikit-notify';

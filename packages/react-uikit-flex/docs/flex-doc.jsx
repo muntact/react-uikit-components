@@ -8,7 +8,6 @@ import DocHeader from '../../common-helpers/lib/DocHeader';
 import DocExample from '../../common-helpers/lib/DocExample';
 import DocFooter from '../../common-helpers/lib/DocFooter';
 
-
 const name = 'Flex';
 const npmName = 'react-uikit-flex';
 const summary = 'Utilize the power of Flexbox to create a wide range of layouts.';
