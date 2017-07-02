@@ -3,7 +3,7 @@ import test from 'tape';
 import Form from '../lib/form';
 import FormInput from '../lib/form-input';
 import React from 'react';
-import { htmlToString, reactToString } from '../../../common/helpers/renderElement';
+import { htmlToString, reactToString } from '../../common-helpers/helpers/renderElement';
 
 
 test('form Component.', nested => {

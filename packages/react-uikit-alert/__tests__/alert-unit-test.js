@@ -2,8 +2,7 @@
 import test from 'tape';
 import Alert from '../lib/alert';
 import React from 'react';
-import renderElement from '../../../common/helpers/renderElement';
-
+import renderElement from '../../common-helpers/helpers/renderElement';
 
 test('Alert Component', nested => {
   nested.test('Renders alert component:',

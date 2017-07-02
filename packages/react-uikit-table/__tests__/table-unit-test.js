@@ -6,7 +6,7 @@ import {
   htmlToString,
   reactToDom,
   reactToString
-} from '../../../common/helpers/renderElement';
+} from '../../common-helpers/helpers/renderElement';
 
 
 const data = [

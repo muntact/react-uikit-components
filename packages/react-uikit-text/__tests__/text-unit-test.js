@@ -2,7 +2,7 @@
 import test from 'tape';
 import Text from '../lib/text';
 import React from 'react';
-import { htmlToString, reactToString } from '../../../common/helpers/renderElement';
+import { htmlToString, reactToString } from '../../common-helpers/helpers/renderElement';
 
 
 test('text Component', nested => {

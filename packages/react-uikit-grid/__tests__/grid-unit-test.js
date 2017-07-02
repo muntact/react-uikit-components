@@ -3,7 +3,7 @@
 import test from 'tape';
 import Grid from '../lib/grid';
 import React from 'react';
-import renderElement from '../../../common/helpers/renderElement';
+import renderElement from '../../common-helpers/helpers/renderElement';
 
 
 test('Grid Component', nested => {

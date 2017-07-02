@@ -2,7 +2,7 @@
 import test from 'tape';
 import ImgGroup from '../lib/img-gallery';
 import React from 'react';
-import renderElement from '../../../common/helpers/renderElement';
+import renderElement from '../../common-helpers/helpers/renderElement';
 
 
 test('img-gallery Component', nested => {
