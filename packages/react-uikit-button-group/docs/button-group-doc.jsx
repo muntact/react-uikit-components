@@ -27,7 +27,11 @@ const generateCodeSnippet = (context) =>
 </ButtonGroup>`;
 
 const contextArgs = [null, 'primary', 'success', 'danger'];
-const contextExample = generateExampleJSX(contextArgs);
+const contextExample = (
+  <div>
+    {contextArgs.map((arg) => generateExampleJSX(arg))}
+  </div>
+);
 const contextSnippet = contextArgs.map((arg) => generateCodeSnippet(arg)).join('\n');
 
 const ButtonGroupDoc = (props) => (
