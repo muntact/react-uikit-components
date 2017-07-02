@@ -4,10 +4,9 @@ import path from 'path';
 import toMarkdown from 'to-markdown';
 
 // TODO: still things to fix...
-
 const args = process.argv.slice(2);
 
-const Component = require(path.resolve(__dirname, args[0]));
+const Component = require(path.resolve(process.cwd(), args[0]));
 
 const htmString = ReactDOMServer.renderToStaticMarkup(<Component.default />);
 
@@ -81,7 +80,7 @@ String.prototype.replaceAll = function(search, replacement) {
 
 let markdown = toMarkdown(htmString, options);
 
-markdown = markdown.replaceAll(`\nundefined\n`, '');
+markdown = markdown.replaceAll(`undefined`, '');
 
 markdown = markdown + postAmble;
 
