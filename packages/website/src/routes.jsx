@@ -18,7 +18,7 @@ import BlockDoc from 'react-uikit-block/docs-lib/block-doc';
 import BreadcrumbDoc from 'react-uikit-breadcrumb/docs-lib/breadcrumb-doc';
 import ButtonDoc from 'react-uikit-button/docs-lib/button-doc';
 // TODO: fix the button group.
-// import ButtonGroupDoc from 'react-uikit-button-group/docs-lib/button-group-doc';
+import ButtonGroupDoc from 'react-uikit-button-group/docs-lib/button-group-doc';
 import CodeblockDoc from 'react-uikit-codeblock/docs-lib/codeblock-doc';
 import CommentDoc from 'react-uikit-comment/docs-lib/comment-doc';
 import CommentListDoc from 'react-uikit-comment-list/docs-lib/comment-list-doc';
@@ -147,7 +147,7 @@ const routes = {
     { path: '/block', component        : BlockDoc },
     { path: '/breadcrumb', component   : BreadcrumbDoc },
     { path: '/button', component       : ButtonDoc },
-    // { path: '/button-group', component : ButtonGroupDoc },
+    { path: '/button-group', component : ButtonGroupDoc },
     { path: '/codeblock', component    : CodeblockDoc },
     { path: '/comment', component      : CommentDoc },
     { path: '/comment-list', component : CommentListDoc },
