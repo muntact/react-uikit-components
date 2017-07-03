@@ -35,44 +35,15 @@ MIT`;
 const options = {
   converters: [
     {
-      filter: 'div',
-      replacement: function(innerHTML, node) {
-        if (node.getAttribute('data-markdown-omit-wrapper')) {
-          return `\n${innerHTML}\n`;
-        }
-      }
-    },
-    // Leave this as a seperate replacement parse...
-    {
-      filter: 'div',
-      replacement: function(innerHTML, node) {
-        if (node.getAttribute('data-markdown-omit')) {
-          return null;
-        }
-      }
+      filter: (node) => node.getAttribute('data-markdown-omit'),
+      replacement: () => '',
     },
     {
-      filter: 'section',
-      replacement: function(innerHTML, node) {
-        return `\n${innerHTML}\n`;
-      }
+      filter: ['div', 'p', 'section', 'span'],
+      replacement: (innerHTML, node) => `\n${innerHTML}\n`,
     },
-    // TODO: fix the code replacement function to output code snips
-    // with a lang param.
-    // This one doesn't seem to be working :(
-    // {
-    //   filter: 'code',
-    //   replacement: function(innerHTML, node) {
-    //     // debugger;
-    //     const lang = node.getAttribute('lang');
-    //     if (lang) {
-    //       return `\`\`\`${lang}\n${innerHTML}\n\`\`\``;
-    //     } else {
-    //       return `\`\`\`\n${innerHTML}\n\`\`\``;
-    //     }
-    //   }
-    // }
-  ]
+  ],
+  gfm: true,
 };
 
 // Add a method to the string object to regex replace all instances.

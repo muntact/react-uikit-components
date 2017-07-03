@@ -1,13 +1,13 @@
 import React, { PropTypes } from 'react';
 import Codeblock from 'react-uikit-codeblock';
 
-const DocExample = ({ name, description, table, jsx, snippet, scroll = null }) => (
+const DocExample = ({ name, description, table, jsx, snippet, scroll = null, trailingNote }) => (
   <section>
     { name &&
       <h2>{name}</h2>
     }
     { description &&
-      <div data-markdown-omit-wrapper="true">{description}</div>
+      <div>{description}</div>
     }
     { table &&
       table
@@ -28,7 +28,9 @@ const DocExample = ({ name, description, table, jsx, snippet, scroll = null }) =
         </Codeblock>
       </div>
     }
-
+    { trailingNote &&
+      trailingNote
+    }
   </section>
 );
 
@@ -39,6 +41,7 @@ DocExample.propTypes = {
   snippet: PropTypes.string,
   scroll: PropTypes.string,
   table: PropTypes.node,
+  trailingNote: PropTypes.node,
 };
 
 export default DocExample;
