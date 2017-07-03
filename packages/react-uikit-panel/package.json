@@ -11,7 +11,7 @@
     "uikit-react",
     "panel"
   ],
-  "repository": "git@github.com:otissv/react-uikit-panel.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-panel",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./lib/panel.js",

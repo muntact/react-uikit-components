@@ -12,7 +12,7 @@
     "react-uikit",
     "uikit-react"
   ],
-  "repository": "git@github.com:otissv/react-uikit-notify.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-notify",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./lib/notify.js",

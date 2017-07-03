@@ -11,7 +11,7 @@
     "react-uikit",
     "uikit-react"
   ],
-  "repository": "git@github.com:otissv/react-uikit-placeholder.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-placeholder",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./lib/placeholder.js",

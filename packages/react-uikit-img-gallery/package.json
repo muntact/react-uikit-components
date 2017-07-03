@@ -11,7 +11,7 @@
     "uikit-react",
     "img-group"
   ],
-  "repository": "git@github.com:otissv/react-uikit-img-gallery.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-img-gallery",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./lib/img-gallery.js",

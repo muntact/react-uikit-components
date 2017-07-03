@@ -11,7 +11,7 @@
     "uikit-react",
     "grid"
   ],
-  "repository": "git@github.com:otissv/react-uikit-grid.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-grid",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./lib/grid.js",

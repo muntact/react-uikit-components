@@ -11,7 +11,7 @@
     "uikit-react",
     "flex"
   ],
-  "repository": "git@github.com:otissv/react-uikit-flex.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-flex",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./lib/flex.js",

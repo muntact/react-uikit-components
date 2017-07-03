@@ -11,7 +11,7 @@
     "uikit-react",
     "table"
   ],
-  "repository": "git@github.com:otissv/react-uikit-table.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-table",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./lib/table.js",

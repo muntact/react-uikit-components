@@ -11,7 +11,7 @@
     "uikit-react",
     "overlay"
   ],
-  "repository": "git@github.com:otissv/react-uikit-overlay.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-overlay",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./lib/overlay.js",

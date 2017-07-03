@@ -11,7 +11,7 @@
     "uikit-react",
     "note"
   ],
-  "repository": "git@github.com:otissv/react-uikit-note.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-note",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./lib/note.js",

@@ -11,7 +11,7 @@
     "react-uikit",
     "uikit-react"
   ],
-  "repository": "git@github.com:otissv/react-uikit-comment.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-comment",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./lib/comment.js",

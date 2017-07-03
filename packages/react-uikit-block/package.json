@@ -11,7 +11,7 @@
     "uikit-react",
     "alert"
   ],
-  "repository": "git@github.com:otissv/react-uikit-block.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-block",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./lib/block.js",

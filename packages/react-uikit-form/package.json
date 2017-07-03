@@ -11,7 +11,7 @@
     "uikit-react",
     "rect-form"
   ],
-  "repository": "git@github.com:otissv/react-uikit-form.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-form",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "lib/form.js",

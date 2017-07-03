@@ -13,7 +13,7 @@
     "ui-component",
     "button"
   ],
-  "repository": "git@github.com:otissv/react-uikit-button.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-button",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./lib/button.js",

@@ -11,7 +11,7 @@
     "uikit-react",
     "lists"
   ],
-  "repository": "git@github.com:otissv/react-uikit-list.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-list",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./lib/list.js",

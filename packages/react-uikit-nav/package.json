@@ -11,7 +11,7 @@
     "uikit-react",
     "navs"
   ],
-  "repository": "git@github.com:otissv/react-uikit-nav.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-nav",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./lib/nav.js",

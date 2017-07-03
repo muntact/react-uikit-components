@@ -13,7 +13,7 @@
     "ui-components",
     "trigger"
   ],
-  "repository": "git@github.com:otissv/react-uikit-trigger.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-trigger",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./lib/trigger.js",

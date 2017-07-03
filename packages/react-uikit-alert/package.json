@@ -11,6 +11,7 @@
     "uikit-react",
     "alert"
   ],
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-alert",
   "repository": "git@github.com:otissv/react-uikit-alert.git",
   "author": "Otis Virginie",
   "license": "MIT",
