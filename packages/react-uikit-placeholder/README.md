@@ -14,7 +14,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
     // ES5
     var Placeholder = require('react-uikit-placeholder');
 
-<span class="uk-badge" data-kitid="cj4n6egov00039vuf6pqcwnu6">note</span> Placeholder component does not include any drag and drop functionality
+<span class="uk-badge">note</span> Placeholder component does not include any drag and drop functionality
 
 
 
@@ -34,7 +34,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6egp500089vufspsqg4il">
+<table class="uk-table">
 
 <thead>
 
@@ -50,11 +50,11 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6egp500089vufspsqg4il">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6egp500089vufspsqg4il">large</td>
+<td colspan="1">large</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6egp500089vufspsqg4il">bool</td>
+<td>bool</td>
 
 </tr>
 

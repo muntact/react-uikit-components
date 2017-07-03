@@ -60,7 +60,7 @@ The `timeout` property sets the amount of time in milliseconds a message is visi
 
 A notification can be given a context to indicate an info, success, warning or a danger status. The default context is info;
 
-<table class="uk-table" data-kitid="cj4n6f0mq0009bpuf4bi68ovz"><caption>Notification message context table.</caption>
+<table class="uk-table"><caption>Notification message context table.</caption>
 
 <thead>
 
@@ -78,43 +78,43 @@ A notification can be given a context to indicate an info, success, warning or a
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6f0mq0009bpuf4bi68ovz">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6f0mq0009bpuf4bi68ovz">Info</td>
+<td colspan="1">Info</td>
 
-<td colspan="1" data-kitid="tabledata-[0, 1]-cj4n6f0mq0009bpuf4bi68ovz">{ context: 'info' }</td>
+<td colspan="1">{ context: 'info' }</td>
 
-<td data-kitid="tabledata-[0, 2]-cj4n6f0mq0009bpuf4bi68ovz"><button data-kitid="cj4n6f0my000abpufx1ijkeqz" class="uk-button  uk-width-1-1" type="button">Info</button></td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6f0mq0009bpuf4bi68ovz">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6f0mq0009bpuf4bi68ovz">Success</td>
-
-<td colspan="1" data-kitid="tabledata-[1, 1]-cj4n6f0mq0009bpuf4bi68ovz">{ context: 'success' }</td>
-
-<td data-kitid="tabledata-[1, 2]-cj4n6f0mq0009bpuf4bi68ovz"><button data-kitid="cj4n6f0n2000bbpufwsu3vp84" class="uk-button  uk-width-1-1" type="button">Success</button></td>
+<td>Info</button></td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6f0mq0009bpuf4bi68ovz">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6f0mq0009bpuf4bi68ovz">Warning</td>
+<td colspan="1">Success</td>
 
-<td colspan="1" data-kitid="tabledata-[2, 1]-cj4n6f0mq0009bpuf4bi68ovz">{ context: 'warning' }</td>
+<td colspan="1">{ context: 'success' }</td>
 
-<td data-kitid="tabledata-[2, 2]-cj4n6f0mq0009bpuf4bi68ovz"><button data-kitid="cj4n6f0n5000cbpufx1pxhs59" class="uk-button  uk-width-1-1" type="button">Warning</button></td>
+<td>Success</button></td>
 
 </tr>
 
-<tr data-kitid="tablerow-3-cj4n6f0mq0009bpuf4bi68ovz">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6f0mq0009bpuf4bi68ovz">Danger</td>
+<td colspan="1">Warning</td>
 
-<td colspan="1" data-kitid="tabledata-[3, 1]-cj4n6f0mq0009bpuf4bi68ovz">{ context: 'danger' }</td>
+<td colspan="1">{ context: 'warning' }</td>
 
-<td data-kitid="tabledata-[3, 2]-cj4n6f0mq0009bpuf4bi68ovz"><button data-kitid="cj4n6f0n9000dbpufr8anwqou" class="uk-button  uk-width-1-1" type="button">Danger</button></td>
+<td>Warning</button></td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">Danger</td>
+
+<td colspan="1">{ context: 'danger' }</td>
+
+<td>Danger</button></td>
 
 </tr>
 
@@ -126,7 +126,7 @@ A notification can be given a context to indicate an info, success, warning or a
 
 Notification's position can be adjusted to locations of the screens edges by changing the notifications `pos` property. The default postion is s `top-left`.
 
-<table class="uk-table" data-kitid="cj4n6f0ne000ebpufy0stk2nm"><caption>Notification message context table.</caption>
+<table class="uk-table"><caption>Notification message context table.</caption>
 
 <thead>
 
@@ -144,63 +144,63 @@ Notification's position can be adjusted to locations of the screens edges by cha
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6f0ne000ebpufy0stk2nm">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6f0ne000ebpufy0stk2nm">top-center</td>
+<td colspan="1">top-center</td>
 
-<td colspan="1" data-kitid="tabledata-[0, 1]-cj4n6f0ne000ebpufy0stk2nm">{ pos: 'top-center' }</td>
+<td colspan="1">{ pos: 'top-center' }</td>
 
-<td data-kitid="tabledata-[0, 2]-cj4n6f0ne000ebpufy0stk2nm"><button data-kitid="cj4n6f0nl000fbpuftmb6oj5g" class="uk-button  uk-width-1-1" type="button">Top Center</button></td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6f0ne000ebpufy0stk2nm">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6f0ne000ebpufy0stk2nm">top-left</td>
-
-<td colspan="1" data-kitid="tabledata-[1, 1]-cj4n6f0ne000ebpufy0stk2nm">{ pos: 'top-left' }</td>
-
-<td data-kitid="tabledata-[1, 2]-cj4n6f0ne000ebpufy0stk2nm"><button data-kitid="cj4n6f0no000gbpufmow5oeha" class="uk-button  uk-width-1-1" type="button">Top Left</button></td>
+<td>Top Center</button></td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6f0ne000ebpufy0stk2nm">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6f0ne000ebpufy0stk2nm">top-right</td>
+<td colspan="1">top-left</td>
 
-<td colspan="1" data-kitid="tabledata-[2, 1]-cj4n6f0ne000ebpufy0stk2nm">{ pos: 'top-right' }</td>
+<td colspan="1">{ pos: 'top-left' }</td>
 
-<td data-kitid="tabledata-[2, 2]-cj4n6f0ne000ebpufy0stk2nm"><button data-kitid="cj4n6f0nq000hbpufdhuc8hab" class="uk-button  uk-width-1-1" type="button">Top Right</button></td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6f0ne000ebpufy0stk2nm">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6f0ne000ebpufy0stk2nm">bottom-center</td>
-
-<td colspan="1" data-kitid="tabledata-[3, 1]-cj4n6f0ne000ebpufy0stk2nm">{ pos: 'bottom-center' }</td>
-
-<td data-kitid="tabledata-[3, 2]-cj4n6f0ne000ebpufy0stk2nm"><button data-kitid="cj4n6f0nu000ibpuf2gjrrbnl" class="uk-button  uk-width-1-1" type="button">Bottom Center</button></td>
+<td>Top Left</button></td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6f0ne000ebpufy0stk2nm">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6f0ne000ebpufy0stk2nm">bottom-left</td>
+<td colspan="1">top-right</td>
 
-<td colspan="1" data-kitid="tabledata-[4, 1]-cj4n6f0ne000ebpufy0stk2nm">{ pos: 'bottom-left' }</td>
+<td colspan="1">{ pos: 'top-right' }</td>
 
-<td data-kitid="tabledata-[4, 2]-cj4n6f0ne000ebpufy0stk2nm"><button data-kitid="cj4n6f0ny000jbpufk8h6nlri" class="uk-button  uk-width-1-1" type="button">Bottom Left</button></td>
+<td>Top Right</button></td>
 
 </tr>
 
-<tr data-kitid="tablerow-5-cj4n6f0ne000ebpufy0stk2nm">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6f0ne000ebpufy0stk2nm">bottom-right</td>
+<td colspan="1">bottom-center</td>
 
-<td colspan="1" data-kitid="tabledata-[5, 1]-cj4n6f0ne000ebpufy0stk2nm">{ pos: 'bottom-right' }</td>
+<td colspan="1">{ pos: 'bottom-center' }</td>
 
-<td data-kitid="tabledata-[5, 2]-cj4n6f0ne000ebpufy0stk2nm"><button data-kitid="cj4n6f0o3000kbpufvyhrvkq5" class="uk-button  uk-width-1-1" type="button">Bottom Right</button></td>
+<td>Bottom Center</button></td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">bottom-left</td>
+
+<td colspan="1">{ pos: 'bottom-left' }</td>
+
+<td>Bottom Left</button></td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">bottom-right</td>
+
+<td colspan="1">{ pos: 'bottom-right' }</td>
+
+<td>Bottom Right</button></td>
 
 </tr>
 
@@ -212,7 +212,7 @@ Notification's position can be adjusted to locations of the screens edges by cha
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6f0o8000lbpuf6nwbo8cg">
+<table class="uk-table">
 
 <thead>
 
@@ -228,19 +228,19 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6f0o8000lbpuf6nwbo8cg">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6f0o8000lbpuf6nwbo8cg">message</td>
+<td colspan="1">message</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6f0o8000lbpuf6nwbo8cg">array</td>
+<td>array</td>
 
 </tr>
 
-<tr data-kitid="tablerow-1-cj4n6f0o8000lbpuf6nwbo8cg">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6f0o8000lbpuf6nwbo8cg">pos</td>
+<td colspan="1">pos</td>
 
-<td data-kitid="tabledata-[1, 1]-cj4n6f0o8000lbpuf6nwbo8cg">oneOf: 'top-center' | 'top-left' | 'top-right' | 'bottom-center' 'bottom-left' | 'bottom-right'</td>
+<td>oneOf: 'top-center' | 'top-left' | 'top-right' | 'bottom-center' 'bottom-left' | 'bottom-right'</td>
 
 </tr>
 

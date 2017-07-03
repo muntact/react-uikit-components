@@ -104,7 +104,7 @@ Add the <code>divider</code> prop to separate grid columns with lines. To separa
       </Grid>
     </div>
 
-<span class="uk-badge" data-kitid="cj4n6faa20015cgufk6l6c7uk">NOTE</span> For horizontal divider use `<hr class="uk-grid-divider" />` can be used between grids.
+<span class="uk-badge" />` can be used between grids.
 
 ## Match column heights
 
@@ -119,7 +119,7 @@ To match grid column heights add the <code>match</code> prop.
       <Panel col='1-3'box>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</Panel>
     </Grid>
 
-<span class="uk-badge" data-kitid="cj4n6faah001ccguf8d9n57qb">NOTE</span> If grid columns extend to a width of 100%, their heights will no longer be matched. This makes sense, for example, if they stack vertically in narrower viewports.
+<span class="uk-badge">NOTE</span> If grid columns extend to a width of 100%, their heights will no longer be matched. This makes sense, for example, if they stack vertically in narrower viewports.
 
 ## Even grid columns
 
@@ -141,7 +141,7 @@ To create a grid whose child elements are evenly split, no need to apply the sam
 
 Responsive grid properties can be applied to all direct children of the <code>Grid</code> components by adding one of the width props to the grid itself. This will maintain evenly sized grid columns, regardless of the device.
 
-<table class="uk-table" data-kitid="cj4n6faay001lcgufks2p8w0k">
+<table class="uk-table">
 
 <thead>
 
@@ -157,43 +157,43 @@ Responsive grid properties can be applied to all direct children of the <code>Gr
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6faay001lcgufks2p8w0k">
+<tr>
 
-<td colspan="-1" data-kitid="tabledata-[0, 0]-cj4n6faay001lcgufks2p8w0k">`widths='value'`</td>
+<td colspan="-1">`widths='value'`</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6faay001lcgufks2p8w0k">Affects direct children elements on all device.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6faay001lcgufks2p8w0k">
-
-<td colspan="-1" data-kitid="tabledata-[1, 0]-cj4n6faay001lcgufks2p8w0k">`small='value'`</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6faay001lcgufks2p8w0k">Affects direct children elements on 480px and higher devices.</td>
+<td>Affects direct children elements on all device.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6faay001lcgufks2p8w0k">
+<tr>
 
-<td colspan="-1" data-kitid="tabledata-[2, 0]-cj4n6faay001lcgufks2p8w0k">`medium='value'`</td>
+<td colspan="-1">`small='value'`</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6faay001lcgufks2p8w0k">Affects direct children elements on 768px and higher devices.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6faay001lcgufks2p8w0k">
-
-<td colspan="-1" data-kitid="tabledata-[3, 0]-cj4n6faay001lcgufks2p8w0k">`large='value`</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6faay001lcgufks2p8w0k">Affects direct children elements on 960px and higher devices.</td>
+<td>Affects direct children elements on 480px and higher devices.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6faay001lcgufks2p8w0k">
+<tr>
 
-<td colspan="-1" data-kitid="tabledata-[4, 0]-cj4n6faay001lcgufks2p8w0k">`xlarge='value'`</td>
+<td colspan="-1">`medium='value'`</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6faay001lcgufks2p8w0k">Affects direct children elements on 1220px and higher devices.</td>
+<td>Affects direct children elements on 768px and higher devices.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="-1">`large='value`</td>
+
+<td>Affects direct children elements on 960px and higher devices.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="-1">`xlarge='value'`</td>
+
+<td>Affects direct children elements on 1220px and higher devices.</td>
 
 </tr>
 
@@ -224,7 +224,7 @@ To indent the left grid margin add the <code>indent</code> prop to the Grid comp
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6fabn001ucgufazey32bw">
+<table class="uk-table">
 
 <thead>
 
@@ -240,75 +240,75 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fabn001ucgufazey32bw">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fabn001ucgufazey32bw">divider</td>
+<td colspan="1">divider</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fabn001ucgufazey32bw">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6fabn001ucgufazey32bw">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fabn001ucgufazey32bw">gutter</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6fabn001ucgufazey32bw">oneOf: 'small' | 'medium' | 'collapsed'</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6fabn001ucgufazey32bw">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6fabn001ucgufazey32bw">indent</td>
+<td colspan="1">gutter</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6fabn001ucgufazey32bw">oneOf: 'col' | 'values'</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6fabn001ucgufazey32bw">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6fabn001ucgufazey32bw">match</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6fabn001ucgufazey32bw">bool</td>
+<td>oneOf: 'small' | 'medium' | 'collapsed'</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6fabn001ucgufazey32bw">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6fabn001ucgufazey32bw">medium</td>
+<td colspan="1">indent</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6fabn001ucgufazey32bw">oneOf: 'col' | 'values'</td>
-
-</tr>
-
-<tr data-kitid="tablerow-5-cj4n6fabn001ucgufazey32bw">
-
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6fabn001ucgufazey32bw">small</td>
-
-<td data-kitid="tabledata-[5, 1]-cj4n6fabn001ucgufazey32bw">oneOf: 'col' | 'values'</td>
+<td>oneOf: 'col' | 'values'</td>
 
 </tr>
 
-<tr data-kitid="tablerow-6-cj4n6fabn001ucgufazey32bw">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[6, 0]-cj4n6fabn001ucgufazey32bw">type</td>
+<td colspan="1">match</td>
 
-<td data-kitid="tabledata-[6, 1]-cj4n6fabn001ucgufazey32bw">oneOf: 'block' | 'list'</td>
-
-</tr>
-
-<tr data-kitid="tablerow-7-cj4n6fabn001ucgufazey32bw">
-
-<td colspan="1" data-kitid="tabledata-[7, 0]-cj4n6fabn001ucgufazey32bw">widths</td>
-
-<td data-kitid="tabledata-[7, 1]-cj4n6fabn001ucgufazey32bw">oneOf: 'col' | 'values'</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-8-cj4n6fabn001ucgufazey32bw">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[8, 0]-cj4n6fabn001ucgufazey32bw">xlarge</td>
+<td colspan="1">medium</td>
 
-<td data-kitid="tabledata-[8, 1]-cj4n6fabn001ucgufazey32bw">oneOf: 'col' | 'values'</td>
+<td>oneOf: 'col' | 'values'</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">small</td>
+
+<td>oneOf: 'col' | 'values'</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">type</td>
+
+<td>oneOf: 'block' | 'list'</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">widths</td>
+
+<td>oneOf: 'col' | 'values'</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">xlarge</td>
+
+<td>oneOf: 'col' | 'values'</td>
 
 </tr>
 

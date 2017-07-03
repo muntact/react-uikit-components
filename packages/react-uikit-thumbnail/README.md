@@ -55,7 +55,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6f3me000gc0ufbu5njwwh">
+<table class="uk-table">
 
 <thead>
 
@@ -71,83 +71,83 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6f3me000gc0ufbu5njwwh">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6f3me000gc0ufbu5njwwh">height</td>
+<td colspan="1">height</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6f3me000gc0ufbu5njwwh">string</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6f3me000gc0ufbu5njwwh">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6f3me000gc0ufbu5njwwh">img</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6f3me000gc0ufbu5njwwh">object: See Img component props</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6f3me000gc0ufbu5njwwh">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6f3me000gc0ufbu5njwwh">medium</td>
+<td colspan="1">img</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6f3me000gc0ufbu5njwwh">object: See Img component props</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6f3me000gc0ufbu5njwwh">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6f3me000gc0ufbu5njwwh">large</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6f3me000gc0ufbu5njwwh">object: See Img component props</td>
+<td>object: See Img component props</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6f3me000gc0ufbu5njwwh">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6f3me000gc0ufbu5njwwh">small</td>
+<td colspan="1">medium</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6f3me000gc0ufbu5njwwh">object: See Img component props</td>
-
-</tr>
-
-<tr data-kitid="tablerow-5-cj4n6f3me000gc0ufbu5njwwh">
-
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6f3me000gc0ufbu5njwwh">src</td>
-
-<td data-kitid="tabledata-[5, 1]-cj4n6f3me000gc0ufbu5njwwh">string</td>
+<td>object: See Img component props</td>
 
 </tr>
 
-<tr data-kitid="tablerow-6-cj4n6f3me000gc0ufbu5njwwh">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[6, 0]-cj4n6f3me000gc0ufbu5njwwh">size</td>
+<td colspan="1">large</td>
 
-<td data-kitid="tabledata-[6, 1]-cj4n6f3me000gc0ufbu5njwwh">oneOf: 'large' | 'medium' | 'small' | 'mini' | 'expand'</td>
-
-</tr>
-
-<tr data-kitid="tablerow-7-cj4n6f3me000gc0ufbu5njwwh">
-
-<td colspan="1" data-kitid="tabledata-[7, 0]-cj4n6f3me000gc0ufbu5njwwh">type</td>
-
-<td data-kitid="tabledata-[7, 1]-cj4n6f3me000gc0ufbu5njwwh">oneOf: 'block' | 'figure' | 'link'. (Default is block)</td>
+<td>object: See Img component props</td>
 
 </tr>
 
-<tr data-kitid="tablerow-8-cj4n6f3me000gc0ufbu5njwwh">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[8, 0]-cj4n6f3me000gc0ufbu5njwwh">width</td>
+<td colspan="1">small</td>
 
-<td data-kitid="tabledata-[8, 1]-cj4n6f3me000gc0ufbu5njwwh">string</td>
+<td>object: See Img component props</td>
 
 </tr>
 
-<tr data-kitid="tablerow-9-cj4n6f3me000gc0ufbu5njwwh">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[9, 0]-cj4n6f3me000gc0ufbu5njwwh">xlarge</td>
+<td colspan="1">src</td>
 
-<td data-kitid="tabledata-[9, 1]-cj4n6f3me000gc0ufbu5njwwh">object: See Img component props</td>
+<td>string</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">size</td>
+
+<td>oneOf: 'large' | 'medium' | 'small' | 'mini' | 'expand'</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">type</td>
+
+<td>oneOf: 'block' | 'figure' | 'link'. (Default is block)</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">width</td>
+
+<td>string</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">xlarge</td>
+
+<td>object: See Img component props</td>
 
 </tr>
 

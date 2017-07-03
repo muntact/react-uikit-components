@@ -18,7 +18,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 The Breadcrumb component consists of links which are aligned side by side and separated by a divider.
 
-<table class="uk-table" data-kitid="cj4n6ennj0002akuf3ceexvl0">
+<table class="uk-table">
 
 <thead>
 
@@ -34,27 +34,27 @@ The Breadcrumb component consists of links which are aligned side by side and se
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6ennj0002akuf3ceexvl0">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6ennj0002akuf3ceexvl0">link</td>
+<td colspan="1">link</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6ennj0002akuf3ceexvl0">Creates breadcrumb item as a Link</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6ennj0002akuf3ceexvl0">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6ennj0002akuf3ceexvl0">acive</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6ennj0002akuf3ceexvl0">Shows the breadcrumb item as active</td>
+<td>Creates breadcrumb item as a Link</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6ennj0002akuf3ceexvl0">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6ennj0002akuf3ceexvl0">disabled</td>
+<td colspan="1">acive</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6ennj0002akuf3ceexvl0">Disables the breadcrumb Item</td>
+<td>Shows the breadcrumb item as active</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">disabled</td>
+
+<td>Disables the breadcrumb Item</td>
 
 </tr>
 
@@ -77,7 +77,7 @@ The Breadcrumb component consists of links which are aligned side by side and se
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6enoh0004akufwb0sxd0y">
+<table class="uk-table">
 
 <thead>
 
@@ -93,19 +93,19 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6enoh0004akufwb0sxd0y">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6enoh0004akufwb0sxd0y">items</td>
+<td colspan="1">items</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6enoh0004akufwb0sxd0y">array</td>
+<td>array</td>
 
 </tr>
 
-<tr data-kitid="tablerow-1-cj4n6enoh0004akufwb0sxd0y">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6enoh0004akufwb0sxd0y">type</td>
+<td colspan="1">type</td>
 
-<td data-kitid="tabledata-[1, 1]-cj4n6enoh0004akufwb0sxd0y">oneOf active, link, or disabled</td>
+<td>oneOf active, link, or disabled</td>
 
 </tr>
 
@@ -117,7 +117,7 @@ See Base for additional utility props.
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6enoo0005akufv4wa3pke">
+<table class="uk-table">
 
 <thead>
 
@@ -133,27 +133,27 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6enoo0005akufv4wa3pke">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6enoo0005akufv4wa3pke">body</td>
+<td colspan="1">body</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6enoo0005akufv4wa3pke">string</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6enoo0005akufv4wa3pke">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6enoo0005akufv4wa3pke">href</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6enoo0005akufv4wa3pke">string</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6enoo0005akufv4wa3pke">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6enoo0005akufv4wa3pke">type</td>
+<td colspan="1">href</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6enoo0005akufv4wa3pke">oneOf active, link, or disabled</td>
+<td>string</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">type</td>
+
+<td>oneOf active, link, or disabled</td>
 
 </tr>
 

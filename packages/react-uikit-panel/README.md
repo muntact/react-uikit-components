@@ -18,7 +18,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 The Panel component consists of the panel itself, the panel title and a panel badge. To prevent redundant white space, top and bottom margins are removed from the panel's content..
 
-<table class="uk-table" data-kitid="cj4n6fdmb0002cqufw6s1583c">
+<table class="uk-table">
 
 <thead>
 
@@ -34,19 +34,19 @@ The Panel component consists of the panel itself, the panel title and a panel ba
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fdmb0002cqufw6s1583c">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fdmb0002cqufw6s1583c">`tilte`</td>
+<td colspan="1">`tilte`</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fdmb0002cqufw6s1583c"><span>Add `title` prop to add the panel title.</span></td>
+<td><span>Add `title` prop to add the panel title.</span></td>
 
 </tr>
 
-<tr data-kitid="tablerow-1-cj4n6fdmb0002cqufw6s1583c">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fdmb0002cqufw6s1583c">`badge`</td>
+<td colspan="1">`badge`</td>
 
-<td data-kitid="tabledata-[1, 1]-cj4n6fdmb0002cqufw6s1583c">
+<td>
 
 Add the `badge` prop to add a panel badge. Add `badge='value'` to set the body of the badge to the value of the string. Add `badge={{body: 'value', context: 'danger'}}` to set the body and the context of the badge. Badge context can be success, warning or danger.
 
@@ -68,7 +68,7 @@ Add the `badge` prop to add a panel badge. Add `badge='value'` to set the body o
 
 ## Panel Types
 
-<table class="uk-table" data-kitid="cj4n6fdmz0006cqufbkk28itv">
+<table class="uk-table">
 
 <thead>
 
@@ -84,19 +84,19 @@ Add the `badge` prop to add a panel badge. Add `badge='value'` to set the body o
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fdmz0006cqufbkk28itv">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fdmz0006cqufbkk28itv">`block`</td>
+<td colspan="1">`block`</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fdmz0006cqufbkk28itv">Renders the panel as a block.</td>
+<td>Renders the panel as a block.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-1-cj4n6fdmz0006cqufbkk28itv">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fdmz0006cqufbkk28itv">`link`</td>
+<td colspan="1">`link`</td>
 
-<td data-kitid="tabledata-[1, 1]-cj4n6fdmz0006cqufbkk28itv"><span>Renders the panel inside of a block. The `link='url/path'` is required to set the link\'s address.</span></td>
+<td><span>Renders the panel inside of a block. The `link='url/path'` is required to set the link\'s address.</span></td>
 
 </tr>
 
@@ -224,7 +224,7 @@ By default the Panel has no styling. The panel box places a box around a panel.
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6fdr6001hcquf380x5iq7">
+<table class="uk-table">
 
 <thead>
 
@@ -240,75 +240,75 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fdr6001hcquf380x5iq7">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fdr6001hcquf380x5iq7">badge</td>
+<td colspan="1">badge</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fdr6001hcquf380x5iq7">string or object: {`{body , context}`}</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6fdr6001hcquf380x5iq7">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fdr6001hcquf380x5iq7">box</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6fdr6001hcquf380x5iq7">bool</td>
+<td>string or object: {`{body , context}`}</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6fdr6001hcquf380x5iq7">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6fdr6001hcquf380x5iq7">context</td>
+<td colspan="1">box</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6fdr6001hcquf380x5iq7">oneOf: 'primary' | 'secondary'</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6fdr6001hcquf380x5iq7">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6fdr6001hcquf380x5iq7">header</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6fdr6001hcquf380x5iq7">bool</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6fdr6001hcquf380x5iq7">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6fdr6001hcquf380x5iq7">hover</td>
+<td colspan="1">context</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6fdr6001hcquf380x5iq7">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-5-cj4n6fdr6001hcquf380x5iq7">
-
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6fdr6001hcquf380x5iq7">icon</td>
-
-<td data-kitid="tabledata-[5, 1]-cj4n6fdr6001hcquf380x5iq7">string</td>
+<td>oneOf: 'primary' | 'secondary'</td>
 
 </tr>
 
-<tr data-kitid="tablerow-6-cj4n6fdr6001hcquf380x5iq7">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[6, 0]-cj4n6fdr6001hcquf380x5iq7">space</td>
+<td colspan="1">header</td>
 
-<td data-kitid="tabledata-[6, 1]-cj4n6fdr6001hcquf380x5iq7">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-7-cj4n6fdr6001hcquf380x5iq7">
-
-<td colspan="1" data-kitid="tabledata-[7, 0]-cj4n6fdr6001hcquf380x5iq7">teaser</td>
-
-<td data-kitid="tabledata-[7, 1]-cj4n6fdr6001hcquf380x5iq7">objectOf: {`{src, alt}`}</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-8-cj4n6fdr6001hcquf380x5iq7">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[8, 0]-cj4n6fdr6001hcquf380x5iq7">type</td>
+<td colspan="1">hover</td>
 
-<td data-kitid="tabledata-[8, 1]-cj4n6fdr6001hcquf380x5iq7">oneOf: 'block' (default) | 'link'</td>
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">icon</td>
+
+<td>string</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">space</td>
+
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">teaser</td>
+
+<td>objectOf: {`{src, alt}`}</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">type</td>
+
+<td>oneOf: 'block' (default) | 'link'</td>
 
 </tr>
 

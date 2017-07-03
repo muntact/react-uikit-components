@@ -67,7 +67,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6evdq000ab6ufdxmvn90y">
+<table class="uk-table">
 
 <thead>
 
@@ -83,35 +83,35 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6evdq000ab6ufdxmvn90y">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6evdq000ab6ufdxmvn90y">close</td>
+<td colspan="1">close</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6evdq000ab6ufdxmvn90y">func</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6evdq000ab6ufdxmvn90y">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6evdq000ab6ufdxmvn90y">context</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6evdq000ab6ufdxmvn90y">oneOf: 'success' | 'warning' | 'danger'</td>
+<td>func</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6evdq000ab6ufdxmvn90y">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6evdq000ab6ufdxmvn90y">large</td>
+<td colspan="1">context</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6evdq000ab6ufdxmvn90y">bool</td>
+<td>oneOf: 'success' | 'warning' | 'danger'</td>
 
 </tr>
 
-<tr data-kitid="tablerow-3-cj4n6evdq000ab6ufdxmvn90y">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6evdq000ab6ufdxmvn90y">show</td>
+<td colspan="1">large</td>
 
-<td data-kitid="tabledata-[3, 1]-cj4n6evdq000ab6ufdxmvn90y">bool</td>
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">show</td>
+
+<td>bool</td>
 
 </tr>
 

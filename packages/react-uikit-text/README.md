@@ -16,7 +16,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 <span>The Text component creates a number of various Text components. The default type is `p` which creates a paragraph.</span>
 
-<table class="uk-table" data-kitid="cj4n6fj6f0002d8ufkgq6e6px">
+<table class="uk-table">
 
 <thead>
 
@@ -32,109 +32,109 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fj6f0002d8ufkgq6e6px">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='p'`</td>
+<td colspan="1">`type='p'`</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Define a paragraph using the
+<td><span>Define a paragraph using the
 
 p type.</span> </td>
 
 </tr>
 
-<tr data-kitid="tablerow-1-cj4n6fj6f0002d8ufkgq6e6px">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='a'`</td>
+<td colspan="1">`type='a'`</td>
 
-<td data-kitid="tabledata-[1, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Turn text into hypertext using the <a data-kitid="cj4n6fj760004d8ufuihdywcj">a type.</a></span></td>
-
-</tr>
-
-<tr data-kitid="tablerow-2-cj4n6fj6f0002d8ufkgq6e6px">
-
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='em'`</td>
-
-<td data-kitid="tabledata-[2, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Emphasize text using the _em element_.</span></td>
+<td>a type.</a></span></td>
 
 </tr>
 
-<tr data-kitid="tablerow-3-cj4n6fj6f0002d8ufkgq6e6px">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='strong'`</td>
+<td colspan="1">`type='em'`</td>
 
-<td data-kitid="tabledata-[3, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Imply any extra importance using the **strong type**.</span></td>
-
-</tr>
-
-<tr data-kitid="tablerow-4-cj4n6fj6f0002d8ufkgq6e6px">
-
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='code'`</td>
-
-<td data-kitid="tabledata-[4, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Define inline code snippets using the `code type.`</span></td>
+<td><span>Emphasize text using the _em element_.</span></td>
 
 </tr>
 
-<tr data-kitid="tablerow-5-cj4n6fj6f0002d8ufkgq6e6px">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='ins'`</td>
+<td colspan="1">`type='strong'`</td>
 
-<td data-kitid="tabledata-[5, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Mark document changes as inserted text using the <ins data-kitid="cj4n6fj840008d8uf96f9uuo5">ins type</ins>.</span></td>
-
-</tr>
-
-<tr data-kitid="tablerow-6-cj4n6fj6f0002d8ufkgq6e6px">
-
-<td colspan="1" data-kitid="tabledata-[6, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='mark'`</td>
-
-<td data-kitid="tabledata-[6, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Highlight text with no semantic meaning using the <mark data-kitid="cj4n6fj8l0009d8ufolk6xfos">mark type</mark>.</span></td>
+<td><span>Imply any extra importance using the **strong type**.</span></td>
 
 </tr>
 
-<tr data-kitid="tablerow-7-cj4n6fj6f0002d8ufkgq6e6px">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[7, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='q'`</td>
+<td colspan="1">`type='code'`</td>
 
-<td data-kitid="tabledata-[7, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Define inline quotations using <q data-kitid="cj4n6fj8t000ad8ufo6axu0zs">q type</q>.</span></td>
-
-</tr>
-
-<tr data-kitid="tablerow-8-cj4n6fj6f0002d8ufkgq6e6px">
-
-<td colspan="1" data-kitid="tabledata-[8, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='abbr'`</td>
-
-<td data-kitid="tabledata-[8, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Define an abbreviation using the <abbr title="Abbreviation Element" data-kitid="cj4n6fj92000bd8ufuk33nlnc">abbr type</abbr> with a `title=''` Prop.</span></td>
+<td><span>Define inline code snippets using the `code type.`</span></td>
 
 </tr>
 
-<tr data-kitid="tablerow-9-cj4n6fj6f0002d8ufkgq6e6px">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[9, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='del'`</td>
+<td colspan="1">`type='ins'`</td>
 
-<td data-kitid="tabledata-[9, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Mark document changes as deleted text using the <del data-kitid="cj4n6fj99000cd8ufbdfm6j0r">del type</del> with a `title=''` Prop.</span></td>
-
-</tr>
-
-<tr data-kitid="tablerow-10-cj4n6fj6f0002d8ufkgq6e6px">
-
-<td colspan="1" data-kitid="tabledata-[10, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='dfn'`</td>
-
-<td data-kitid="tabledata-[10, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Define a definition term using the <dfn title="Defines a definition term" data-kitid="cj4n6fj9g000dd8ufkcbm573j">dfn type</dfn> with a `title=''` Prop.</span></td>
+<td>ins type</ins>.</span></td>
 
 </tr>
 
-<tr data-kitid="tablerow-11-cj4n6fj6f0002d8ufkgq6e6px">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[11, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='small'`</td>
+<td colspan="1">`type='mark'`</td>
 
-<td data-kitid="tabledata-[11, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>De-emphasize text for small print using the <small data-kitid="cj4n6fj9n000ed8uf0zsozziw">small</small> type.</span></td>
+<td>mark type</mark>.</span></td>
 
 </tr>
 
-<tr data-kitid="tablerow-12-cj4n6fj6f0002d8ufkgq6e6px">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[12, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='h1'`</td>
+<td colspan="1">`type='q'`</td>
 
-<td data-kitid="tabledata-[12, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Define a h1 heading using the
+<td>q type</q>.</span></td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`type='abbr'`</td>
+
+<td>abbr type</abbr> with a `title=''` Prop.</span></td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`type='del'`</td>
+
+<td>del type</del> with a `title=''` Prop.</span></td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`type='dfn'`</td>
+
+<td>dfn type</dfn> with a `title=''` Prop.</span></td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`type='small'`</td>
+
+<td>small</small> type.</span></td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`type='h1'`</td>
+
+<td><span>Define a h1 heading using the
 
 # h1 type
 
@@ -142,11 +142,11 @@ p type.</span> </td>
 
 </tr>
 
-<tr data-kitid="tablerow-13-cj4n6fj6f0002d8ufkgq6e6px">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[13, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='h2'`</td>
+<td colspan="1">`type='h2'`</td>
 
-<td data-kitid="tabledata-[13, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Define a h2 heading using the
+<td><span>Define a h2 heading using the
 
 ## h2 type
 
@@ -154,11 +154,11 @@ p type.</span> </td>
 
 </tr>
 
-<tr data-kitid="tablerow-14-cj4n6fj6f0002d8ufkgq6e6px">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[14, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='h3'`</td>
+<td colspan="1">`type='h3'`</td>
 
-<td data-kitid="tabledata-[14, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Define a h3 heading using the
+<td><span>Define a h3 heading using the
 
 ### h3 type
 
@@ -166,11 +166,11 @@ p type.</span> </td>
 
 </tr>
 
-<tr data-kitid="tablerow-15-cj4n6fj6f0002d8ufkgq6e6px">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[15, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='h4'`</td>
+<td colspan="1">`type='h4'`</td>
 
-<td data-kitid="tabledata-[15, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Define a h4 heading using the
+<td><span>Define a h4 heading using the
 
 #### h4 type
 
@@ -178,21 +178,21 @@ p type.</span> </td>
 
 </tr>
 
-<tr data-kitid="tablerow-16-cj4n6fj6f0002d8ufkgq6e6px">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[16, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='h5'`</td>
+<td colspan="1">`type='h5'`</td>
 
-<td data-kitid="tabledata-[16, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Define a h5 heading using the
+<td><span>Define a h5 heading using the
 
 ##### h5 type</span> </td>
 
 </tr>
 
-<tr data-kitid="tablerow-17-cj4n6fj6f0002d8ufkgq6e6px">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[17, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='h6'`</td>
+<td colspan="1">`type='h6'`</td>
 
-<td data-kitid="tabledata-[17, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Define a h6 heading using the
+<td><span>Define a h6 heading using the
 
 ###### h6 type
 
@@ -200,19 +200,19 @@ p type.</span> </td>
 
 </tr>
 
-<tr data-kitid="tablerow-18-cj4n6fj6f0002d8ufkgq6e6px">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[18, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='span'`</td>
+<td colspan="1">`type='span'`</td>
 
-<td data-kitid="tabledata-[18, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Define parts of inline text with the <span class="uk-display-inline" data-kitid="cj4n6fjaw000ld8ufyqns6wqg">span type</span>. Use when no other component or HTML element is suitable.</span></td>
+<td>span type</span>. Use when no other component or HTML element is suitable.</span></td>
 
 </tr>
 
-<tr data-kitid="tablerow-19-cj4n6fj6f0002d8ufkgq6e6px">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[19, 0]-cj4n6fj6f0002d8ufkgq6e6px">`type='hr'`</td>
+<td colspan="1">`type='hr'`</td>
 
-<td data-kitid="tabledata-[19, 1]-cj4n6fj6f0002d8ufkgq6e6px"><span>Create a horizontal rule by using the `hr type`.</span></td>
+<td><span>Create a horizontal rule by using the `hr type`.</span></td>
 
 </tr>
 
@@ -224,7 +224,7 @@ p type.</span> </td>
 
 <span>Use `heading` prop to alter any of the Text component types to a heading.</span>
 
-<table class="uk-table" data-kitid="cj4n6fjb8000md8ufed41261j">
+<table class="uk-table">
 
 <thead>
 
@@ -240,51 +240,51 @@ p type.</span> </td>
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fjb8000md8ufed41261j">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fjb8000md8ufed41261j">`heading='h1'`</td>
+<td colspan="1">`heading='h1'`</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fjb8000md8ufed41261j">Changes the size of text to h1</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6fjb8000md8ufed41261j">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fjb8000md8ufed41261j">`heading='h2'`</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6fjb8000md8ufed41261j">Changes the size of text to h2</td>
+<td>Changes the size of text to h1</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6fjb8000md8ufed41261j">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6fjb8000md8ufed41261j">`heading='h3'`</td>
+<td colspan="1">`heading='h2'`</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6fjb8000md8ufed41261j">Changes the size of text to h3</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6fjb8000md8ufed41261j">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6fjb8000md8ufed41261j">`heading='h4'`</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6fjb8000md8ufed41261j">Changes the size of text to h4</td>
+<td>Changes the size of text to h2</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6fjb8000md8ufed41261j">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6fjb8000md8ufed41261j">`heading='h5'`</td>
+<td colspan="1">`heading='h3'`</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6fjb8000md8ufed41261j">Changes the size of text to h5</td>
+<td>Changes the size of text to h3</td>
 
 </tr>
 
-<tr data-kitid="tablerow-5-cj4n6fjb8000md8ufed41261j">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6fjb8000md8ufed41261j">`heading='h6'`</td>
+<td colspan="1">`heading='h4'`</td>
 
-<td data-kitid="tabledata-[5, 1]-cj4n6fjb8000md8ufed41261j">Changes the size of text to h6</td>
+<td>Changes the size of text to h4</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`heading='h5'`</td>
+
+<td>Changes the size of text to h5</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`heading='h6'`</td>
+
+<td>Changes the size of text to h6</td>
 
 </tr>
 
@@ -314,7 +314,7 @@ p type.</span> </td>
 
 <span>Text size can be changed by using one of the `size=''` props.</span>
 
-<table class="uk-table" data-kitid="cj4n6fjbv000qd8uf29n5ybw2">
+<table class="uk-table">
 
 <thead>
 
@@ -330,19 +330,19 @@ p type.</span> </td>
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fjbv000qd8uf29n5ybw2">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fjbv000qd8uf29n5ybw2">`size='small'`</td>
+<td colspan="1">`size='small'`</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fjbv000qd8uf29n5ybw2"><span>Add the `size='small'` prop to <span class="uk-text-small" data-kitid="cj4n6fjbz000rd8ufnxk18mme">decrease the font size.</span></span></td>
+<td>decrease the font size.</span></span></td>
 
 </tr>
 
-<tr data-kitid="tablerow-1-cj4n6fjbv000qd8uf29n5ybw2">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fjbv000qd8uf29n5ybw2">`size='large'`</td>
+<td colspan="1">`size='large'`</td>
 
-<td data-kitid="tabledata-[1, 1]-cj4n6fjbv000qd8uf29n5ybw2"><span>Add the `size='large'` prop to <span class="uk-text-large" data-kitid="cj4n6fjc5000sd8uffghbtup0">increase the font size.</span></span></td>
+<td>increase the font size.</span></span></td>
 
 </tr>
 
@@ -354,7 +354,7 @@ p type.</span> </td>
 
 <span>The text context prop can be used to give text context.</span>
 
-<table class="uk-table" data-kitid="cj4n6fjcb000td8ufamrg3il6">
+<table class="uk-table">
 
 <thead>
 
@@ -370,11 +370,11 @@ p type.</span> </td>
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fjcb000td8ufamrg3il6">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fjcb000td8ufamrg3il6">`context='muted'`</td>
+<td colspan="1">`context='muted'`</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fjcb000td8ufamrg3il6">
+<td>
 
 Add the muted prop to mute text.
 
@@ -382,11 +382,11 @@ Add the muted prop to mute text.
 
 </tr>
 
-<tr data-kitid="tablerow-1-cj4n6fjcb000td8ufamrg3il6">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fjcb000td8ufamrg3il6">`context='primary'`</td>
+<td colspan="1">`context='primary'`</td>
 
-<td data-kitid="tabledata-[1, 1]-cj4n6fjcb000td8ufamrg3il6">
+<td>
 
 Add the primary prop to highlight additional information.
 
@@ -394,11 +394,11 @@ Add the primary prop to highlight additional information.
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6fjcb000td8ufamrg3il6">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6fjcb000td8ufamrg3il6">`context='success'`</td>
+<td colspan="1">`context='success'`</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6fjcb000td8ufamrg3il6">
+<td>
 
 Add the success prop to indicate success.
 
@@ -406,11 +406,11 @@ Add the success prop to indicate success.
 
 </tr>
 
-<tr data-kitid="tablerow-3-cj4n6fjcb000td8ufamrg3il6">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6fjcb000td8ufamrg3il6">`context='warning'`</td>
+<td colspan="1">`context='warning'`</td>
 
-<td data-kitid="tabledata-[3, 1]-cj4n6fjcb000td8ufamrg3il6">
+<td>
 
 Add the warning prop to indicate warning.
 
@@ -418,11 +418,11 @@ Add the warning prop to indicate warning.
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6fjcb000td8ufamrg3il6">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6fjcb000td8ufamrg3il6">`context='danger'`</td>
+<td colspan="1">`context='danger'`</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6fjcb000td8ufamrg3il6">
+<td>
 
 Add the danger prop to indicate danger.
 
@@ -430,11 +430,11 @@ Add the danger prop to indicate danger.
 
 </tr>
 
-<tr data-kitid="tablerow-5-cj4n6fjcb000td8ufamrg3il6">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6fjcb000td8ufamrg3il6">`context='contrast'`</td>
+<td colspan="1">`context='contrast'`</td>
 
-<td data-kitid="tabledata-[5, 1]-cj4n6fjcb000td8ufamrg3il6">
+<td>
 
 Add the contrast prop to make the text context readable on flat context areas or pictures. It's usualy white.
 
@@ -459,7 +459,7 @@ Add the contrast prop to make the text context readable on flat context areas or
 
 <span>The textAlign prop horizontally aligns text.</span>
 
-<table class="uk-table" data-kitid="cj4n6fjdt0011d8ufwfxyl34j">
+<table class="uk-table">
 
 <thead>
 
@@ -475,67 +475,67 @@ Add the contrast prop to make the text context readable on flat context areas or
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fjdt0011d8ufwfxyl34j">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fjdt0011d8ufwfxyl34j">`textAlign='left'`</td>
+<td colspan="1">`textAlign='left'`</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fjdt0011d8ufwfxyl34j">Aligns text to the left.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6fjdt0011d8ufwfxyl34j">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fjdt0011d8ufwfxyl34j">`textAlign='leftSmall'`</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6fjdt0011d8ufwfxyl34j">Aligns text to the left only on small devices.</td>
+<td>Aligns text to the left.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6fjdt0011d8ufwfxyl34j">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6fjdt0011d8ufwfxyl34j">`textAlign='leftMedium'`</td>
+<td colspan="1">`textAlign='leftSmall'`</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6fjdt0011d8ufwfxyl34j">Aligns text to the left on medium and small devices.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6fjdt0011d8ufwfxyl34j">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6fjdt0011d8ufwfxyl34j">`textAlign='right'`</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6fjdt0011d8ufwfxyl34j">Aligns text to the right.</td>
+<td>Aligns text to the left only on small devices.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6fjdt0011d8ufwfxyl34j">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6fjdt0011d8ufwfxyl34j">`textAlign='center'`</td>
+<td colspan="1">`textAlign='leftMedium'`</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6fjdt0011d8ufwfxyl34j">Centers text horizontally.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-5-cj4n6fjdt0011d8ufwfxyl34j">
-
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6fjdt0011d8ufwfxyl34j">`textAlign='centerSmall'`</td>
-
-<td data-kitid="tabledata-[5, 1]-cj4n6fjdt0011d8ufwfxyl34j">Centers text horizontally only on small devices.</td>
+<td>Aligns text to the left on medium and small devices.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-6-cj4n6fjdt0011d8ufwfxyl34j">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[6, 0]-cj4n6fjdt0011d8ufwfxyl34j">`textAlign='centerMedium'`</td>
+<td colspan="1">`textAlign='right'`</td>
 
-<td data-kitid="tabledata-[6, 1]-cj4n6fjdt0011d8ufwfxyl34j">Centers text horizontally on medium and small devices.</td>
+<td>Aligns text to the right.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-7-cj4n6fjdt0011d8ufwfxyl34j">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[7, 0]-cj4n6fjdt0011d8ufwfxyl34j">`textAlign='justify'`</td>
+<td colspan="1">`textAlign='center'`</td>
 
-<td data-kitid="tabledata-[7, 1]-cj4n6fjdt0011d8ufwfxyl34j">Justifies text.</td>
+<td>Centers text horizontally.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`textAlign='centerSmall'`</td>
+
+<td>Centers text horizontally only on small devices.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`textAlign='centerMedium'`</td>
+
+<td>Centers text horizontally on medium and small devices.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`textAlign='justify'`</td>
+
+<td>Justifies text.</td>
 
 </tr>
 
@@ -578,7 +578,7 @@ Add the contrast prop to make the text context readable on flat context areas or
 
 <span>The textVertical prop vertically aligns text to an object.</span>
 
-<table class="uk-table" data-kitid="cj4n6fjga001kd8ufc6pjfndl">
+<table class="uk-table">
 
 <thead>
 
@@ -594,27 +594,27 @@ Add the contrast prop to make the text context readable on flat context areas or
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fjga001kd8ufc6pjfndl">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fjga001kd8ufc6pjfndl">`textVertical='top'`</td>
+<td colspan="1">`textVertical='top'`</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fjga001kd8ufc6pjfndl">Aligns text to the top.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6fjga001kd8ufc6pjfndl">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fjga001kd8ufc6pjfndl">`textVertical='middle'`</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6fjga001kd8ufc6pjfndl">Centers text vertically.</td>
+<td>Aligns text to the top.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6fjga001kd8ufc6pjfndl">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6fjga001kd8ufc6pjfndl">`textVertical='bottom'`</td>
+<td colspan="1">`textVertical='middle'`</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6fjga001kd8ufc6pjfndl">Aligns text to the bottom.</td>
+<td>Centers text vertically.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`textVertical='bottom'`</td>
+
+<td>Aligns text to the bottom.</td>
 
 </tr>
 
@@ -649,7 +649,7 @@ Add the contrast prop to make the text context readable on flat context areas or
 
 <span>The textWrap prop wraps text.</span>
 
-<table class="uk-table" data-kitid="cj4n6fjha001td8uf4qwskq16">
+<table class="uk-table">
 
 <thead>
 
@@ -665,27 +665,27 @@ Add the contrast prop to make the text context readable on flat context areas or
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fjha001td8uf4qwskq16">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fjha001td8uf4qwskq16">`textWrap='truncate'`</td>
+<td colspan="1">`textWrap='truncate'`</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fjha001td8uf4qwskq16">Prevents text from wrapping into multiple lines, truncating it instead.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6fjha001td8uf4qwskq16">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fjha001td8uf4qwskq16">`textWrap='break'`</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6fjha001td8uf4qwskq16">Breaks strings if their length exceeds the width of their container.</td>
+<td>Prevents text from wrapping into multiple lines, truncating it instead.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6fjha001td8uf4qwskq16">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6fjha001td8uf4qwskq16">`textWrap='nowrap'`</td>
+<td colspan="1">`textWrap='break'`</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6fjha001td8uf4qwskq16">Breaks strings if their length exceeds the width of their container.</td>
+<td>Breaks strings if their length exceeds the width of their container.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`textWrap='nowrap'`</td>
+
+<td>Breaks strings if their length exceeds the width of their container.</td>
 
 </tr>
 
@@ -713,7 +713,7 @@ Add the contrast prop to make the text context readable on flat context areas or
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6fji30022d8uf7tfk9jnn">
+<table class="uk-table">
 
 <thead>
 
@@ -729,51 +729,51 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fji30022d8uf7tfk9jnn">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fji30022d8uf7tfk9jnn">bold</td>
+<td colspan="1">bold</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fji30022d8uf7tfk9jnn">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6fji30022d8uf7tfk9jnn">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fji30022d8uf7tfk9jnn">context</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6fji30022d8uf7tfk9jnn">oneOf: 'muted' | 'primary' | 'success' | 'warning' | 'danger' | 'contrast'</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6fji30022d8uf7tfk9jnn">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6fji30022d8uf7tfk9jnn">heading</td>
+<td colspan="1">context</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6fji30022d8uf7tfk9jnn">oneOf: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6fji30022d8uf7tfk9jnn">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6fji30022d8uf7tfk9jnn">href</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6fji30022d8uf7tfk9jnn">string for a type only.</td>
+<td>oneOf: 'muted' | 'primary' | 'success' | 'warning' | 'danger' | 'contrast'</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6fji30022d8uf7tfk9jnn">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6fji30022d8uf7tfk9jnn">size</td>
+<td colspan="1">heading</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6fji30022d8uf7tfk9jnn">oneOf: 'small' | 'large'</td>
+<td>oneOf: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'</td>
 
 </tr>
 
-<tr data-kitid="tablerow-5-cj4n6fji30022d8uf7tfk9jnn">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6fji30022d8uf7tfk9jnn">type</td>
+<td colspan="1">href</td>
 
-<td data-kitid="tabledata-[5, 1]-cj4n6fji30022d8uf7tfk9jnn">oneOf: 'a' | 'abbr' | 'code' | 'del' | 'dfn' | 'em' | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'hr' | 'ins' | 'mark' | 'q' | 'p' (default) | 'small' | 'span' | 'strong'</td>
+<td>string for a type only.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">size</td>
+
+<td>oneOf: 'small' | 'large'</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">type</td>
+
+<td>oneOf: 'a' | 'abbr' | 'code' | 'del' | 'dfn' | 'em' | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'hr' | 'ins' | 'mark' | 'q' | 'p' (default) | 'small' | 'span' | 'strong'</td>
 
 </tr>
 

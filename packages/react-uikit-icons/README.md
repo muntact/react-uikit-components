@@ -20,7 +20,7 @@ The Icon component uses the fantastic [Font Awesome](https://fortawesome.github.
 
 <span>The Icon component uses the fantastic [Font Awesome](https://fortawesome.github.io/Font-Awesome/) icon font, a project by Dave Gandy, which provides more than 300 symbols and glyphs for web-related actions</span>
 
-<table class="uk-table" data-kitid="cj4n6ew1z0002b9ufou5hjwcj">
+<table class="uk-table">
 
 <thead>
 
@@ -36,27 +36,27 @@ The Icon component uses the fantastic [Font Awesome](https://fortawesome.github.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6ew1z0002b9ufou5hjwcj">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6ew1z0002b9ufou5hjwcj"></td>
+<td colspan="1"></td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6ew1z0002b9ufou5hjwcj"><span>Uses the `icon='cog'` prop</span></td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6ew1z0002b9ufou5hjwcj">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6ew1z0002b9ufou5hjwcj"></td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6ew1z0002b9ufou5hjwcj"><span>Uses the `icon='user'` prop</span></td>
+<td><span>Uses the `icon='cog'` prop</span></td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6ew1z0002b9ufou5hjwcj">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6ew1z0002b9ufou5hjwcj"></td>
+<td colspan="1"></td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6ew1z0002b9ufou5hjwcj"><span>Uses the `icon='home'` prop</span></td>
+<td><span>Uses the `icon='user'` prop</span></td>
+
+</tr>
+
+<tr>
+
+<td colspan="1"></td>
+
+<td><span>Uses the `icon='home'` prop</span></td>
 
 </tr>
 
@@ -74,7 +74,7 @@ The Icon component uses the fantastic [Font Awesome](https://fortawesome.github.
 
 <span>Icons can be used as anchors by adding the `link` prop. The properties from the `link` prop will be passed to the anchor.</span>
 
-<table class="uk-table" data-kitid="cj4n6ew2u0004b9ufh98plrhy">
+<table class="uk-table">
 
 <thead>
 
@@ -90,27 +90,27 @@ The Icon component uses the fantastic [Font Awesome](https://fortawesome.github.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6ew2u0004b9ufh98plrhy">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6ew2u0004b9ufh98plrhy"></td>
+<td colspan="1"></td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6ew2u0004b9ufh98plrhy"><span>Uses the `icon='cog'` prop</span></td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6ew2u0004b9ufh98plrhy">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6ew2u0004b9ufh98plrhy"></td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6ew2u0004b9ufh98plrhy"><span>Uses the `icon='user'` prop</span></td>
+<td><span>Uses the `icon='cog'` prop</span></td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6ew2u0004b9ufh98plrhy">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6ew2u0004b9ufh98plrhy"></td>
+<td colspan="1"></td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6ew2u0004b9ufh98plrhy"><span>Uses the `icon='home'` prop</span></td>
+<td><span>Uses the `icon='user'` prop</span></td>
+
+</tr>
+
+<tr>
+
+<td colspan="1"></td>
+
+<td><span>Uses the `icon='home'` prop</span></td>
 
 </tr>
 
@@ -130,7 +130,7 @@ The Icon component uses the fantastic [Font Awesome](https://fortawesome.github.
 
 <span>To display an Icon as a button add a `type: 'button'` property to the `link` prop.</span>
 
-<table class="uk-table" data-kitid="cj4n6ew3p0009b9ufn6p8dx2u">
+<table class="uk-table">
 
 <thead>
 
@@ -146,27 +146,27 @@ The Icon component uses the fantastic [Font Awesome](https://fortawesome.github.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6ew3p0009b9ufn6p8dx2u">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6ew3p0009b9ufn6p8dx2u"></td>
+<td colspan="1"></td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6ew3p0009b9ufn6p8dx2u"><span>Uses the `icon='cog'` prop</span></td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6ew3p0009b9ufn6p8dx2u">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6ew3p0009b9ufn6p8dx2u"></td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6ew3p0009b9ufn6p8dx2u"><span>Uses the `icon='user'` prop</span></td>
+<td><span>Uses the `icon='cog'` prop</span></td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6ew3p0009b9ufn6p8dx2u">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6ew3p0009b9ufn6p8dx2u"></td>
+<td colspan="1"></td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6ew3p0009b9ufn6p8dx2u"><span>Uses the `icon='home'` prop</span></td>
+<td><span>Uses the `icon='user'` prop</span></td>
+
+</tr>
+
+<tr>
+
+<td colspan="1"></td>
+
+<td><span>Uses the `icon='home'` prop</span></td>
 
 </tr>
 
@@ -186,7 +186,7 @@ The Icon component uses the fantastic [Font Awesome](https://fortawesome.github.
 
 <span>Icons can be displayed in larger sizes by using the `size='*'` prop.</span>
 
-<table class="uk-table" data-kitid="cj4n6ew4j000eb9uf6324jsws">
+<table class="uk-table">
 
 <thead>
 
@@ -202,35 +202,35 @@ The Icon component uses the fantastic [Font Awesome](https://fortawesome.github.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6ew4j000eb9uf6324jsws">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6ew4j000eb9uf6324jsws"></td>
+<td colspan="1"></td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6ew4j000eb9uf6324jsws">Default size</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6ew4j000eb9uf6324jsws">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6ew4j000eb9uf6324jsws"></td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6ew4j000eb9uf6324jsws"><span>Uses the `size='small'` prop</span></td>
+<td>Default size</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6ew4j000eb9uf6324jsws">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6ew4j000eb9uf6324jsws"></td>
+<td colspan="1"></td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6ew4j000eb9uf6324jsws"><span>Uses the `size='medium'` prop</span></td>
+<td><span>Uses the `size='small'` prop</span></td>
 
 </tr>
 
-<tr data-kitid="tablerow-3-cj4n6ew4j000eb9uf6324jsws">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6ew4j000eb9uf6324jsws"></td>
+<td colspan="1"></td>
 
-<td data-kitid="tabledata-[3, 1]-cj4n6ew4j000eb9uf6324jsws"><span>Uses the `size='large'` prop</span></td>
+<td><span>Uses the `size='medium'` prop</span></td>
+
+</tr>
+
+<tr>
+
+<td colspan="1"></td>
+
+<td><span>Uses the `size='large'` prop</span></td>
 
 </tr>
 
@@ -1134,7 +1134,7 @@ The Icon component uses the fantastic [Font Awesome](https://fortawesome.github.
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6ewjb000tb9ufs72flgqo">
+<table class="uk-table">
 
 <thead>
 
@@ -1150,43 +1150,43 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6ewjb000tb9ufs72flgqo">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6ewjb000tb9ufs72flgqo">icon</td>
+<td colspan="1">icon</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6ewjb000tb9ufs72flgqo">string</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6ewjb000tb9ufs72flgqo">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6ewjb000tb9ufs72flgqo">link</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6ewjb000tb9ufs72flgqo">object { href}</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6ewjb000tb9ufs72flgqo">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6ewjb000tb9ufs72flgqo">justify</td>
+<td colspan="1">link</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6ewjb000tb9ufs72flgqo">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6ewjb000tb9ufs72flgqo">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6ewjb000tb9ufs72flgqo">spin</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6ewjb000tb9ufs72flgqo">bool</td>
+<td>object { href}</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6ewjb000tb9ufs72flgqo">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6ewjb000tb9ufs72flgqo">size</td>
+<td colspan="1">justify</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6ewjb000tb9ufs72flgqo">bool</td>
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">spin</td>
+
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">size</td>
+
+<td>bool</td>
 
 </tr>
 

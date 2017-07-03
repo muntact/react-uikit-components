@@ -65,7 +65,7 @@ To put the Block in to a container use the <code>container</code> prop
 
 To apply different background colors, add one of the following values for the <code>context</code> prop.
 
-<table class="uk-table" data-kitid="cj4n6evlt000eb8uf2aq90qn9">
+<table class="uk-table">
 
 <thead>
 
@@ -81,35 +81,35 @@ To apply different background colors, add one of the following values for the <c
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6evlt000eb8uf2aq90qn9">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6evlt000eb8uf2aq90qn9">default</td>
+<td colspan="1">default</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6evlt000eb8uf2aq90qn9">Add the default background color, usually white or similar.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6evlt000eb8uf2aq90qn9">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6evlt000eb8uf2aq90qn9">`muted`</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6evlt000eb8uf2aq90qn9">Adds a light background color.</td>
+<td>Add the default background color, usually white or similar.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6evlt000eb8uf2aq90qn9">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6evlt000eb8uf2aq90qn9">`primary`</td>
+<td colspan="1">`muted`</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6evlt000eb8uf2aq90qn9">Adds the primary background color.</td>
+<td>Adds a light background color.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-3-cj4n6evlt000eb8uf2aq90qn9">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6evlt000eb8uf2aq90qn9">`secondary`</td>
+<td colspan="1">`primary`</td>
 
-<td data-kitid="tabledata-[3, 1]-cj4n6evlt000eb8uf2aq90qn9">Adds the secondary background color, usually a dark one.</td>
+<td>Adds the primary background color.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`secondary`</td>
+
+<td>Adds the secondary background color, usually a dark one.</td>
 
 </tr>
 
@@ -187,7 +187,7 @@ To apply different background colors, add one of the following values for the <c
       </Grid>
     </Block>
 
-<span class="uk-badge" data-kitid="cj4n6evnq0011b8uf1notgrzc">NOTE</span> To properly display colors, borders and other elements on colored blocks, you might want to apply the contrast prop to the Block componet.
+<span class="uk-badge">NOTE</span> To properly display colors, borders and other elements on colored blocks, you might want to apply the contrast prop to the Block componet.
 
 ## Block large
 
@@ -218,7 +218,7 @@ To add the body in a container use the <code>container</code> prop.
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6evoc0018b8ufonr0c3oe">
+<table class="uk-table">
 
 <thead>
 
@@ -234,27 +234,27 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6evoc0018b8ufonr0c3oe">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6evoc0018b8ufonr0c3oe">context</td>
+<td colspan="1">context</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6evoc0018b8ufonr0c3oe">oneOf: 'default' | 'muted' | 'primary' | 'secondary'</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6evoc0018b8ufonr0c3oe">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6evoc0018b8ufonr0c3oe">contrast</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6evoc0018b8ufonr0c3oe">bool</td>
+<td>oneOf: 'default' | 'muted' | 'primary' | 'secondary'</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6evoc0018b8ufonr0c3oe">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6evoc0018b8ufonr0c3oe">large</td>
+<td colspan="1">contrast</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6evoc0018b8ufonr0c3oe">bool</td>
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">large</td>
+
+<td>bool</td>
 
 </tr>
 

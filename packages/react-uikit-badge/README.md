@@ -64,7 +64,7 @@ Add the `context` process with a value of "success", "warning" or "danger" for a
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6eayq000k9jufwexgiib1">
+<table class="uk-table">
 
 <thead>
 
@@ -80,35 +80,35 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6eayq000k9jufwexgiib1">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6eayq000k9jufwexgiib1">context</td>
+<td colspan="1">context</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6eayq000k9jufwexgiib1">oneOf: 'default' | 'muted' | 'primary' | 'secondary'</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6eayq000k9jufwexgiib1">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6eayq000k9jufwexgiib1">block</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6eayq000k9jufwexgiib1">bool</td>
+<td>oneOf: 'default' | 'muted' | 'primary' | 'secondary'</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6eayq000k9jufwexgiib1">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6eayq000k9jufwexgiib1">body</td>
+<td colspan="1">block</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6eayq000k9jufwexgiib1">string</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-3-cj4n6eayq000k9jufwexgiib1">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6eayq000k9jufwexgiib1">notification</td>
+<td colspan="1">body</td>
 
-<td data-kitid="tabledata-[3, 1]-cj4n6eayq000k9jufwexgiib1">bool</td>
+<td>string</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">notification</td>
+
+<td>bool</td>
 
 </tr>
 

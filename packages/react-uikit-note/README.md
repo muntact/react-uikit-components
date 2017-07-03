@@ -45,7 +45,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6edx3000a9puf438fcb1w">
+<table class="uk-table">
 
 <thead>
 
@@ -61,19 +61,19 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6edx3000a9puf438fcb1w">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6edx3000a9puf438fcb1w">badge</td>
+<td colspan="1">badge</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6edx3000a9puf438fcb1w">string or object. See Badge component for props.</td>
+<td>string or object. See Badge component for props.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-1-cj4n6edx3000a9puf438fcb1w">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6edx3000a9puf438fcb1w">body</td>
+<td colspan="1">body</td>
 
-<td data-kitid="tabledata-[1, 1]-cj4n6edx3000a9puf438fcb1w">string</td>
+<td>string</td>
 
 </tr>
 

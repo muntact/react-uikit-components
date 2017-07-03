@@ -71,7 +71,7 @@ The Progress component can be striped by adding the `striped` prop. You can also
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6eaw1000h9hufiiobv9qm">
+<table class="uk-table">
 
 <thead>
 
@@ -87,51 +87,51 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6eaw1000h9hufiiobv9qm">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[0, 0]-cj4n6eaw1000h9hufiiobv9qm">active</td>
+<td colspan="2">active</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6eaw1000h9hufiiobv9qm">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6eaw1000h9hufiiobv9qm">
-
-<td colspan="2" data-kitid="tabledata-[1, 0]-cj4n6eaw1000h9hufiiobv9qm">bar</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6eaw1000h9hufiiobv9qm">number</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6eaw1000h9hufiiobv9qm">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[2, 0]-cj4n6eaw1000h9hufiiobv9qm">body</td>
+<td colspan="2">bar</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6eaw1000h9hufiiobv9qm">string</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6eaw1000h9hufiiobv9qm">
-
-<td colspan="2" data-kitid="tabledata-[3, 0]-cj4n6eaw1000h9hufiiobv9qm">size</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6eaw1000h9hufiiobv9qm">oneOf: 'mini' | 'small'</td>
+<td>number</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6eaw1000h9hufiiobv9qm">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[4, 0]-cj4n6eaw1000h9hufiiobv9qm">context</td>
+<td colspan="2">body</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6eaw1000h9hufiiobv9qm">oneOf: 'success' | 'warning' | 'danger'</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-5-cj4n6eaw1000h9hufiiobv9qm">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[5, 0]-cj4n6eaw1000h9hufiiobv9qm">striped</td>
+<td colspan="2">size</td>
 
-<td data-kitid="tabledata-[5, 1]-cj4n6eaw1000h9hufiiobv9qm">bool</td>
+<td>oneOf: 'mini' | 'small'</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2">context</td>
+
+<td>oneOf: 'success' | 'warning' | 'danger'</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2">striped</td>
+
+<td>bool</td>
 
 </tr>
 

@@ -31,7 +31,7 @@ The Button component creates either a button, link, submit or a close button by 
 
 The color of the button can be easily changed by adding a context to the context prop.
 
-<table class="uk-table" data-kitid="cj4n6enoi0008aiufmtr96ay5">
+<table class="uk-table">
 
 <thead>
 
@@ -47,35 +47,35 @@ The color of the button can be easily changed by adding a context to the context
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6enoi0008aiufmtr96ay5">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[0, 0]-cj4n6enoi0008aiufmtr96ay5">`context='primary'`</td>
+<td colspan="2">`context='primary'`</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6enoi0008aiufmtr96ay5">Emphasizes to identify the primary action in a set of buttons.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6enoi0008aiufmtr96ay5">
-
-<td colspan="2" data-kitid="tabledata-[1, 0]-cj4n6enoi0008aiufmtr96ay5">`context='success'`</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6enoi0008aiufmtr96ay5">Indicates a successful or positive action.</td>
+<td>Emphasizes to identify the primary action in a set of buttons.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6enoi0008aiufmtr96ay5">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[2, 0]-cj4n6enoi0008aiufmtr96ay5">`context='danger'`</td>
+<td colspan="2">`context='success'`</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6enoi0008aiufmtr96ay5">Indicates a dangerous or negative action.</td>
+<td>Indicates a successful or positive action.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-3-cj4n6enoi0008aiufmtr96ay5">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[3, 0]-cj4n6enoi0008aiufmtr96ay5">`context='link'`</td>
+<td colspan="2">`context='danger'`</td>
 
-<td data-kitid="tabledata-[3, 1]-cj4n6enoi0008aiufmtr96ay5">De-emphasizes to look like a link while maintaining button behavior.</td>
+<td>Indicates a dangerous or negative action.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2">`context='link'`</td>
+
+<td>De-emphasizes to look like a link while maintaining button behavior.</td>
 
 </tr>
 
@@ -126,7 +126,7 @@ Buttons can also be used to trigger a dropdown. See button dropdown in Dropdown 
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6enqi000qaiufezv6eyca">
+<table class="uk-table">
 
 <thead>
 
@@ -142,51 +142,51 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6enqi000qaiufezv6eyca">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6enqi000qaiufezv6eyca">body</td>
+<td colspan="1">body</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6enqi000qaiufezv6eyca">string</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6enqi000qaiufezv6eyca">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6enqi000qaiufezv6eyca">block</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6enqi000qaiufezv6eyca">bool</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6enqi000qaiufezv6eyca">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6enqi000qaiufezv6eyca">context</td>
+<td colspan="1">block</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6enqi000qaiufezv6eyca">oneOf active, link, or disabled</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6enqi000qaiufezv6eyca">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6enqi000qaiufezv6eyca">disabled</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6enqi000qaiufezv6eyca">bool</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6enqi000qaiufezv6eyca">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6enqi000qaiufezv6eyca">size</td>
+<td colspan="1">context</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6enqi000qaiufezv6eyca">oneOf mini, small, or large</td>
+<td>oneOf active, link, or disabled</td>
 
 </tr>
 
-<tr data-kitid="tablerow-5-cj4n6enqi000qaiufezv6eyca">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6enqi000qaiufezv6eyca">type</td>
+<td colspan="1">disabled</td>
 
-<td data-kitid="tabledata-[5, 1]-cj4n6enqi000qaiufezv6eyca">oneOf button, close, or link</td>
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">size</td>
+
+<td>oneOf mini, small, or large</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">type</td>
+
+<td>oneOf button, close, or link</td>
 
 </tr>
 

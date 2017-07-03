@@ -18,7 +18,7 @@ The Comment component consists of a comment header, including an avatar, a title
 
 The Comment component consists of a comment header, including an avatar, a title and meta data, and a comment body.
 
-<table class="uk-table" data-kitid="cj4n6evcp0002b7uf786rv2l0">
+<table class="uk-table">
 
 <thead>
 
@@ -119,7 +119,7 @@ To style a comment differently, for example to highlight it as the admin's comme
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6eve4000db7ufq1b8wc3j">
+<table class="uk-table">
 
 <thead>
 
@@ -135,43 +135,43 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6eve4000db7ufq1b8wc3j">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6eve4000db7ufq1b8wc3j">avatar</td>
+<td colspan="1">avatar</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6eve4000db7ufq1b8wc3j">object `{src, alt}`</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6eve4000db7ufq1b8wc3j">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6eve4000db7ufq1b8wc3j">body</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6eve4000db7ufq1b8wc3j">string</td>
+<td>object `{src, alt}`</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6eve4000db7ufq1b8wc3j">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6eve4000db7ufq1b8wc3j">meta</td>
+<td colspan="1">body</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6eve4000db7ufq1b8wc3j">any</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6eve4000db7ufq1b8wc3j">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6eve4000db7ufq1b8wc3j">primary</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6eve4000db7ufq1b8wc3j">bool</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6eve4000db7ufq1b8wc3j">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6eve4000db7ufq1b8wc3j">title</td>
+<td colspan="1">meta</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6eve4000db7ufq1b8wc3j">string</td>
+<td>any</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">primary</td>
+
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">title</td>
+
+<td>string</td>
 
 </tr>
 

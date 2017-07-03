@@ -66,7 +66,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 <span>The position of a dropdown can be changed by adding the `pos='position'`.</span>
 
-<table class="uk-table" data-kitid="cj4n6fe1m0007cpuf2rzr8q7d"><caption>Dropdown positions</caption>
+<table class="uk-table"><caption>Dropdown positions</caption>
 
 <thead>
 
@@ -82,99 +82,99 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fe1m0007cpuf2rzr8q7d">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fe1m0007cpuf2rzr8q7d">`pos="bottom-left"`</td>
+<td colspan="1"`</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fe1m0007cpuf2rzr8q7d">Default position. Aligns the dropdown to the trigger left edge below the trigger.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6fe1m0007cpuf2rzr8q7d">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fe1m0007cpuf2rzr8q7d">`pos="bottom-center"`</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6fe1m0007cpuf2rzr8q7d">Centers the dropdown below the trigger.</td>
+<td>Default position. Aligns the dropdown to the trigger left edge below the trigger.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6fe1m0007cpuf2rzr8q7d">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6fe1m0007cpuf2rzr8q7d">`pos="bottom-right"`</td>
+<td colspan="1"`</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6fe1m0007cpuf2rzr8q7d">Aligns the dropdown to the trigger right edge below the trigger.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6fe1m0007cpuf2rzr8q7d">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6fe1m0007cpuf2rzr8q7d">`pos="top-left"`</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6fe1m0007cpuf2rzr8q7d">Aligns the dropdown to the trigger left edge above the trigger</td>
+<td>Centers the dropdown below the trigger.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6fe1m0007cpuf2rzr8q7d">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6fe1m0007cpuf2rzr8q7d">`pos="top-center"`</td>
+<td colspan="1"`</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6fe1m0007cpuf2rzr8q7d">Centers the dropdown above the trigger.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-5-cj4n6fe1m0007cpuf2rzr8q7d">
-
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6fe1m0007cpuf2rzr8q7d">`pos="top-right"`</td>
-
-<td data-kitid="tabledata-[5, 1]-cj4n6fe1m0007cpuf2rzr8q7d">Aligns the dropdown to the trigger right edge above the trigger.</td>
+<td>Aligns the dropdown to the trigger right edge below the trigger.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-6-cj4n6fe1m0007cpuf2rzr8q7d">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[6, 0]-cj4n6fe1m0007cpuf2rzr8q7d">`pos="left-top"`</td>
+<td colspan="1"`</td>
 
-<td data-kitid="tabledata-[6, 1]-cj4n6fe1m0007cpuf2rzr8q7d">Aligns the dropdown bottom right corner to the trigger top left corner.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-7-cj4n6fe1m0007cpuf2rzr8q7d">
-
-<td colspan="1" data-kitid="tabledata-[7, 0]-cj4n6fe1m0007cpuf2rzr8q7d">`pos="left-center"`</td>
-
-<td data-kitid="tabledata-[7, 1]-cj4n6fe1m0007cpuf2rzr8q7d">Centers the dropdown's right edge to the trigger left edge.</td>
+<td>Aligns the dropdown to the trigger left edge above the trigger</td>
 
 </tr>
 
-<tr data-kitid="tablerow-8-cj4n6fe1m0007cpuf2rzr8q7d">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[8, 0]-cj4n6fe1m0007cpuf2rzr8q7d">`pos="left-bottom"`</td>
+<td colspan="1"`</td>
 
-<td data-kitid="tabledata-[8, 1]-cj4n6fe1m0007cpuf2rzr8q7d">Aligns the dropdown's top right corner to the trigger bottom left corner.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-9-cj4n6fe1m0007cpuf2rzr8q7d">
-
-<td colspan="1" data-kitid="tabledata-[9, 0]-cj4n6fe1m0007cpuf2rzr8q7d">`pos="right-top"`</td>
-
-<td data-kitid="tabledata-[9, 1]-cj4n6fe1m0007cpuf2rzr8q7d">Aligns the dropdown top left corner to the trigger top right corner.</td>
+<td>Centers the dropdown above the trigger.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-10-cj4n6fe1m0007cpuf2rzr8q7d">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[10, 0]-cj4n6fe1m0007cpuf2rzr8q7d">`pos="right-center"`</td>
+<td colspan="1"`</td>
 
-<td data-kitid="tabledata-[10, 1]-cj4n6fe1m0007cpuf2rzr8q7d">Centers the dropdown's left edge to the trigger right edge.</td>
+<td>Aligns the dropdown to the trigger right edge above the trigger.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-11-cj4n6fe1m0007cpuf2rzr8q7d">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[11, 0]-cj4n6fe1m0007cpuf2rzr8q7d">`pos="right-bottom"`</td>
+<td colspan="1"`</td>
 
-<td data-kitid="tabledata-[11, 1]-cj4n6fe1m0007cpuf2rzr8q7d">Aligns the dropdown top left corner to the trigger bottom right corner.</td>
+<td>Aligns the dropdown bottom right corner to the trigger top left corner.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1"`</td>
+
+<td>Centers the dropdown's right edge to the trigger left edge.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1"`</td>
+
+<td>Aligns the dropdown's top right corner to the trigger bottom left corner.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1"`</td>
+
+<td>Aligns the dropdown top left corner to the trigger top right corner.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1"`</td>
+
+<td>Centers the dropdown's left edge to the trigger right edge.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1"`</td>
+
+<td>Aligns the dropdown top left corner to the trigger bottom right corner.</td>
 
 </tr>
 
@@ -369,7 +369,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6fe7z0019cpuflwm962yj">
+<table class="uk-table">
 
 <thead>
 
@@ -385,131 +385,131 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fe7z0019cpuflwm962yj">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fe7z0019cpuflwm962yj">blank</td>
+<td colspan="1">blank</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fe7z0019cpuflwm962yj">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6fe7z0019cpuflwm962yj">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fe7z0019cpuflwm962yj">boundary</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6fe7z0019cpuflwm962yj">string</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6fe7z0019cpuflwm962yj">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6fe7z0019cpuflwm962yj">dropbody</td>
+<td colspan="1">boundary</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6fe7z0019cpuflwm962yj">object</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6fe7z0019cpuflwm962yj">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6fe7z0019cpuflwm962yj">grid</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6fe7z0019cpuflwm962yj">string</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6fe7z0019cpuflwm962yj">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6fe7z0019cpuflwm962yj">hover</td>
+<td colspan="1">dropbody</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6fe7z0019cpuflwm962yj">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-5-cj4n6fe7z0019cpuflwm962yj">
-
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6fe7z0019cpuflwm962yj">justify</td>
-
-<td data-kitid="tabledata-[5, 1]-cj4n6fe7z0019cpuflwm962yj">string</td>
+<td>object</td>
 
 </tr>
 
-<tr data-kitid="tablerow-6-cj4n6fe7z0019cpuflwm962yj">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[6, 0]-cj4n6fe7z0019cpuflwm962yj">navbar</td>
+<td colspan="1">grid</td>
 
-<td data-kitid="tabledata-[6, 1]-cj4n6fe7z0019cpuflwm962yj">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-7-cj4n6fe7z0019cpuflwm962yj">
-
-<td colspan="1" data-kitid="tabledata-[7, 0]-cj4n6fe7z0019cpuflwm962yj">noflip</td>
-
-<td data-kitid="tabledata-[7, 1]-cj4n6fe7z0019cpuflwm962yj">bool</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-8-cj4n6fe7z0019cpuflwm962yj">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[8, 0]-cj4n6fe7z0019cpuflwm962yj">opened</td>
+<td colspan="1">hover</td>
 
-<td data-kitid="tabledata-[8, 1]-cj4n6fe7z0019cpuflwm962yj">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-9-cj4n6fe7z0019cpuflwm962yj">
-
-<td colspan="1" data-kitid="tabledata-[9, 0]-cj4n6fe7z0019cpuflwm962yj">parent</td>
-
-<td data-kitid="tabledata-[9, 1]-cj4n6fe7z0019cpuflwm962yj">bool</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-10-cj4n6fe7z0019cpuflwm962yj">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[10, 0]-cj4n6fe7z0019cpuflwm962yj">pos</td>
+<td colspan="1">justify</td>
 
-<td data-kitid="tabledata-[10, 1]-cj4n6fe7z0019cpuflwm962yj">string</td>
-
-</tr>
-
-<tr data-kitid="tablerow-11-cj4n6fe7z0019cpuflwm962yj">
-
-<td colspan="1" data-kitid="tabledata-[11, 0]-cj4n6fe7z0019cpuflwm962yj">scrollable</td>
-
-<td data-kitid="tabledata-[11, 1]-cj4n6fe7z0019cpuflwm962yj">bool</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-12-cj4n6fe7z0019cpuflwm962yj">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[12, 0]-cj4n6fe7z0019cpuflwm962yj">small</td>
+<td colspan="1">navbar</td>
 
-<td data-kitid="tabledata-[12, 1]-cj4n6fe7z0019cpuflwm962yj">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-13-cj4n6fe7z0019cpuflwm962yj">
-
-<td colspan="1" data-kitid="tabledata-[13, 0]-cj4n6fe7z0019cpuflwm962yj">standard</td>
-
-<td data-kitid="tabledata-[13, 1]-cj4n6fe7z0019cpuflwm962yj">object</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-14-cj4n6fe7z0019cpuflwm962yj">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[14, 0]-cj4n6fe7z0019cpuflwm962yj">trigger</td>
+<td colspan="1">noflip</td>
 
-<td data-kitid="tabledata-[14, 1]-cj4n6fe7z0019cpuflwm962yj">object</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-15-cj4n6fe7z0019cpuflwm962yj">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[15, 0]-cj4n6fe7z0019cpuflwm962yj">type</td>
+<td colspan="1">opened</td>
 
-<td data-kitid="tabledata-[15, 1]-cj4n6fe7z0019cpuflwm962yj">oneOf: 'button' | 'button-group' | 'dropdown' | 'grid' | 'navbar'</td>
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">parent</td>
+
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">pos</td>
+
+<td>string</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">scrollable</td>
+
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">small</td>
+
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">standard</td>
+
+<td>object</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">trigger</td>
+
+<td>object</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">type</td>
+
+<td>oneOf: 'button' | 'button-group' | 'dropdown' | 'grid' | 'navbar'</td>
 
 </tr>
 

@@ -212,7 +212,7 @@ Form inputs support <a href='http://redux-form.com/'>Redux Form</a> with the For
       </Form>);
     );
 
-<span class="uk-badge" data-kitid="badge-cj4n6f78a0021caufmzh0q07q">Note</span> The Redux Form Fields api in v6 was completely rewitten and therefore has an entiely different implementation. For more details see [Redux Form](http://redux-form.com)
+<span class="uk-badge">Note</span> The Redux Form Fields api in v6 was completely rewitten and therefore has an entiely different implementation. For more details see [Redux Form](http://redux-form.com)
 
 ## Redux Form V5
 

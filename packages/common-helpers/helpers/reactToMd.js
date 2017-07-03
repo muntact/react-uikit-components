@@ -6,6 +6,9 @@ import toMarkdown from 'to-markdown';
 // TODO: still things to fix...
 const args = process.argv.slice(2);
 
+// set the node mode to md:
+process.env.NODE_ENV = 'mdGenerator';
+
 const Component = require(path.resolve(process.cwd(), args[0]));
 
 const htmString = ReactDOMServer.renderToStaticMarkup(<Component.default />);
@@ -81,6 +84,7 @@ String.prototype.replaceAll = function(search, replacement) {
 let markdown = toMarkdown(htmString, options);
 
 markdown = markdown.replaceAll(`undefined`, '');
+markdown = markdown.replaceAll(' data-kitid="(.*)"', '');
 
 markdown = markdown + postAmble;
 

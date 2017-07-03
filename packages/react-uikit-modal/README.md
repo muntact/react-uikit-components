@@ -97,7 +97,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 <span>The Modal component can be set to `block`, `alert`, or `prompt`</span>
 
-<table class="uk-table" data-kitid="cj4n6f0lf000dblufr7zzoddw"><caption>Modal types</caption>
+<table class="uk-table"><caption>Modal types</caption>
 
 <thead>
 
@@ -113,35 +113,35 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6f0lf000dblufr7zzoddw">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6f0lf000dblufr7zzoddw">block</td>
+<td colspan="1">block</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6f0lf000dblufr7zzoddw">Default type, which dispalys an empty modal</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6f0lf000dblufr7zzoddw">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6f0lf000dblufr7zzoddw">alert</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6f0lf000dblufr7zzoddw">Displays an alert style modal with an OK button</td>
+<td>Default type, which dispalys an empty modal</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6f0lf000dblufr7zzoddw">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6f0lf000dblufr7zzoddw">prompt</td>
+<td colspan="1">alert</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6f0lf000dblufr7zzoddw">Dispalys a prompt style modal with a text input, cancel and OK buttons</td>
+<td>Displays an alert style modal with an OK button</td>
 
 </tr>
 
-<tr data-kitid="tablerow-3-cj4n6f0lf000dblufr7zzoddw">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6f0lf000dblufr7zzoddw">confirm</td>
+<td colspan="1">prompt</td>
 
-<td data-kitid="tabledata-[3, 1]-cj4n6f0lf000dblufr7zzoddw">Dispalys a modal with cancel and OK buttons. When OK is clicked a confirm style modal is displayed with a cancel and OK buttton</td>
+<td>Dispalys a prompt style modal with a text input, cancel and OK buttons</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">confirm</td>
+
+<td>Dispalys a modal with cancel and OK buttons. When OK is clicked a confirm style modal is displayed with a cancel and OK buttton</td>
 
 </tr>
 
@@ -271,7 +271,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6f0od000obluflim7k4of">
+<table class="uk-table">
 
 <thead>
 
@@ -287,107 +287,107 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6f0od000obluflim7k4of">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[0, 0]-cj4n6f0od000obluflim7k4of">blank</td>
+<td colspan="2">blank</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6f0od000obluflim7k4of">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6f0od000obluflim7k4of">
-
-<td colspan="2" data-kitid="tabledata-[1, 0]-cj4n6f0od000obluflim7k4of">cancel</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6f0od000obluflim7k4of">object</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6f0od000obluflim7k4of">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[2, 0]-cj4n6f0od000obluflim7k4of">close</td>
+<td colspan="2">cancel</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6f0od000obluflim7k4of">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6f0od000obluflim7k4of">
-
-<td colspan="2" data-kitid="tabledata-[3, 0]-cj4n6f0od000obluflim7k4of">confirm</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6f0od000obluflim7k4of">object</td>
+<td>object</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6f0od000obluflim7k4of">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[4, 0]-cj4n6f0od000obluflim7k4of">dialog</td>
+<td colspan="2">close</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6f0od000obluflim7k4of">object</td>
-
-</tr>
-
-<tr data-kitid="tablerow-5-cj4n6f0od000obluflim7k4of">
-
-<td colspan="2" data-kitid="tabledata-[5, 0]-cj4n6f0od000obluflim7k4of">footer</td>
-
-<td data-kitid="tabledata-[5, 1]-cj4n6f0od000obluflim7k4of">any</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-6-cj4n6f0od000obluflim7k4of">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[6, 0]-cj4n6f0od000obluflim7k4of">header</td>
+<td colspan="2">confirm</td>
 
-<td data-kitid="tabledata-[6, 1]-cj4n6f0od000obluflim7k4of">any</td>
-
-</tr>
-
-<tr data-kitid="tablerow-7-cj4n6f0od000obluflim7k4of">
-
-<td colspan="2" data-kitid="tabledata-[7, 0]-cj4n6f0od000obluflim7k4of">lightbox</td>
-
-<td data-kitid="tabledata-[7, 1]-cj4n6f0od000obluflim7k4of">bool</td>
+<td>object</td>
 
 </tr>
 
-<tr data-kitid="tablerow-8-cj4n6f0od000obluflim7k4of">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[8, 0]-cj4n6f0od000obluflim7k4of">ok</td>
+<td colspan="2">dialog</td>
 
-<td data-kitid="tabledata-[8, 1]-cj4n6f0od000obluflim7k4of">object</td>
-
-</tr>
-
-<tr data-kitid="tablerow-9-cj4n6f0od000obluflim7k4of">
-
-<td colspan="2" data-kitid="tabledata-[9, 0]-cj4n6f0od000obluflim7k4of">large</td>
-
-<td data-kitid="tabledata-[9, 1]-cj4n6f0od000obluflim7k4of">bool</td>
+<td>object</td>
 
 </tr>
 
-<tr data-kitid="tablerow-10-cj4n6f0od000obluflim7k4of">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[10, 0]-cj4n6f0od000obluflim7k4of">show</td>
+<td colspan="2">footer</td>
 
-<td data-kitid="tabledata-[10, 1]-cj4n6f0od000obluflim7k4of">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-11-cj4n6f0od000obluflim7k4of">
-
-<td colspan="2" data-kitid="tabledata-[11, 0]-cj4n6f0od000obluflim7k4of">trigger</td>
-
-<td data-kitid="tabledata-[11, 1]-cj4n6f0od000obluflim7k4of">object</td>
+<td>any</td>
 
 </tr>
 
-<tr data-kitid="tablerow-12-cj4n6f0od000obluflim7k4of">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[12, 0]-cj4n6f0od000obluflim7k4of">type</td>
+<td colspan="2">header</td>
 
-<td data-kitid="tabledata-[12, 1]-cj4n6f0od000obluflim7k4of">oneOf block, alert, prompt</td>
+<td>any</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2">lightbox</td>
+
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2">ok</td>
+
+<td>object</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2">large</td>
+
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2">show</td>
+
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2">trigger</td>
+
+<td>object</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2">type</td>
+
+<td>oneOf block, alert, prompt</td>
 
 </tr>
 

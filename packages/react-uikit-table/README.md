@@ -144,7 +144,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6ejh6000la1ufyirzlvb2">
+<table class="uk-table">
 
 <thead>
 
@@ -160,75 +160,75 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6ejh6000la1ufyirzlvb2">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6ejh6000la1ufyirzlvb2">body</td>
+<td colspan="1">body</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6ejh6000la1ufyirzlvb2">array</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6ejh6000la1ufyirzlvb2">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6ejh6000la1ufyirzlvb2">caption</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6ejh6000la1ufyirzlvb2">string</td>
+<td>array</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6ejh6000la1ufyirzlvb2">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6ejh6000la1ufyirzlvb2">condensed</td>
+<td colspan="1">caption</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6ejh6000la1ufyirzlvb2">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6ejh6000la1ufyirzlvb2">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6ejh6000la1ufyirzlvb2">hover</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6ejh6000la1ufyirzlvb2">bool</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6ejh6000la1ufyirzlvb2">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6ejh6000la1ufyirzlvb2">head</td>
+<td colspan="1">condensed</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6ejh6000la1ufyirzlvb2">oneOf: 'array' | 'string'</td>
-
-</tr>
-
-<tr data-kitid="tablerow-5-cj4n6ejh6000la1ufyirzlvb2">
-
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6ejh6000la1ufyirzlvb2">numbered</td>
-
-<td data-kitid="tabledata-[5, 1]-cj4n6ejh6000la1ufyirzlvb2">oneOf: 'bool' | 'string'</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-6-cj4n6ejh6000la1ufyirzlvb2">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[6, 0]-cj4n6ejh6000la1ufyirzlvb2">overflow</td>
+<td colspan="1">hover</td>
 
-<td data-kitid="tabledata-[6, 1]-cj4n6ejh6000la1ufyirzlvb2">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-7-cj4n6ejh6000la1ufyirzlvb2">
-
-<td colspan="1" data-kitid="tabledata-[7, 0]-cj4n6ejh6000la1ufyirzlvb2">sort</td>
-
-<td data-kitid="tabledata-[7, 1]-cj4n6ejh6000la1ufyirzlvb2">oneOf: 'array' | 'string'</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-8-cj4n6ejh6000la1ufyirzlvb2">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[8, 0]-cj4n6ejh6000la1ufyirzlvb2">striped</td>
+<td colspan="1">head</td>
 
-<td data-kitid="tabledata-[8, 1]-cj4n6ejh6000la1ufyirzlvb2">bool</td>
+<td>oneOf: 'array' | 'string'</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">numbered</td>
+
+<td>oneOf: 'bool' | 'string'</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">overflow</td>
+
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">sort</td>
+
+<td>oneOf: 'array' | 'string'</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">striped</td>
+
+<td>bool</td>
 
 </tr>
 

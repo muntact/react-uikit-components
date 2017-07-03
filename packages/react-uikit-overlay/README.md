@@ -59,7 +59,7 @@ Overlays are images that other elemets can be placed on top of.
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6f1mt000abuufkyr26bhm">
+<table class="uk-table">
 
 <thead>
 
@@ -75,99 +75,99 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6f1mt000abuufkyr26bhm">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6f1mt000abuufkyr26bhm">alt</td>
+<td colspan="1">alt</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6f1mt000abuufkyr26bhm">string</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6f1mt000abuufkyr26bhm">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6f1mt000abuufkyr26bhm">background</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6f1mt000abuufkyr26bhm">bool</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6f1mt000abuufkyr26bhm">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6f1mt000abuufkyr26bhm">flex</td>
+<td colspan="1">background</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6f1mt000abuufkyr26bhm">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6f1mt000abuufkyr26bhm">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6f1mt000abuufkyr26bhm">height</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6f1mt000abuufkyr26bhm">string</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6f1mt000abuufkyr26bhm">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6f1mt000abuufkyr26bhm">icon</td>
+<td colspan="1">flex</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6f1mt000abuufkyr26bhm">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-5-cj4n6f1mt000abuufkyr26bhm">
-
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6f1mt000abuufkyr26bhm">image</td>
-
-<td data-kitid="tabledata-[5, 1]-cj4n6f1mt000abuufkyr26bhm">string</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-6-cj4n6f1mt000abuufkyr26bhm">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[6, 0]-cj4n6f1mt000abuufkyr26bhm">large</td>
+<td colspan="1">height</td>
 
-<td data-kitid="tabledata-[6, 1]-cj4n6f1mt000abuufkyr26bhm">object {`{width, height, url}`}</td>
-
-</tr>
-
-<tr data-kitid="tablerow-7-cj4n6f1mt000abuufkyr26bhm">
-
-<td colspan="1" data-kitid="tabledata-[7, 0]-cj4n6f1mt000abuufkyr26bhm">medium</td>
-
-<td data-kitid="tabledata-[7, 1]-cj4n6f1mt000abuufkyr26bhm">object {`{width, height, url}`}</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-8-cj4n6f1mt000abuufkyr26bhm">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[8, 0]-cj4n6f1mt000abuufkyr26bhm">small</td>
+<td colspan="1">icon</td>
 
-<td data-kitid="tabledata-[8, 1]-cj4n6f1mt000abuufkyr26bhm">object {`{width, height, url}`}</td>
-
-</tr>
-
-<tr data-kitid="tablerow-9-cj4n6f1mt000abuufkyr26bhm">
-
-<td colspan="1" data-kitid="tabledata-[9, 0]-cj4n6f1mt000abuufkyr26bhm">src</td>
-
-<td data-kitid="tabledata-[9, 1]-cj4n6f1mt000abuufkyr26bhm">string</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-10-cj4n6f1mt000abuufkyr26bhm">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[10, 0]-cj4n6f1mt000abuufkyr26bhm">width</td>
+<td colspan="1">image</td>
 
-<td data-kitid="tabledata-[10, 1]-cj4n6f1mt000abuufkyr26bhm">string</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-11-cj4n6f1mt000abuufkyr26bhm">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[11, 0]-cj4n6f1mt000abuufkyr26bhm">xlarge</td>
+<td colspan="1">large</td>
 
-<td data-kitid="tabledata-[11, 1]-cj4n6f1mt000abuufkyr26bhm">object {`{width, height, url}`}</td>
+<td>object {`{width, height, url}`}</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">medium</td>
+
+<td>object {`{width, height, url}`}</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">small</td>
+
+<td>object {`{width, height, url}`}</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">src</td>
+
+<td>string</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">width</td>
+
+<td>string</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">xlarge</td>
+
+<td>object {`{width, height, url}`}</td>
 
 </tr>
 

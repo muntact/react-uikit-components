@@ -12,7 +12,7 @@ import DocExample from '../../common-helpers/lib/DocExample';
 import DocFooter from '../../common-helpers/lib/DocFooter';
 
 let velocity;
-if (!process.env.NODE_ENV === 'mdGenerator') {
+if (process.env.NODE_ENV !== 'mdGenerator') {
   velocity = require('velocity-animate');
 } else {
   velocity = () => {};

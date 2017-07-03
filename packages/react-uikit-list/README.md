@@ -98,7 +98,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 <span>Link list can be made selectable by adding the `selectable` prop. Optional `checked` and `mulit` can also be added.</span>
 
-<table class="uk-table" data-kitid="cj4n6er09000sarufh0nzj87v"><caption>Selectable props</caption>
+<table class="uk-table"><caption>Selectable props</caption>
 
 <thead>
 
@@ -114,19 +114,19 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6er09000sarufh0nzj87v">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6er09000sarufh0nzj87v">checked=on</td>
+<td colspan="1">checked=on</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6er09000sarufh0nzj87v">Takes an element to be displayed when the items checked prop is true.</td>
+<td>Takes an element to be displayed when the items checked prop is true.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-1-cj4n6er09000sarufh0nzj87v">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6er09000sarufh0nzj87v">checked=off</td>
+<td colspan="1">checked=off</td>
 
-<td data-kitid="tabledata-[1, 1]-cj4n6er09000sarufh0nzj87v">Takes an element to be displayed when the items checked prop is false.</td>
+<td>Takes an element to be displayed when the items checked prop is false.</td>
 
 </tr>
 
@@ -191,7 +191,7 @@ Displays the terms and descriptions side by side
 
 <span>List item has an `onClick` prop which returns an object containing all the properties from the triggered event. There is also an addtional `item` property added for convinience.</span>
 
-<table class="uk-table" data-kitid="cj4n6er17000zaruflon78ooj">
+<table class="uk-table">
 
 <thead>
 
@@ -207,27 +207,27 @@ Displays the terms and descriptions side by side
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6er17000zaruflon78ooj">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[0, 0]-cj4n6er17000zaruflon78ooj">component</td>
+<td colspan="2">component</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6er17000zaruflon78ooj">Items' component</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6er17000zaruflon78ooj">
-
-<td colspan="2" data-kitid="tabledata-[1, 0]-cj4n6er17000zaruflon78ooj">index</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6er17000zaruflon78ooj">Items' index</td>
+<td>Items' component</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6er17000zaruflon78ooj">
+<tr>
 
-<td colspan="2" data-kitid="tabledata-[2, 0]-cj4n6er17000zaruflon78ooj">kitid</td>
+<td colspan="2">index</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6er17000zaruflon78ooj">Items' id</td>
+<td>Items' index</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2">kitid</td>
+
+<td>Items' id</td>
 
 </tr>
 
@@ -239,7 +239,7 @@ Displays the terms and descriptions side by side
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6er1i0010aruf0vfzi108">
+<table class="uk-table">
 
 <thead>
 
@@ -255,51 +255,51 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6er1i0010aruf0vfzi108">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6er1i0010aruf0vfzi108">`items`</td>
+<td colspan="1">`items`</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6er1i0010aruf0vfzi108">array</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6er1i0010aruf0vfzi108">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6er1i0010aruf0vfzi108">`horizontal`</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6er1i0010aruf0vfzi108">bool</td>
+<td>array</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6er1i0010aruf0vfzi108">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6er1i0010aruf0vfzi108">`line`</td>
+<td colspan="1">`horizontal`</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6er1i0010aruf0vfzi108">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6er1i0010aruf0vfzi108">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6er1i0010aruf0vfzi108">`striped`</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6er1i0010aruf0vfzi108">bool</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6er1i0010aruf0vfzi108">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6er1i0010aruf0vfzi108">`space`</td>
+<td colspan="1">`line`</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6er1i0010aruf0vfzi108">bool</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-5-cj4n6er1i0010aruf0vfzi108">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6er1i0010aruf0vfzi108">`type`</td>
+<td colspan="1">`striped`</td>
 
-<td data-kitid="tabledata-[5, 1]-cj4n6er1i0010aruf0vfzi108">oneOf: 'description' | 'unordered'. Default is unordered</td>
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`space`</td>
+
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`type`</td>
+
+<td>oneOf: 'description' | 'unordered'. Default is unordered</td>
 
 </tr>
 
@@ -311,7 +311,7 @@ See Base for additional utility props.
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6er1o0011arufrg5teo51">
+<table class="uk-table">
 
 <thead>
 
@@ -327,43 +327,43 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6er1o0011arufrg5teo51">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6er1o0011arufrg5teo51">badge</td>
+<td colspan="1">badge</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6er1o0011arufrg5teo51">object</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6er1o0011arufrg5teo51">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6er1o0011arufrg5teo51">body</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6er1o0011arufrg5teo51">string</td>
+<td>object</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6er1o0011arufrg5teo51">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6er1o0011arufrg5teo51">href</td>
+<td colspan="1">body</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6er1o0011arufrg5teo51">string</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6er1o0011arufrg5teo51">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6er1o0011arufrg5teo51">onClick</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6er1o0011arufrg5teo51">func</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6er1o0011arufrg5teo51">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6er1o0011arufrg5teo51">onSelect</td>
+<td colspan="1">href</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6er1o0011arufrg5teo51">func</td>
+<td>string</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">onClick</td>
+
+<td>func</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">onSelect</td>
+
+<td>func</td>
 
 </tr>
 

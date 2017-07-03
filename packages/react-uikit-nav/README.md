@@ -82,7 +82,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 <span>The NavItem component creates a Nav item which can either be a link, header or a divider. This can be specified using the `type` prop. The default type is link.</span>
 
-<table class="uk-table" data-kitid="cj4n6fj7k000qdbufazo5slpz">
+<table class="uk-table">
 
 <thead>
 
@@ -98,67 +98,67 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fj7k000qdbufazo5slpz">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fj7k000qdbufazo5slpz">`body`</td>
+<td colspan="1">`body`</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fj7k000qdbufazo5slpz">Provides a body for a link.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6fj7k000qdbufazo5slpz">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fj7k000qdbufazo5slpz">`href`</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6fj7k000qdbufazo5slpz">Provides a URL for a link.</td>
+<td>Provides a body for a link.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6fj7k000qdbufazo5slpz">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6fj7k000qdbufazo5slpz">`active`</td>
+<td colspan="1">`href`</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6fj7k000qdbufazo5slpz">Shows the item as active.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6fj7k000qdbufazo5slpz">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6fj7k000qdbufazo5slpz">`subtitle`</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6fj7k000qdbufazo5slpz">Creates a subtitle.</td>
+<td>Provides a URL for a link.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6fj7k000qdbufazo5slpz">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6fj7k000qdbufazo5slpz">`type='link'`</td>
+<td colspan="1">`active`</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6fj7k000qdbufazo5slpz">Creates a link NavItem.</td>
-
-</tr>
-
-<tr data-kitid="tablerow-5-cj4n6fj7k000qdbufazo5slpz">
-
-<td colspan="1" data-kitid="tabledata-[5, 0]-cj4n6fj7k000qdbufazo5slpz">`type='header'`</td>
-
-<td data-kitid="tabledata-[5, 1]-cj4n6fj7k000qdbufazo5slpz">Creates a header NavItem.</td>
+<td>Shows the item as active.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-6-cj4n6fj7k000qdbufazo5slpz">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[6, 0]-cj4n6fj7k000qdbufazo5slpz">`type='body'`</td>
+<td colspan="1">`subtitle`</td>
 
-<td data-kitid="tabledata-[6, 1]-cj4n6fj7k000qdbufazo5slpz">Creates a body a link.</td>
+<td>Creates a subtitle.</td>
 
 </tr>
 
-<tr data-kitid="tablerow-7-cj4n6fj7k000qdbufazo5slpz">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[7, 0]-cj4n6fj7k000qdbufazo5slpz">`type='divider'`</td>
+<td colspan="1">`type='link'`</td>
 
-<td data-kitid="tabledata-[7, 1]-cj4n6fj7k000qdbufazo5slpz">Creates a divider NavItem for separating menu items.</td>
+<td>Creates a link NavItem.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`type='header'`</td>
+
+<td>Creates a header NavItem.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`type='body'`</td>
+
+<td>Creates a body a link.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">`type='divider'`</td>
+
+<td>Creates a divider NavItem for separating menu items.</td>
 
 </tr>
 
@@ -207,7 +207,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 See base component for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6fj8u0019dbuf388evhtg">
+<table class="uk-table">
 
 <thead>
 
@@ -223,19 +223,19 @@ See base component for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fj8u0019dbuf388evhtg">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fj8u0019dbuf388evhtg">parent</td>
+<td colspan="1">parent</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fj8u0019dbuf388evhtg">bool</td>
+<td>bool</td>
 
 </tr>
 
-<tr data-kitid="tablerow-1-cj4n6fj8u0019dbuf388evhtg">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fj8u0019dbuf388evhtg">type</td>
+<td colspan="1">type</td>
 
-<td data-kitid="tabledata-[1, 1]-cj4n6fj8u0019dbuf388evhtg">oneOf: 'dropdown' | 'side' | 'sub'</td>
+<td>oneOf: 'dropdown' | 'side' | 'sub'</td>
 
 </tr>
 
@@ -247,7 +247,7 @@ See base component for additional utility props.
 
 See Base for additional utility props.
 
-<table class="uk-table" data-kitid="cj4n6fj91001adbufiugrx3df">
+<table class="uk-table">
 
 <thead>
 
@@ -263,43 +263,43 @@ See Base for additional utility props.
 
 <tbody>
 
-<tr data-kitid="tablerow-0-cj4n6fj91001adbufiugrx3df">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[0, 0]-cj4n6fj91001adbufiugrx3df">body</td>
+<td colspan="1">body</td>
 
-<td data-kitid="tabledata-[0, 1]-cj4n6fj91001adbufiugrx3df">string</td>
-
-</tr>
-
-<tr data-kitid="tablerow-1-cj4n6fj91001adbufiugrx3df">
-
-<td colspan="1" data-kitid="tabledata-[1, 0]-cj4n6fj91001adbufiugrx3df">href</td>
-
-<td data-kitid="tabledata-[1, 1]-cj4n6fj91001adbufiugrx3df">string</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-2-cj4n6fj91001adbufiugrx3df">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[2, 0]-cj4n6fj91001adbufiugrx3df">active</td>
+<td colspan="1">href</td>
 
-<td data-kitid="tabledata-[2, 1]-cj4n6fj91001adbufiugrx3df">bool</td>
-
-</tr>
-
-<tr data-kitid="tablerow-3-cj4n6fj91001adbufiugrx3df">
-
-<td colspan="1" data-kitid="tabledata-[3, 0]-cj4n6fj91001adbufiugrx3df">subtitle</td>
-
-<td data-kitid="tabledata-[3, 1]-cj4n6fj91001adbufiugrx3df">string</td>
+<td>string</td>
 
 </tr>
 
-<tr data-kitid="tablerow-4-cj4n6fj91001adbufiugrx3df">
+<tr>
 
-<td colspan="1" data-kitid="tabledata-[4, 0]-cj4n6fj91001adbufiugrx3df">type</td>
+<td colspan="1">active</td>
 
-<td data-kitid="tabledata-[4, 1]-cj4n6fj91001adbufiugrx3df">oneOf: 'link' | 'header' | 'body' | 'divider'</td>
+<td>bool</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">subtitle</td>
+
+<td>string</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">type</td>
+
+<td>oneOf: 'link' | 'header' | 'body' | 'divider'</td>
 
 </tr>
 
