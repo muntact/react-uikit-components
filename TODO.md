@@ -1,8 +1,8 @@
 Things to fix:
 
 * [x] Hoist dependancies that are needed
-* [ ] Delete cheerio from all packages :P
-* [ ] rename the common-helpers dir to the package name
+* [x] Delete cheerio from all packages :P
+* [x] rename the common-helpers dir to the package name: 'script-utils'
 * [ ] Deal with the note tags at the bottom of examples.
 * [ ] Compare the docs and compile diffs to fix
 * [ ] Breakout example jsx snippets into components in the docs.

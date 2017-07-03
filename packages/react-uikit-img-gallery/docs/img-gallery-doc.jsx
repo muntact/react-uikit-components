@@ -1,9 +1,9 @@
 import React from 'react';
 import ImgGroup from '../lib/img-gallery';
 
-import DocHeader from '../../common-helpers/lib/DocHeader';
-import DocExample from '../../common-helpers/lib/DocExample';
-import DocFooter from '../../common-helpers/lib/DocFooter';
+import DocHeader from '../../script-utils/lib/DocHeader';
+import DocExample from '../../script-utils/lib/DocExample';
+import DocFooter from '../../script-utils/lib/DocFooter';
 
 const name = 'Img Gallery';
 const npmName = 'react-uikit-img-gallery';

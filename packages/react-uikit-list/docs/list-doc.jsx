@@ -5,9 +5,9 @@ import ListItem from '../lib/list-item';
 import Table from 'react-uikit-table';
 import Note from 'react-uikit-note';
 
-import DocHeader from '../../common-helpers/lib/DocHeader';
-import DocExample from '../../common-helpers/lib/DocExample';
-import DocFooter from '../../common-helpers/lib/DocFooter';
+import DocHeader from '../../script-utils/lib/DocHeader';
+import DocExample from '../../script-utils/lib/DocExample';
+import DocFooter from '../../script-utils/lib/DocFooter';
 
 const items = [
   {href: '#', kitId: 'list-group-1.1', body: 'Item 1', checked: true},

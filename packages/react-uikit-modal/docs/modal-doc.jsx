@@ -4,9 +4,9 @@ import Button from 'react-uikit-button';
 import Table from 'react-uikit-table';
 import Modal from '../lib/modal';
 
-import DocHeader from '../../common-helpers/lib/DocHeader';
-import DocExample from '../../common-helpers/lib/DocExample';
-import DocFooter from '../../common-helpers/lib/DocFooter';
+import DocHeader from '../../script-utils/lib/DocHeader';
+import DocExample from '../../script-utils/lib/DocExample';
+import DocFooter from '../../script-utils/lib/DocFooter';
 
 let velocity;
 if (process.env.NODE_ENV !== 'mdGenerator') {

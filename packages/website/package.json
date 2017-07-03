@@ -15,7 +15,7 @@
   "license": "MIT",
   "main": "./docs/scripts/bundle.js",
   "scripts": {
-    "build": "webpack --config ./webpack.config-build.js --progress",
+    "build": "NODE_ENV='website' webpack --config ./webpack.config-build.js --progress",
     "lint": "eslint --quiet ./src/**  && date || true && date",
     "lint:watch": "watch 'npm run lint' ./",
     "uikit": "postcssbuild --config postcssbuild.json --d src/styles/uikit -o docs/styles/uikit.min.css",

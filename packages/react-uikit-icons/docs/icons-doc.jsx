@@ -6,9 +6,9 @@ import List from 'react-uikit-list';
 import ListItem from 'react-uikit-list/lib/list-item';
 
 import IconCollection from './icon-collection';
-import DocHeader from '../../common-helpers/lib/DocHeader';
-import DocExample from '../../common-helpers/lib/DocExample';
-import DocFooter from '../../common-helpers/lib/DocFooter';
+import DocHeader from '../../script-utils/lib/DocHeader';
+import DocExample from '../../script-utils/lib/DocExample';
+import DocFooter from '../../script-utils/lib/DocFooter';
 
 const name = 'Icons';
 const npmName = 'react-uikit-icons';

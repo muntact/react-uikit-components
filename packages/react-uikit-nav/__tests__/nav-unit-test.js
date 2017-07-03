@@ -7,7 +7,7 @@ import {
   htmlToString,
   reactToDom,
   reactToString
-} from '../../common-helpers/helpers/renderElement';
+} from '../../script-utils/helpers/renderElement';
 
 
 test('nav Component', nested => {

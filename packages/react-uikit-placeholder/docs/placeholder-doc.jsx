@@ -3,9 +3,9 @@ import React from 'react';
 import Note from 'react-uikit-note';
 
 import Placeholder from '../lib/placeholder';
-import DocHeader from '../../common-helpers/lib/DocHeader';
-import DocExample from '../../common-helpers/lib/DocExample';
-import DocFooter from '../../common-helpers/lib/DocFooter';
+import DocHeader from '../../script-utils/lib/DocHeader';
+import DocExample from '../../script-utils/lib/DocExample';
+import DocFooter from '../../script-utils/lib/DocFooter';
 
 const name = 'Placeholder';
 const npmName = 'react-uikit-placeholder';

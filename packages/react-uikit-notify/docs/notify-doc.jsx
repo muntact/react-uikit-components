@@ -8,9 +8,9 @@ import uikit from 'react-uikit-base';
 import cuid from 'cuid';
 
 import Notify from '../lib/notify';
-import DocHeader from '../../common-helpers/lib/DocHeader';
-import DocExample from '../../common-helpers/lib/DocExample';
-import DocFooter from '../../common-helpers/lib/DocFooter';
+import DocHeader from '../../script-utils/lib/DocHeader';
+import DocExample from '../../script-utils/lib/DocExample';
+import DocFooter from '../../script-utils/lib/DocFooter';
 
 let velocity;
 if (process.env.NODE_ENV !== 'mdGenerator') {

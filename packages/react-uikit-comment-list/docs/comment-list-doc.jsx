@@ -2,9 +2,9 @@ import React from 'react';
 import Comment from 'react-uikit-comment';
 import CommentList from '../lib/comment-list';
 
-import DocHeader from '../../common-helpers/lib/DocHeader';
-import DocExample from '../../common-helpers/lib/DocExample';
-import DocFooter from '../../common-helpers/lib/DocFooter';
+import DocHeader from '../../script-utils/lib/DocHeader';
+import DocExample from '../../script-utils/lib/DocExample';
+import DocFooter from '../../script-utils/lib/DocFooter';
 
 const name = 'Comment List';
 const npmName = 'react-uikit-comment-list';

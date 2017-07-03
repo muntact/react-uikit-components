@@ -19,14 +19,14 @@
     "build": "babel -d lib/ src/  && date",
     "build:watch": "watch 'npm run build' ./src",
     "build:docs": "babel -d docs-lib/ docs/  && date",
-    "generateMD": "babel-node ../common-helpers/helpers/reactToMd.js ../react-uikit-block/docs/block-doc.jsx > README.md",
+    "generateMD": "babel-node ../script-utils/helpers/reactToMd.js ../react-uikit-block/docs/block-doc.jsx > README.md",
     "lint": "eslint --quiet ./src/**  && date  || true  && date",
     "lint:watch": "watch 'npm run lint' ./",
     "lint:docs": "eslint --quiet ./docs/**  && date || true && date",
     "peer": "npm install cuid ufunc react react-dom react-uikit-base react-uikit-button",
     "prepublish": "babel -d lib/ src/  && date",
-    "test": "babel-node ../common-helpers/helpers/test-runner.js | tap-min  && date || true  && date",
-    "test:spec": "babel-node ../common-helpers/helpers/test-runner.js | tap-difflet  && date || true && date",
+    "test": "babel-node ../script-utils/helpers/test-runner.js | tap-min  && date || true  && date",
+    "test:spec": "babel-node ../script-utils/helpers/test-runner.js | tap-difflet  && date || true && date",
     "test:watch": "watch 'npm run test' ./"
   },
   "devDependencies": {
