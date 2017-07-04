@@ -1,8 +1,6 @@
 # React Uikit Notify
 
-Toggleable notifications that can be animated and postioned on various edges of the screen
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -34,7 +32,6 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Custom message
 
-The `message` property can be a string, jsx or another react component, like an icon element.
 
 
 
@@ -46,7 +43,6 @@ The `message` property can be a string, jsx or another react component, like an 
 
 ## Delay and sticky
 
-The `timeout` property sets the amount of time in milliseconds a message is visible. You can also create a sticky message by setting the timeout to zero or omitting the `timeout` property completly.
 
 
 
@@ -58,7 +54,7 @@ The `timeout` property sets the amount of time in milliseconds a message is visi
 
 ## Message context
 
-A notification can be given a context to indicate an info, success, warning or a danger status. The default context is info;
+
 
 <table class="uk-table"><caption>Notification message context table.</caption>
 
@@ -124,7 +120,7 @@ A notification can be given a context to indicate an info, success, warning or a
 
 ## Positions
 
-Notification's position can be adjusted to locations of the screens edges by changing the notifications `pos` property. The default postion is s `top-left`.
+
 
 <table class="uk-table"><caption>Notification message context table.</caption>
 
@@ -210,7 +206,7 @@ Notification's position can be adjusted to locations of the screens edges by cha
 
 ## Notify Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

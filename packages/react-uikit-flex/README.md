@@ -1,8 +1,6 @@
 # React Uikit Flex
 
-Utilize the power of Flexbox to create a wide range of layouts.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -328,7 +326,7 @@ To see how to order Flex items see <code>order</code> prop in the Base component
 
 ## Flex Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

@@ -1,8 +1,6 @@
 # React Uikit Img Gallery
 
-Create gallery of images.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -57,7 +55,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Img Gallery Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

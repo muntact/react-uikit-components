@@ -1,8 +1,6 @@
 # React Uikit Breadcrumb
 
-Create breadcrumbs to show users their location within a website.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -75,7 +73,7 @@ The Breadcrumb component consists of links which are aligned side by side and se
 
 ## Breadcrumb Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 
@@ -105,7 +103,7 @@ See Base for additional utility props.
 
 <td colspan="1">type</td>
 
-<td>oneOf active, link, or disabled</td>
+<td>oneOf: 'active' | 'link' | 'disabled'</td>
 
 </tr>
 
@@ -115,7 +113,7 @@ See Base for additional utility props.
 
 ## Breadcrumb Item Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 
@@ -153,7 +151,7 @@ See Base for additional utility props.
 
 <td colspan="1">type</td>
 
-<td>oneOf active, link, or disabled</td>
+<td>oneOf: 'active' | 'link' | 'disabled'</td>
 
 </tr>
 

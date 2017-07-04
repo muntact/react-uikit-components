@@ -1,8 +1,6 @@
 # React Uikit Comment
 
-Create comments, for example about articles.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -13,8 +11,6 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
     // ES5
     var Comment = require('react-uikit-comment');
-
-The Comment component consists of a comment header, including an avatar, a title and meta data, and a comment body.
 
 The Comment component consists of a comment header, including an avatar, a title and meta data, and a comment body.
 
@@ -36,15 +32,15 @@ The Comment component consists of a comment header, including an avatar, a title
 
 <tr>
 
-<td>`avatar`</td>
+<td colspan="1">`avatar`</td>
 
-<td>Add avatar prop to create an avatar for the comment author</td>
+<td>Add avatar prop to create an avatar for the comment author.</td>
 
 </tr>
 
 <tr>
 
-<td>`title`</td>
+<td colspan="1">`title`</td>
 
 <td>Add tilte prop to createCreates a comment title.</td>
 
@@ -52,7 +48,7 @@ The Comment component consists of a comment header, including an avatar, a title
 
 <tr>
 
-<td>`meta`</td>
+<td colspan="1">`meta`</td>
 
 <td>Add meta prop to add meta data about the comment.</td>
 
@@ -60,9 +56,9 @@ The Comment component consists of a comment header, including an avatar, a title
 
 <tr>
 
-<td>`body`</td>
+<td colspan="1">`body`</td>
 
-<td>Add body prop to add text comment body. Body is overridden if commet has children.</td>
+<td>Add body prop to add text comment body. Body is overridden if comment has children.</td>
 
 </tr>
 
@@ -81,13 +77,11 @@ The Comment component consists of a comment header, including an avatar, a title
       </div>;
 
       ...
-      <Comment title='Author' meta={meta}
-        avatar={{src:'docs/images/placeholder_avatar.svg', alt: 'Avatar placeholder'}}>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-          erat, sed diam voluptua.
-        </p>
+      <Comment title='Author' meta={meta} avatar={{src: 'docs/images/placeholder_avatar.svg', alt: 'Avatar placeholder'}}>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </Comment>
       ...
 
@@ -105,19 +99,17 @@ To style a comment differently, for example to highlight it as the admin's comme
       </div>;
 
       ...
-      <Comment primary title='Author' meta={meta}
-        avatar={{src:'docs/images/placeholder_avatar.svg', alt: 'Avatar placeholder'}}>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-          erat, sed diam voluptua.
-        </p>
+      <Comment primary title='Author' meta={meta} avatar={{src: 'docs/images/placeholder_avatar.svg', alt: 'Avatar placeholder'}}>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </Comment>
       ...
 
 ## Comment Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

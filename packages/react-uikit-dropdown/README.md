@@ -1,8 +1,6 @@
 # React Uikit Dropdown
 
-Defines different styles for dropdowns.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -367,7 +365,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Dropdown Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

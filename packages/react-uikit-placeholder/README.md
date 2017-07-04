@@ -1,8 +1,6 @@
 # React Uikit Placeholder
 
-Create a placeholder space that can be used for uploading files via drag and drop.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -14,7 +12,6 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
     // ES5
     var Placeholder = require('react-uikit-placeholder');
 
-<span class="uk-badge">note</span> Placeholder component does not include any drag and drop functionality
 
 
 
@@ -32,7 +29,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Placeholder Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

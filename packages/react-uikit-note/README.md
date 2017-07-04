@@ -1,8 +1,6 @@
 # React Uikit Note
 
-Easily add notes to content.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -43,7 +41,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Note Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

@@ -1,8 +1,6 @@
 # React Uikit Thumbnail
 
-Create different thumbnail images, which come in various styles and sizes.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -53,7 +51,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Thumbnail Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

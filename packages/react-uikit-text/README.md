@@ -1,6 +1,6 @@
 # React Uikit Text
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
+
 
 ## Usage
 
@@ -36,9 +36,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 <td colspan="1">`type='p'`</td>
 
-<td><span>Define a paragraph using the
-
-p type.</span> </td>
+<td><span>Define a paragraph using the</span></td>
 
 </tr>
 
@@ -374,11 +372,7 @@ p type.</span> </td>
 
 <td colspan="1">`context='muted'`</td>
 
-<td>
-
-Add the muted prop to mute text.
-
-</td>
+<td></td>
 
 </tr>
 
@@ -386,11 +380,7 @@ Add the muted prop to mute text.
 
 <td colspan="1">`context='primary'`</td>
 
-<td>
-
-Add the primary prop to highlight additional information.
-
-</td>
+<td></td>
 
 </tr>
 
@@ -398,11 +388,7 @@ Add the primary prop to highlight additional information.
 
 <td colspan="1">`context='success'`</td>
 
-<td>
-
-Add the success prop to indicate success.
-
-</td>
+<td></td>
 
 </tr>
 
@@ -410,11 +396,7 @@ Add the success prop to indicate success.
 
 <td colspan="1">`context='warning'`</td>
 
-<td>
-
-Add the warning prop to indicate warning.
-
-</td>
+<td></td>
 
 </tr>
 
@@ -422,11 +404,7 @@ Add the warning prop to indicate warning.
 
 <td colspan="1">`context='danger'`</td>
 
-<td>
-
-Add the danger prop to indicate danger.
-
-</td>
+<td></td>
 
 </tr>
 
@@ -434,11 +412,7 @@ Add the danger prop to indicate danger.
 
 <td colspan="1">`context='contrast'`</td>
 
-<td>
-
-Add the contrast prop to make the text context readable on flat context areas or pictures. It's usualy white.
-
-</td>
+<td></td>
 
 </tr>
 
@@ -711,7 +685,7 @@ Add the contrast prop to make the text context readable on flat context areas or
 
 ## Text Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

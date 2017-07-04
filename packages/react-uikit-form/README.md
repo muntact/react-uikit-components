@@ -1,8 +1,6 @@
 # React Uikit Form
 
-Compatible with <a href="http://redux-form.com">Redux Form</a> v5 and v6.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -212,7 +210,7 @@ Form inputs support <a href='http://redux-form.com/'>Redux Form</a> with the For
       </Form>);
     );
 
-<span class="uk-badge">Note</span> The Redux Form Fields api in v6 was completely rewitten and therefore has an entiely different implementation. For more details see [Redux Form](http://redux-form.com)
+
 
 ## Redux Form V5
 
@@ -252,7 +250,7 @@ Form inputs support <a href='http://redux-form.com/'>Redux Form</a> with the For
 
 ## Form Props
 
-See Base for additional utility props.
+
 
 ## Tests
 

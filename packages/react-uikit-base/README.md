@@ -1,8 +1,6 @@
 # React Uikit Base
 
-Create react components for UIKit.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -47,11 +45,11 @@ An empty component that has all the utility props can be quickly created by usin
 
 ## Helper functions
 
-UIkit components come with a number of helper function to assist in the creation of new components.
+
 
 ### breakpoints
 
-Returns media and screen objects for handling different responsive sizes.
+
 
 ## Media
 
@@ -566,7 +564,7 @@ Returns DOM node that matches a data-kitid value.
 
 ## Base Props
 
-See Base for additional utility props.
+
 
 ## Tests
 

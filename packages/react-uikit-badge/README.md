@@ -1,8 +1,6 @@
 # React Uikit Badge
 
-Easily create nicely looking badges to label and highlight your content.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -62,7 +60,7 @@ Add the `context` process with a value of "success", "warning" or "danger" for a
 
 ## Badge Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

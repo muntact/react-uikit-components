@@ -1,8 +1,6 @@
 # React Uikit Button
 
-Easily create nice looking buttons, which come in different styles.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -16,7 +14,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Types
 
-The Button component creates either a button, link, submit or a close button by setting the <code>type</code>.By defualt the Button component will create a button if no type is provided.
+<span>The Button component creates either a button, link, submit or a close button by setting the `type`. By defualt the Button component will create a button if no type is provided.</span>
 
 
 ### Code
@@ -29,7 +27,7 @@ The Button component creates either a button, link, submit or a close button by 
 
 ## Button Contexts
 
-The color of the button can be easily changed by adding a context to the context prop.
+<span>The color of the button can be easily changed by adding a context to the context prop.</span>
 
 <table class="uk-table">
 
@@ -94,7 +92,7 @@ The color of the button can be easily changed by adding a context to the context
 
 ## Button Sizes
 
-To change the size of a Button set the <code>size</code> prop to mini, small, or large.
+<span>To change the size of a Button set the `size` prop to mini, small, or large.</span>
 
 
 ### Code
@@ -110,7 +108,7 @@ To change the size of a Button set the <code>size</code> prop to mini, small, or
 
 ## Button Blocks
 
-To create a full width button add the <code>block</code> prop to the buttton component.
+<span>To create a full width button add the `block` prop to the buttton component.</span>
 
 
 ### Code
@@ -120,11 +118,11 @@ To create a full width button add the <code>block</code> prop to the buttton com
 
 ## Button dropdown
 
-Buttons can also be used to trigger a dropdown. See button dropdown in Dropdown component for more details.
+<span>Buttons can also be used to trigger a dropdown. See button dropdown in Dropdown component for more details.</span>
 
 ## Button Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

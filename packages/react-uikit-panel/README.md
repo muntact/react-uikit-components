@@ -1,8 +1,6 @@
 # React Uikit Panel
 
-Create layout boxes with different styles.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -46,11 +44,7 @@ The Panel component consists of the panel itself, the panel title and a panel ba
 
 <td colspan="1">`badge`</td>
 
-<td>
-
-Add the `badge` prop to add a panel badge. Add `badge='value'` to set the body of the badge to the value of the string. Add `badge={{body: 'value', context: 'danger'}}` to set the body and the context of the badge. Badge context can be success, warning or danger.
-
-</td>
+<td></td>
 
 </tr>
 
@@ -222,7 +216,7 @@ By default the Panel has no styling. The panel box places a box around a panel.
 
 ## Panel Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

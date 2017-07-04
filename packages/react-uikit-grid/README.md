@@ -1,8 +1,6 @@
 # React Uikit Grid
 
-Create a fully responsive, fluid and nestable grid layout. The grid system of UIkit follows the mobile-first approach and accomodates up to 10 grid columns. It uses units with predefined classes inside each grid, which define the column col. It is also possible to combine the grid with the Flex component, although it works only in modern browsers.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -104,7 +102,7 @@ Add the <code>divider</code> prop to separate grid columns with lines. To separa
       </Grid>
     </div>
 
-<span class="uk-badge" />` can be used between grids.
+
 
 ## Match column heights
 
@@ -119,7 +117,7 @@ To match grid column heights add the <code>match</code> prop.
       <Panel col='1-3'box>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</Panel>
     </Grid>
 
-<span class="uk-badge">NOTE</span> If grid columns extend to a width of 100%, their heights will no longer be matched. This makes sense, for example, if they stack vertically in narrower viewports.
+
 
 ## Even grid columns
 
@@ -201,7 +199,6 @@ Responsive grid properties can be applied to all direct children of the <code>Gr
 
 </table>
 
-Responsive grid widths take the same values as col values. See base componmt for col values.
 
 
 
@@ -222,7 +219,7 @@ To indent the left grid margin add the <code>indent</code> prop to the Grid comp
 
 ## Grid Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

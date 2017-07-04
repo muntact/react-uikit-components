@@ -1,8 +1,6 @@
 # React Uikit List
 
-Dynamically creates lists.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -237,7 +235,7 @@ Displays the terms and descriptions side by side
 
 ## List Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 
@@ -309,7 +307,7 @@ See Base for additional utility props.
 
 ## List item Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

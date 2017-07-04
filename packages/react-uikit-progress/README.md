@@ -1,8 +1,6 @@
 # React Uikit Progress
 
-Defines different styles for progress bars.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -16,7 +14,6 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Progress
 
-To create a Progress component set a number to the `bar` prop representing the percentage of the progress. Optionaly, text can be added to the bar my assigning the `body` prop.
 
 
 
@@ -26,7 +23,6 @@ To create a Progress component set a number to the `bar` prop representing the p
 
 ## Progress sizes
 
-To change the size of the progress bar assign the `size` prop to either small or mini.
 
 
 
@@ -38,7 +34,6 @@ To change the size of the progress bar assign the `size` prop to either small or
 
 ## Progress context
 
-A context can be given to a progess bar by assigning the context to success, warning or danger.
 
 
 
@@ -50,7 +45,6 @@ A context can be given to a progess bar by assigning the context to success, war
 
 ## Striped
 
-The Progress component can be striped by adding the `striped` prop. You can also add the `active` prop animate the stripes.
 
 
 
@@ -69,7 +63,7 @@ The Progress component can be striped by adding the `striped` prop. You can also
 
 ## Progress Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

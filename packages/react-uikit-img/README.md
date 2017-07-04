@@ -1,8 +1,6 @@
 # React Uikit Img
 
-Easily create responsive images.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -143,7 +141,7 @@ Each responsive size takes a JSON object</span>
 
 ## Img Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

@@ -1,8 +1,6 @@
 # React Uikit Modal
 
-Displays dialogs prompts
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -269,7 +267,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Modal Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

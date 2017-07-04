@@ -1,8 +1,6 @@
 # React Uikit Icons
 
-Place vector icons anywhere using the Icons component.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -14,7 +12,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
     // ES5
     var Icons = require('react-uikit-icons');
 
-The Icon component uses the fantastic [Font Awesome](https://fortawesome.github.io/Font-Awesome/) icon font, a project by Dave Gandy, which provides more than 300 symbols and glyphs for web-related actions.
+
 
 ## Example
 
@@ -1132,7 +1130,7 @@ The Icon component uses the fantastic [Font Awesome](https://fortawesome.github.
 
 ## Icons Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

@@ -1,8 +1,6 @@
 # React Uikit Table
 
-Create nice looking tables.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -142,7 +140,7 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## List item Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 
