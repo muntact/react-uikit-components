@@ -1,7 +1,7 @@
 import React from 'react';
 
 const iconCollection = (prop) => (
-  <div data-markdown-omit-wrapper="true">
+  <div>
     <ul className="uk-grid uk-grid-width-1-2 uk-grid-width-medium-1-4 tm-icons">
       <li><i className="uk-icon-adjust"></i> adjust</li>
       <li><i className="uk-icon-anchor"></i> anchor</li>

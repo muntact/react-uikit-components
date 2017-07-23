@@ -92,7 +92,7 @@ const coverSnippet = `
   </Img>`;
 
 const ImgDoc = (props) => (
-  <div data-markdown-omit-wrapper="true">
+  <div>
     <DocHeader {... { name, npmName, summary }} />
     <DocExample
       jsx={<Img width='300px' height='200px' src='docs/images/placeholder_200x150_2.svg' />}

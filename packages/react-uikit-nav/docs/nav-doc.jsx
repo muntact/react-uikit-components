@@ -20,6 +20,8 @@ if (process.env.NODE_ENV !== 'mdGenerator') {
 
 const name = 'Nav';
 const npmName = 'react-uikit-nav';
+const secondaryName = 'NavItem';
+const secondaryPath = 'react-uikit-nav/lib/nav-item';
 const summary = 'Defines different styles for list navigations.';
 const propTuples = [{
     Prop: "body",
@@ -35,7 +37,7 @@ const propTuples = [{
     Type: "string",
   }, {
     Prop: "type",
-    Type: "oneOf: 'link' | 'header' | 'body' | 'divider'",
+    Type: "oneOf: 'link' / 'header' / 'body' / 'divider'",
 }];
 
 const handleParentClick = (e) => {
@@ -203,7 +205,7 @@ const navPropsTable = (
     },
     {
       Prop: 'type',
-      Type: "oneOf: 'dropdown' | 'side' | 'sub'"
+      Type: "oneOf: 'dropdown' / 'side' / 'sub'"
     }
   ]}
 />);
@@ -211,8 +213,8 @@ const navPropsTable = (
 {/* // TODO: could this be done outside of the class with a generated click handler...? */}
 
 const NavDoc = (props) => (
-  <div data-markdown-omit-wrapper="true">
-    <DocHeader {... { name, npmName, summary }} />
+  <div>
+    <DocHeader {... { name, npmName, secondaryName, secondaryPath, summary }} />
     <DocExample
       name="Nav"
       description={<span>Navigation consists of two components <code>&lt;Nav&gt;</code> and <code>&lt;NavItem&gt;</code>. The Nav component displays a list of links for various types of Navs. To choose a type of Nav the <code>type</code> prop must be added to the Nav component</span>}

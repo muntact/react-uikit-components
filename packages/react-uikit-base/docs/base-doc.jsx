@@ -9,12 +9,12 @@ import DocFooter from '../../script-utils/lib/DocFooter';
 const name = 'Base';
 const npmName = 'react-uikit-base';
 const summary = 'Create react components for UIKit.';
-const ratioStrings = `oneOf:\n '1-1',\n'1-2',\n'1-3', '2-3',\n'1-4', '2-4', '3-4'\n'1-5', '2-5', ' 3-5', '4-5',\n'1-6', '2-6', ' 3-6', '4-6', '5-6'
-'1-10', '2-10', '3-10', '4-10', '5-10', '6-10', '7-10', '8-10', '9-10'`;
+const ratioStrings = `oneOf:\n '1-1',\n'1-2',\n'1-3', '2-3',\n'1-4', '2-4', '3-4'\n'1-5', '2-5', ' 3-5', '4-5',
+'1-6', '2-6', ' 3-6', '4-6', '5-6'\n'1-10', '2-10', '3-10', '4-10', '5-10', '6-10', '7-10', '8-10', '9-10'`;
 
 const utilityPropsTable = [{
     Prop: "align",
-    Type: "oneOf: 'left' | 'right' | 'center' | 'middleLeft' | 'middleRight'",
+    Type: "oneOf: 'left' / 'right' / 'center' / 'middleLeft' / 'middleRight'",
     Description: "Aligns elements with spacing between the text and the element.",
   }, {
     Prop: "children",
@@ -26,11 +26,11 @@ const utilityPropsTable = [{
     Description: "CSS class names.",
   }, {
     Prop: "borderRadius",
-    Type: "oneOf: 'rounded' | 'circle'",
+    Type: "oneOf: 'rounded' / 'circle'",
     Description: "Add rounded corners to an element.",
   }, {
     Prop: "clear",
-    Type: "oneOf: 'fix' | 'nbfc' | 'alt'",
+    Type: "oneOf: 'fix' / 'nbfc' / 'alt'",
     Description: "Clears floats.",
   }, {
     Prop: "center",
@@ -58,15 +58,15 @@ const utilityPropsTable = [{
     Description: "Changes the color of the element.",
   }, {
     Prop: "display",
-    Type: "oneOf: 'block' | 'inline' | 'inlineBlock'",
+    Type: "oneOf: 'block' / 'inline' / 'inlineBlock'",
     Description: "Changes the display style element.",
   }, {
     Prop: "float",
-    Type: "oneOf: 'left' | 'right'",
+    Type: "oneOf: 'left' / 'right'",
     Description: "Floats an element left or right.",
   }, {
     Prop: "hidden",
-    Type: "oneOf: 'all' | 'invisible' | 'large' | 'small' | 'medium' | 'touch' | 'notouch'",
+    Type: "oneOf: 'all' / 'invisible' / 'large' / 'small' / 'medium' / 'touch' / 'notouch'",
     Description: "Hides element on different devices.",
   }, {
     Prop: "kitid",
@@ -78,19 +78,19 @@ const utilityPropsTable = [{
     Description: "Wraps the component inside of a li element.",
   }, {
     Prop: "margin",
-    Type: "oneOf: 'top' | 'left' | 'bottom' | 'right' | 'smallTop' | 'smallLeft' | 'smallBottom' | 'smallRight' | 'largeTop' | 'largeLeft' | 'largeBottom' | 'largeRight' | 'remove' | 'removeTop' | 'removeBottom'",
+    Type: "oneOf: 'top' / 'left' / 'bottom' / 'right' / 'smallTop' / 'smallLeft' / 'smallBottom' / 'smallRight' / 'largeTop' / 'largeLeft' / 'largeBottom' / 'largeRight' / 'remove' / 'removeTop' / 'removeBottom'",
     Description: "Adds spacing to block elements.",
   }, {
     Prop: "order",
-    Type: "oneOf: 'first' | 'firstSmall' | 'firstMedium' | 'firstLarge' | 'firstXlarge' | 'last' | 'lastSmall' | 'lastMedium' | 'lastLarge' | 'lastXlarge'",
+    Type: "oneOf: 'first' / 'firstSmall' / 'firstMedium' / 'firstLarge' / 'firstXlarge' / 'last' / 'lastSmall' / 'lastMedium' / 'lastLarge' / 'lastXlarge'",
     Description: "Changes the order of an item if it is a child of a flexbox.",
   }, {
     Prop: "padding",
-    Type: "oneOf: 'top' | 'left' | 'bottom' | 'right' | 'smallTop' | 'smallLeft' | 'smallBottom' | 'smallRight' | 'largeTop' | 'largeLeft' | 'largeBottom' | 'largeRight' | 'remove' | 'removeTop' | 'removeBottom' | 'removeVertical'",
+    Type: "oneOf: 'top' / 'left' / 'bottom' / 'right' / 'smallTop' / 'smallLeft' / 'smallBottom' / 'smallRight' / 'largeTop' / 'largeLeft' / 'largeBottom' / 'largeRight' / 'remove' / 'removeTop' / 'removeBottom' / 'removeVertical'",
     Description: "Adds or removes the padding from an element.",
   }, {
     Prop: "position",
-    Type: "oneOf: 'top' | 'topLeft' | 'topRight' | 'bottom' | 'bottomLeft' | 'bottomRight' | 'cover' | 'relative' | 'zIndex'",
+    Type: "oneOf: 'top' / 'topLeft' / 'topRight' / 'bottom' / 'bottomLeft' / 'bottomRight' / 'cover' / 'relative' / 'zIndex'",
     Description: "Positions element.",
   }, {
     Prop: "responsive",
@@ -98,23 +98,23 @@ const utilityPropsTable = [{
     Description: "Makes max width and/or height 100%.",
   }, {
     Prop: "scroll",
-    Type: "oneOf: 'auto' | 'box' | 'text'",
+    Type: "oneOf: 'auto' / 'box' / 'text'",
     Description: "Adds scrollbars to element.",
   }, {
     Prop: "textAlign",
-    Type: "oneOf: 'center' | 'centerSmall' | 'centerMedium' | 'left' | 'leftSmall' | 'leftMedium' | 'justify' | 'right'",
+    Type: "oneOf: 'center' / 'centerSmall' / 'centerMedium' / 'left' / 'leftSmall' / 'leftMedium' / 'justify' / 'right'",
     Description: "Aligns text horizontally.",
   }, {
     Prop: "textVertical",
-    Type: "oneOf: 'top' | 'middle' | 'bottom'",
+    Type: "oneOf: 'top' / 'middle' / 'bottom'",
     Description: "Aligns text vertically.",
   }, {
     Prop: "textWrap",
-    Type: "oneOf: 'truncate' | 'break' | 'nowrap'",
+    Type: "oneOf: 'truncate' / 'break' / 'nowrap'",
     Description: "Wraps or prevents wrapping of text.",
   }, {
     Prop: "vertical",
-    Type: "oneOf: 'parent' | 'middle' | 'bottom'",
+    Type: "oneOf: 'parent' / 'middle' / 'bottom'",
     Description: "Vertically aligns element.",
   }, {
     Prop: "viewport",
@@ -122,7 +122,7 @@ const utilityPropsTable = [{
     Description: "Fills the height of the entire viewport.",
   }, {
     Prop: "visible",
-    Type: "oneOf: 'hover' | 'hoverInline' | 'large' | 'small' | 'medium'",
+    Type: "oneOf: 'hover' / 'hoverInline' / 'large' / 'small' / 'medium'",
     Description: "Shows element on differnt devices.",
   },
 ];
@@ -159,7 +159,7 @@ class Alert ({ large, className}) => {
 // <div data-kitid="alert1" class="uk-alert"></div>`;
 
 const BaseDoc = (props) => (
-  <div data-markdown-omit-wrapper="true">
+  <div>
     <DocHeader {... { name, npmName, summary }} />
     <DocExample
       name="Base"

@@ -11,39 +11,23 @@ import DocFooter from '../../script-utils/lib/DocFooter';
 const name = 'Flex';
 const npmName = 'react-uikit-flex';
 const summary = 'Utilize the power of Flexbox to create a wide range of layouts.';
-const propTuples = [{
-    Prop: "around",
-    Type: "bool"
-  }, {
-    Prop: "bottom",
-    Type: "bool"
-  }, {
-    Prop: "between",
-    Type: "bool"
-  }, {
-    Prop: "center",
-    Type: "bool"
-  }, {
-    Prop: "direction",
-    Type: "oneOf: 'rowReverse' | 'column' | 'columnReverse'"
-  }, {
-    Prop: "grid",
-    Type: "bool"
-  }, {
-    Prop: "middle",
-    Type: "bool"
-  }, {
-    Prop: "right",
-    Type: "bool"
-  }, {
-    Prop: "row",
-    Type: "oneOf: 'wrap' | 'bottom' | 'middle' | 'top' | 'between' | 'around' | 'reverse' | 'nowrap'"
-  }, {
-  Prop: "top",
-  Type: "bool"
-  }
+const propTuples = [
+  { Prop: "around", Type: "bool" },
+  { Prop: "bottom", Type: "bool" },
+  { Prop: "between", Type: "bool" },
+  { Prop: "center", Type: "bool" },
+  { Prop: "direction", Type: "oneOf: 'rowReverse' / 'column' / 'columnReverse'" },
+  { Prop: "grid", Type: "bool" },
+  { Prop: "middle", Type: "bool" },
+  { Prop: "right", Type: "bool" },
+  { Prop: "row", Type: "oneOf: 'wrap' / 'bottom' / 'middle' / 'top' / 'between' / 'around' / 'reverse' / 'nowrap'" },
+  { Prop: "top", Type: "bool" }
 ];
 
+const loremIpsumString = `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+  sunt in culpa qui officia deserunt mollit anim id est laborum.`;
 
 const generatePanelJSX = ({ col, box, margin, style, content, flexAlign }, key) => (
   <Panel {...{col, box, margin, flexAlign, key}} style={{...style}}>
@@ -103,30 +87,14 @@ const alignmentPanels = [
   { col: '1-3', box: true, margin: 'left', style: { height: '100px' }, content: 'Box' },
 ];
 const alignmentTable = (
-  <Table
-    head={['Value', 'Description']}
-    body={[{
-      Value       : <code>center</code>,
-      Description : "Add this prop to center Flex items horizontally."
-    }, {
-      Value       : <code>right</code>,
-      Description : "Add this prop to align Flex items to the right."
-    }, {
-      Value       : <code>top</code>,
-      Description : "Add this prop to align Flex items to the top."
-    }, {
-      Value       : <code>middle</code>,
-      Description : "Add this prop to align Flex items to the middle."
-    }, {
-      Value       : <code>bottom</code>,
-      Description : "Add this prop to align Flex items to the bottom."
-    }, {
-      Value       : <code>between</code>,
-      Description : "Add this prop to distribute items evenly, with the first item at the beginning and last item at the end of the main axis."
-    }, {
-      Value       : <code>around</code>,
-      Description : "Add this prop to distribute items evenly with equal space on both sides of each item."
-    }
+  <Table head="*" body={[
+    { Value: <code>center</code>, Description : "Add this prop to center Flex items horizontally." },
+    { Value: <code>right</code>, Description : "Add this prop to align Flex items to the right." },
+    { Value: <code>top</code>, Description : "Add this prop to align Flex items to the top." },
+    { Value: <code>middle</code>, Description : "Add this prop to align Flex items to the middle." },
+    { Value: <code>bottom</code>, Description : "Add this prop to align Flex items to the bottom." },
+    { Value: <code>between</code>, Description : "Add this prop to distribute items evenly, with the first item at the beginning and last item at the end of the main axis." },
+    { Value: <code>around</code>, Description : "Add this prop to distribute items evenly with equal space on both sides of each item." }
   ]} />
 );
 const alignmentExample = generateExampleJSX({ middle: true, bottom: true, panels: alignmentPanels });
@@ -138,18 +106,10 @@ const directionPanels = [
   { col: '1-3', box: true, margin: 'bottom', content: 3 },
 ];
 const directionTable = (
-  <Table
-    head={['Value', 'Description']}
-    body={[{
-      Value       : <code>rowReverse</code>,
-      Description : "Add this prop to lay out Flex items from right to left."
-    }, {
-      Value       : <code>column</code>,
-      Description : "Add this prop to lay out Flex items as vertical columns."
-    }, {
-      Value       : <code>columnReverse</code>,
-      Description : "Add this prop to lay out Flex items from bottom to top."
-    }
+  <Table head="*" body={[
+    { Value: <code>rowReverse</code>, Description : "Add this prop to lay out Flex items from right to left." },
+    { Value: <code>column</code>, Description : "Add this prop to lay out Flex items as vertical columns." },
+    { Value: <code>columnReverse</code>, Description : "Add this prop to lay out Flex items from bottom to top." }
   ]} />
 );
 const directionExample = generateExampleJSX({ direction: 'columnReverse', panels: directionPanels });
@@ -164,33 +124,15 @@ const rowWrapPanels = [
   { col: '1-3', box: true, margin: 'bottom right', content: 6 },
 ];
 const rowWrapTable = (
-  <Table
-    head={['Value', 'Description']}
-    body={[{
-      Value: <code>row='wrap'</code>,
-      Description : "Add this prop to for wrap Flex items on multiple rows."
-    }, {
-      Value: <code>row='top'</code>,
-      Description : "Add this prop to align multirow Flex items to the top."
-    }, {
-      Value: <code>row='middle'</code>,
-      Description : "Add this prop to vertically center multirow Flex items."
-    }, {
-      Value: <code>row='bottom'</code>,
-      Description : "Add this prop to align multiline Flex items to the bottom."
-    }, {
-      Value: <code>row='between'</code>,
-      Description : "Add this prop to distribute Flex item rows evenly, with the first row at the top and last row at the bottom of the container."
-    }, {
-      Value: <code>row='around'</code>,
-      Description : "Add this prop to distribute Flex rows evenly with equal space at the top and bottom of each row."
-    }, {
-      Value: <code>row='reverse'</code>,
-      Description : "Add this prop to change the direction of the Flex items from right to left."
-    }, {
-      Value: <code>row='nowrap'</code>,
-      Description : "Add this prop to remove row wrapping."
-    }
+  <Table head="*" body={[
+    { Value: <code>row='wrap'</code>, Description : "Add this prop to for wrap Flex items on multiple rows." },
+    { Value: <code>row='top'</code>, Description : "Add this prop to align multirow Flex items to the top." },
+    { Value: <code>row='middle'</code>, Description : "Add this prop to vertically center multirow Flex items." },
+    { Value: <code>row='bottom'</code>, Description : "Add this prop to align multiline Flex items to the bottom." },
+    { Value: <code>row='between'</code>, Description : "Add this prop to distribute Flex item rows evenly, with the first row at the top and last row at the bottom of the container." },
+    { Value: <code>row='around'</code>, Description : "Add this prop to distribute Flex rows evenly with equal space at the top and bottom of each row." },
+    { Value: <code>row='reverse'</code>, Description : "Add this prop to change the direction of the Flex items from right to left." },
+    { Value: <code>row='nowrap'</code>, Description : "Add this prop to remove row wrapping." }
   ]} />
 );
 const rowWrapExample = generateExampleJSX({ row: 'wrap reverse around', panels: rowWrapPanels });
@@ -198,19 +140,13 @@ const rowWrapSnippet = generateCodeSnippet({ row: 'wrap reverse around', panels:
 
 const flexAndGridPanels = [
   { col: '1-3', content: <img src='docs/images/placeholder_400x250.svg' alt='Placeholder image' /> },
-  { col: '2-3', flexAlign: 'middle', content: <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum
-      dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor
-      sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-      consectetur adipisicing elit.
-    </p> },
+  { col: '2-3', flexAlign: 'middle', content: <p>{loremIpsumString}</p> },
 ];
 const flexAndGridExample = generateExampleJSX({ grid: true, panels: flexAndGridPanels });
 const flexAndGridSnippet = generateCodeSnippet({ grid: true, panels: generatePanelSnippets(flexAndGridPanels) });
 
 const FlexDoc = (props) => (
-  <div data-markdown-omit-wrapper="true">
+  <div>
     <DocHeader {... { name, npmName, summary }} />
     <DocExample
       name="Basic"

@@ -10,7 +10,7 @@
     "react-uikit",
     "uikit-react"
   ],
-  "repository": "git@github.com:otissv/react-uikit-components.git",
+  "repository": "https://github.com/otissv/react-uikit-components/tree/master/packages/react-uikit-components",
   "author": "Otis Virginie",
   "license": "MIT",
   "main": "./docs/scripts/bundle.js",

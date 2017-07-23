@@ -9,22 +9,15 @@ import DocFooter from '../../script-utils/lib/DocFooter';
 const name = 'Alert';
 const npmName = 'react-uikit-alert';
 const summary = 'Defines styles for success, warning and error messages.';
-const propTuples = [{
-    Prop: "close",
-    Type: "func"
-  }, {
-    Prop: "context",
-    Type: "oneOf: 'success' | 'warning' | 'danger'"
-  }, {
-    Prop: "large",
-    Type: "bool"
-  }, {
-    Prop: "show",
-    Type: "bool"
-}];
+const propTuples = [
+  { Prop: "close", Type: "func" },
+  { Prop: "context", Type: "oneOf: 'success' / 'warning' / 'danger'" },
+  { Prop: "large", Type: "bool" },
+  { Prop: "show", Type: "bool" }
+];
 
 const AlertDoc = (props) => (
-  <div data-markdown-omit-wrapper>
+  <div>
     <DocHeader {... { name, npmName, summary }} />
     <DocExample
       description={<div>

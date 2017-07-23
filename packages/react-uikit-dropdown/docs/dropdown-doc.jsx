@@ -35,7 +35,7 @@ const propTuples = [
   { Prop: 'small', Type: 'bool' },
   { Prop: 'standard', Type: 'object' },
   { Prop: 'trigger', Type: 'object' },
-  { Prop: 'type', Type: "oneOf: 'button' | 'button-group' | 'dropdown' | 'grid' | 'navbar'" }
+  { Prop: 'type', Type: "oneOf: 'button' / 'button-group' / 'dropdown' / 'grid' / 'navbar'" }
 ];
 
 const animateSnippet = `animate: {\n  in: this.animateIn,\n  out: this.animateOut\n}`;
@@ -121,7 +121,7 @@ const positionsTable = (
   ]}/>
 );
 const positionsExample = (props) => (
-  <div data-markdown-omit-wrapper>
+  <div>
     <Grid small='1-3'>
       <Dropdown noflip kitid='bottomLeftDemo' opened={props.bottomLeftDemo} margin='bottom' pos='bottom-left' trigger={{ body:'Bottom left', animate: props.animate }}>
         Bottom left dropdown
@@ -424,7 +424,7 @@ export default class dropdownDoc extends React.Component {
     const positions = { bottomCenterDemo, bottomRightDemo, bottomLeftDemo, topLeftDemo, topCenterDemo, topRightDemo, leftTopDemo, leftCenterDemo, leftBottomDemo, rightTopDemo, rightCenterDemo, rightBottomDemo };
     const animate = { in: this.animateIn, out: this.animateOut };
     return (
-      <div data-markdown-omit-wrapper="true">
+      <div>
         <DocHeader {... { name, npmName, summary }} />
         <DocExample
           name="Dropdown events"

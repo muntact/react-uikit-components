@@ -12,3 +12,5 @@ Things to fix:
   [x] Fix repo links in packages to be tree paths - see babel.
 * [x] Fix the website links in the Docs site to point to the readme for that package instead.
 * [x] Edit the header to support multiple package declarations / destructures... (see breadcrumb).
+* [ ] rebase git history
+* [ ] elaborate oustanding doc tasks in a PR.

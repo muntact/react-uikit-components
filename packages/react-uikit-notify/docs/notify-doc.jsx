@@ -24,7 +24,7 @@ const npmName = 'react-uikit-notify';
 const summary = 'Toggleable notifications that can be animated and postioned on various edges of the screen';
 const propTuples = [
   {Prop: 'message', Type: 'array'},
-  {Prop: 'pos', Type: "oneOf: 'top-center' | 'top-left' | 'top-right' | 'bottom-center' 'bottom-left' | 'bottom-right'"},
+  {Prop: 'pos', Type: "oneOf: 'top-center' / 'top-left' / 'top-right' / 'bottom-center' 'bottom-left' / 'bottom-right'"},
 ];
 
 const basicExample = ({ handleExapmleClick, messages, pos }) => (
@@ -224,15 +224,13 @@ class NotifyDoc extends React.Component {
   render () {
     const { messages, pos } = this.state;
     return (
-      <div data-markdown-omit-wrapper="true">
+      <div>
         <DocHeader {... { name, npmName, summary }} />
         <DocExample
-          description={<div>
-            <p>The Notify component takes a collection of notifications and displays them on the screen.</p>
-            <Note body='Messages can be linked to state to be updated dynamically as new messages are received.'/>
-          </div>}
+          description={<span>The Notify component takes a collection of notifications and displays them on the screen.</span>}
           jsx={basicExample({ handleExapmleClick: this.handleExapmleClick , messages, pos })}
           snippet={basicSnippet}
+          trailingNote={<Note>Messages can be linked to state to be updated dynamically as new messages are received.</Note>}
         />
         <DocExample
           name="Animation"

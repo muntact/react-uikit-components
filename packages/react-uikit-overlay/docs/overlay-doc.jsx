@@ -71,7 +71,7 @@ const overlaySnippet = `
   </Overlay>`;
 
 const OverlayDoc = (props) => (
-  <div data-markdown-omit-wrapper="true">
+  <div>
     <DocHeader {... { name, npmName, summary }} />
     <p>Overlays are images that other elemets can be placed on top of.</p>
     <DocExample

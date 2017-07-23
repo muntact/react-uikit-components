@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Progress from '../lib/progress';
+import examples from './progress-examples';
 
 import DocHeader from '../../script-utils/lib/DocHeader';
 import DocExample from '../../script-utils/lib/DocExample';
@@ -13,47 +14,13 @@ const propTuples = [
   { Props: 'active', Type: 'bool' },
   { Props: 'bar', Type: 'number' },
   { Props: 'body', Type: 'string' },
-  { Props: 'size', Type: "oneOf: 'mini' | 'small'" },
-  { Props: 'context', Type: "oneOf: 'success' | 'warning' | 'danger'" },
+  { Props: 'size', Type: "oneOf: 'mini' / 'small'" },
+  { Props: 'context', Type: "oneOf: 'success' / 'warning' / 'danger'" },
   { Props: 'striped', Type: 'bool' }
 ];
 
-const sizesExample = (
-  <div>
-    <Progress bar={50} />
-    <Progress bar={60} size='small' />
-    <Progress bar={70} size='mini' />
-  </div>
-);
-const sizesSnippet = `
-  <Progress bar={50} />
-  <Progress bar={60} size='small' />
-  <Progress bar={70} size='mini' />`;
-
-const contextExample = (
-  <div>
-    <Progress bar={70} context='success' />
-    <Progress bar={60} context='warning' />
-    <Progress bar={50} context='danger' />
-  </div>
-);
-const contextSnippet = `
-  <Progress bar={70} context='success' />
-  <Progress bar={60} context='warning' />
-  <Progress bar={50} context='danger' />`;
-
-const stripedExample = (
-  <div>
-    <Progress bar={60} striped />
-    <Progress bar={80} striped active />
-  </div>
-);
-const stripedSnippet = `
-  <Progress bar={60} striped />
-  <Progress bar={80} striped active />`;
-
 const ProgressDoc = (props) => (
-  <div data-markdown-omit-wrapper="true">
+  <div>
     <DocHeader {... { name, npmName, summary }} />
     <DocExample
       name="Progress"
@@ -64,20 +31,20 @@ const ProgressDoc = (props) => (
     <DocExample
       name="Progress sizes"
       description={<p>To change the size of the progress bar assign the <code>size</code> prop to either small or mini.</p>}
-      jsx={sizesExample}
-      snippet={sizesSnippet}
+      jsx={examples.sizesExample}
+      snippet={examples.sizesSnippet}
     />
     <DocExample
       name="Progress context"
       description={<p>A context can be given to a progess bar by assigning the context to success, warning or danger.</p>}
-      jsx={contextExample}
-      snippet={contextSnippet}
+      jsx={examples.contextExample}
+      snippet={examples.contextSnippet}
     />
     <DocExample
       name="Striped"
       description={<p>The Progress component can be striped by adding the <code>striped</code> prop. You can also add the <code>active</code> prop animate the stripes.</p>}
-      jsx={stripedExample}
-      snippet={stripedSnippet}
+      jsx={examples.stripedExample}
+      snippet={examples.stripedSnippet}
     />
     <DocExample
       name="Combined"

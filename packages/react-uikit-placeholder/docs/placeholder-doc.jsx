@@ -15,7 +15,7 @@ const propTuples = [
 ];
 
 const PlaceholderDoc = (props) => (
-  <div data-markdown-omit-wrapper="true">
+  <div>
     <DocHeader {... { name, npmName, summary }} />
     <Note badge='note'>
       Placeholder component does not include any drag and drop functionality

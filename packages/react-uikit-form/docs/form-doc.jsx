@@ -287,7 +287,7 @@ const horizontalJsx = generateLayoutJsx({layout: 'horizontal'});
 const horizontalSnippet = generateLayoutSnippet({layout: 'horizontal'});
 
 const FormDoc = (props) => (
-  <div data-markdown-omit-wrapper="true">
+  <div>
     <DocHeader {... { name, npmName, summary }} />
     <DocExample
       name="Example"
@@ -364,11 +364,12 @@ const FormDoc = (props) => (
       name="Redux Form V6"
       description="Form inputs support <a href='http://redux-form.com/'>Redux Form</a> with the FormReduxInput located in the 'react-uikit-form/lib/form-redux-input' directory."
       snippet={reduxFormV6Snippet}
+      trailingNote={<Note>
+          The Redux Form Fields api in v6 was completely rewitten and therefore has an
+          entiely different implementation. For more details see <a href='http://redux-form.com'>Redux Form</a>
+        </Note>
+      }
     />
-    <Note>
-      The Redux Form Fields api in v6 was completely rewitten and therefore has an
-      entiely different implementation. For more details see <a href='http://redux-form.com'>Redux Form</a>
-    </Note>
     <DocExample
       name="Redux Form V5"
       snippet={reduxFormV5Snippet}

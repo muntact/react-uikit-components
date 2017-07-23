@@ -34,16 +34,16 @@ const propTuples = [{
     Type: "bool",
   }, {
     Prop: "head",
-    Type: "oneOf: 'array' | 'string'",
+    Type: "oneOf: 'array' / 'string'",
   }, {
     Prop: "numbered",
-    Type: "oneOf: 'bool' | 'string'",
+    Type: "oneOf: 'bool' / 'string'",
   }, {
     Prop: "overflow",
     Type: "bool",
   }, {
     Prop: "sort",
-    Type: "oneOf: 'array' | 'string'",
+    Type: "oneOf: 'array' / 'string'",
   }, {
     Prop: "striped",
     Type: "bool",
@@ -173,7 +173,7 @@ const items = [
 <Table numbered='#' condensed caption='Numbered table heading.' head={['Heading', 'Heading', 'Heading']} body={data} />`;
 
 const TableDoc = (props) => (
-  <div data-markdown-omit-wrapper="true">
+  <div>
     <DocHeader {... { name, npmName, summary }} />
     <DocExample
       name="Example"

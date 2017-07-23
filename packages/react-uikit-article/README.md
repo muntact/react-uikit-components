@@ -1,8 +1,6 @@
 # React Uikit Article
 
-Create articles within your page.
 
-See [the website](http://otissv.github.io/react-uikit-components) for docs.
 
 ## Usage
 
@@ -14,42 +12,78 @@ See [the website](http://otissv.github.io/react-uikit-components) for docs.
     // ES5
     var Article = require('react-uikit-article');
 
-The article component constists of the article itself, a title, a lead and meta data.
+The article component consists of the article itself, a title, a lead and meta data
 
-## Example
+<table class="uk-table">
 
-The article component constists of the article itself, a title, a lead and meta data
+<thead>
+
+<tr>
+
+<th>Prop</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td colspan="1">title</td>
+
+<td>Creates an article title.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">meta</td>
+
+<td>Adds meta data about the article.</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">lead</td>
+
+<td>Highlights the opening paragraph of the article</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
 
 
 ### Code
 
     <Article
-      title='Article title'
-      meta='Written by Super User on 12 April 2012\. Posted in Blog'
-      lead='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua.' >
+        title='Article title'
+        meta='Written by Super User on 12 April 2012\. Posted in Blog'
+        lead='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.' >
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <hr className="uk-article-divider" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#">Read more</a>
+      </Article>
 
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
 
-      <hr className="uk-article-divider" />
-
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
-      <a href="#">Read more</a>
-    </Article>
-
-<span class="uk-badge" />`.
 
 ## Article Props
 
-See Base for additional utility props.
+
 
 <table class="uk-table">
 

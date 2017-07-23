@@ -99,7 +99,7 @@ const justifySnippet = `
 </List>`;
 
 const IconsDoc = (props) => (
-  <div data-markdown-omit-wrapper="true">
+  <div>
     <DocHeader {... { name, npmName, summary }} />
     <p>
      The Icon component uses the fantastic <a href='https://fortawesome.github.io/Font-Awesome/'>Font Awesome</a> icon font, a project by Dave Gandy, which provides more than 300 symbols and glyphs for web-related actions.

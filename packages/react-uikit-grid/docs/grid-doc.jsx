@@ -24,28 +24,28 @@ const propTuples = [{
     Type: "bool"
   }, {
     Prop: "gutter",
-    Type: "oneOf: 'small' | 'medium' | 'collapsed'"
+    Type: "oneOf: 'small' / 'medium' / 'collapsed'"
   }, {
     Prop: "indent",
-    Type: "oneOf: 'col' | 'values'"
+    Type: "oneOf: 'col' / 'values'"
   }, {
     Prop: "match",
     Type: "bool"
   }, {
     Prop: "medium",
-    Type: "oneOf: 'col' | 'values'"
+    Type: "oneOf: 'col' / 'values'"
   }, {
     Prop: "small",
-    Type: "oneOf: 'col' | 'values'"
+    Type: "oneOf: 'col' / 'values'"
   }, {
     Prop: "type",
-    Type: "oneOf: 'block' | 'list'"
+    Type: "oneOf: 'block' / 'list'"
   }, {
     Prop: "widths",
-    Type: "oneOf: 'col' | 'values'"
+    Type: "oneOf: 'col' / 'values'"
   }, {
     Prop: "xlarge",
-    Type: "oneOf: 'col' | 'values'"
+    Type: "oneOf: 'col' / 'values'"
   }
 ];
 
@@ -192,7 +192,7 @@ const evenGridColumnSnippet = `
 </Grid>`;
 
 const responsiveGridTable = (
-  <div data-markdown-omit-wrapper="true">
+  <div>
     <Table
       head={['Prop', 'Description']}
       body={[{
@@ -238,7 +238,7 @@ const responsiveGridSnippet = `
 
 
 const GridHandler = (props) => (
-  <div data-markdown-omit-wrapper="true">
+  <div>
     <DocHeader {... { name, npmName, summary }} />
     <DocExample
       name="Basic"
@@ -278,15 +278,16 @@ const GridHandler = (props) => (
         To separate grids with a horizontal line, just add the class to a &lt;hr&gt; or &lt;div&gt;  element.`}
       jsx={dividerExample}
       snippet={dividerSnippet}
+      trailingNote={<Note>For horizontal divider use <code>&lt;hr class="uk-grid-divider" /&gt;</code> can be used between grids.</Note>}
     />
-    <Note badge='NOTE'>For horizontal divider use <code>&lt;hr class="uk-grid-divider" /&gt;</code> can be used between grids.</Note>
+
     <DocExample
       name="Match column heights"
       description={`To match grid column heights add the <code>match</code> prop.`}
       jsx={matchColumnHeightJsx}
       snippet={matchColumnHeightSnippet}
+      trailingNote={<Note>If grid columns extend to a width of 100%, their heights will no longer be matched. This makes sense, for example, if they stack vertically in narrower viewports.</Note>}
     />
-    <Note badge='NOTE'>If grid columns extend to a width of 100%, their heights will no longer be matched. This makes sense, for example, if they stack vertically in narrower viewports.</Note>
     <DocExample
       name="Even grid columns"
       description={`To create a grid whose child elements are evenly split, no need to apply the same prop to each child component. Just add one of

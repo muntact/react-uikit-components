@@ -36,7 +36,7 @@ const listPropTuples = [{
     Type: "bool",
   }, {
     Prop: <code>type</code>,
-    Type: "oneOf: 'description' | 'unordered'. Default is unordered",
+    Type: "oneOf: 'description' / 'unordered'. Default is unordered",
 }];
 const listItemPropTuples = [{
     Prop: "badge",
@@ -215,7 +215,7 @@ const clickAndSelectTable = (
 );
 
 const ListDoc = (props) => (
-  <div data-markdown-omit-wrapper="true">
+  <div>
     <DocHeader {... { name, npmName, summary }} />
     <section>
       <DocExample

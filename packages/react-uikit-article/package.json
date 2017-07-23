@@ -44,7 +44,6 @@
     "eslint-plugin-standard": "~2.0.0",
     "eslint-plugin-promise": "~2.0.1",
     "react-addons-test-utils": "~15.3.0",
-    "react-uikit-note": "*",
     "react-uikit-table": "*",
     "tap-difflet": "~0.6.0",
     "tap-min": "~1.1.0",

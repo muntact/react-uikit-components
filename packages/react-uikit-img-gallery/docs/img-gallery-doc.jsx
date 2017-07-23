@@ -30,7 +30,7 @@ const itemExampleJsx = (
 const itemExampleSnippet = `<ImgGroup items={[{\n src: ${src}, margin: ${margin} \n}, {\n src: ${src}, margin: ${margin} \n}, {\n src: ${src}, margin: ${margin} \n}, {\n src: ${src}, margin: ${margin} \n}, {\n src: ${src}, margin: ${margin} \n}, {\n src: ${src}, margin: ${margin} \n}]}/>`;
 
 const ImgGalleryDoc = (props) => (
-  <div data-markdown-omit-wrapper="true">
+  <div>
     <DocHeader {... { name, npmName, summary }} />
     <DocExample
       name="Basic"
